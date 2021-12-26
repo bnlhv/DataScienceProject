@@ -2,44 +2,23 @@ import os
 from typing import List
 
 import pandas as pd
+from dotenv import load_dotenv
 from spotipy import Spotify, SpotifyClientCredentials
 
-os.environ['SPOTIPY_CLIENT_ID'] = "ddc3293fef5c4a3e9e1d54c4be4377e4"
-os.environ['SPOTIPY_CLIENT_SECRET'] = "db61bbc27d144b0d9043745ef25a388f"
-os.environ['SPOTIPY_REDIRECT_URI'] = "https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF?si=77d8f5cd51cd478d"
+load_dotenv()
 
 
-def spotify_client(client_id: str, client_secret: str) -> Spotify:
+def spotify_client() -> Spotify:
     """
     Create a spotify client app instance.
 
-    :param client_id: client app ID
-    :param client_secret: client app secret key
     :return: Spotify instance
     """
     return Spotify(
         auth_manager=SpotifyClientCredentials(
-            client_id=client_id,
-            client_secret=client_secret
+            client_id=os.getenv('SPOTIPY_CLIENT_ID'),
+            client_secret=os.getenv('SPOTIPY_CLIENT_SECRET')
         ))
-
-playlists = [
-    "https://open.spotify.com/playlist/5PKZSKuHP4d27SXO5fB9Wl?si=68d4538fb82244f2",
-    "https://open.spotify.com/playlist/37i9dQZF1DX2RxBh64BHjQ?si=061e0f903898441a",
-    "https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd?si=cd24daeb11874d40",
-    "https://open.spotify.com/playlist/37i9dQZF1DWWqNV5cS50j6?si=cf76361522214dc0",
-    "https://open.spotify.com/playlist/65xSncKQzG6Suseh5gfYP1?si=df4666c35aa1400f",
-    "https://open.spotify.com/playlist/37i9dQZF1DWY4xHQp97fN6?si=7e4afb0673a74582",
-    "https://open.spotify.com/playlist/37i9dQZF1DX4JAvHpjipBk?si=a37fe6f666bf44de",
-    "https://open.spotify.com/playlist/37i9dQZF1DWT6MhXz0jw61?si=8ebd6428fda74531",
-    "https://open.spotify.com/playlist/37i9dQZF1DXcxvFzl58uP7?si=dbcf0f39e9094137",
-    "https://open.spotify.com/playlist/37i9dQZF1DXcWxeqLvgOCi?si=6a385f14564f48b1",
-    "https://open.spotify.com/playlist/37i9dQZF1DXc8kgYqQLMfH?si=3b5eb11c884948cd",
-    "https://open.spotify.com/playlist/37i9dQZF1DWWjGdmeTyeJ6?si=4251cd434e614650",
-    "https://open.spotify.com/playlist/37i9dQZF1DWVV27DiNWxkR?si=ef98179516a54d2c",
-    "https://open.spotify.com/playlist/37i9dQZF1DWVA1Gq4XHa6U?si=5130d5e19f144189",
-    "https://open.spotify.com/playlist/37i9dQZF1DWVzZlRWgqAGH?si=3cc3ed45d8114287"
-]
 
 
 def url_to_uri(playlists: List) -> List[str]:
@@ -93,14 +72,47 @@ def extract_data_from_playlists(client: Spotify, playlist_URIs: List) -> List:
     return tracks
 
 
-client = spotify_client(os.getenv("SPOTIPY_CLIENT_ID"), os.getenv("SPOTIPY_CLIENT_SECRET"))
-URIs = url_to_uri(playlists)
-tracks = extract_data_from_playlists(client, URIs)
+def save_tracks_in_csv(tracks: List) -> None:
+    """
+    Save the tracks that got from API to csv format.
 
-df = pd.DataFrame(data=tracks, columns=tracks[0].keys())
+    :param tracks: List of Track dicts
+    """
+    df = pd.DataFrame(data=tracks, columns=tracks[0].keys())
 
-df.to_csv(
-    path_or_buf="tracks.csv",
-    sep=",",
-    columns=df.columns
-)
+    df.to_csv(
+        path_or_buf="tracks.csv",
+        sep=",",
+        columns=df.columns
+    )
+
+
+def get_playlists() -> List[str]:
+    """
+    :return: List of playlists in spotify.
+    """
+    return [
+        "https://open.spotify.com/playlist/5PKZSKuHP4d27SXO5fB9Wl?si=68d4538fb82244f2",
+        "https://open.spotify.com/playlist/37i9dQZF1DX2RxBh64BHjQ?si=061e0f903898441a",
+        "https://open.spotify.com/playlist/37i9dQZF1DX0XUsuxWHRQd?si=cd24daeb11874d40",
+        "https://open.spotify.com/playlist/37i9dQZF1DWWqNV5cS50j6?si=cf76361522214dc0",
+        "https://open.spotify.com/playlist/65xSncKQzG6Suseh5gfYP1?si=df4666c35aa1400f",
+        "https://open.spotify.com/playlist/37i9dQZF1DWY4xHQp97fN6?si=7e4afb0673a74582",
+        "https://open.spotify.com/playlist/37i9dQZF1DX4JAvHpjipBk?si=a37fe6f666bf44de",
+        "https://open.spotify.com/playlist/37i9dQZF1DWT6MhXz0jw61?si=8ebd6428fda74531",
+        "https://open.spotify.com/playlist/37i9dQZF1DXcxvFzl58uP7?si=dbcf0f39e9094137",
+        "https://open.spotify.com/playlist/37i9dQZF1DXcWxeqLvgOCi?si=6a385f14564f48b1",
+        "https://open.spotify.com/playlist/37i9dQZF1DXc8kgYqQLMfH?si=3b5eb11c884948cd",
+        "https://open.spotify.com/playlist/37i9dQZF1DWWjGdmeTyeJ6?si=4251cd434e614650",
+        "https://open.spotify.com/playlist/37i9dQZF1DWVV27DiNWxkR?si=ef98179516a54d2c",
+        "https://open.spotify.com/playlist/37i9dQZF1DWVA1Gq4XHa6U?si=5130d5e19f144189",
+        "https://open.spotify.com/playlist/37i9dQZF1DWVzZlRWgqAGH?si=3cc3ed45d8114287"
+    ]
+
+
+def main() -> None:
+    """ Main function of APIs module. Get the data from the API """
+    sp_client = spotify_client()
+    URIs = url_to_uri(get_playlists())
+    tracks = extract_data_from_playlists(sp_client, URIs)
+    save_tracks_in_csv(tracks)
