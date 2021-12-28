@@ -103,12 +103,12 @@ def main() -> None:
         track = instance["track_name"]
         try:
             if instance.isnull().sum() == 1:  # Must be in is_explict_content
+                sleep(random.randint(10, 30))  # Sleep for randomized time for scraping not getting blocked
                 df_copy.loc[idx, "is_explict_content"] = \
                     is_explict_words_in_track(artist_name=artist,
                                               track_name=track,
                                               scraping_method=selenium_scraping if idx % 2 == 0
                                               else beautiful_soup_scraping)
-                sleep(random.randint(10, 30))  # Sleep for randomized time for scraping not getting blocked
         except Exception:
             pass
 
