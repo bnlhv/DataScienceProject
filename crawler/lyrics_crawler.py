@@ -3,6 +3,7 @@ from pathlib import Path
 from time import sleep
 from typing import Callable
 
+import numpy as np
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -10,6 +11,11 @@ from bs4 import BeautifulSoup
 from crawler.chrome_driver import driver
 
 base_url = "https://www.azlyrics.com/lyrics"
+status_404_counter = 0
+
+
+class Status404CounterException(BaseException):
+    pass
 
 
 def get_track_azlyrics_url(artist_name: str, track_name: str) -> str:
@@ -35,7 +41,20 @@ def beautiful_soup_scraping(url: str) -> str:
     :param url: the Url to fetch the data from
     :return: text of div element
     """
+    global status_404_counter
+
     response = requests.get(url)
+    if response.status_code == 404:
+        if status_404_counter == 3:
+            raise Status404CounterException()
+        else:
+            status_404_counter += 1
+    else:
+        if status_404_counter == 0:
+            pass
+        else:
+            status_404_counter -= 1
+
     soup = BeautifulSoup(response.text, "lxml")
     return soup.find("div", {"class": "col-xs-12 col-lg-8 text-center"}).text
 
@@ -97,20 +116,23 @@ def main() -> None:
     """ Function that fill blank is_explict in dataset. """
     df = pd.read_csv(Path.cwd().parent / "data" / "tracks_with_explict_content.csv")
     df_copy = df.copy()
-    df_copy.drop_duplicates(inplace=True)
-    for idx, instance in df.iterrows():
+    sub_df = df.loc[np.logical_and(df["is_explict_content"] != 0,
+                                   df["is_explict_content"] != 1), :]
+    for idx, instance in sub_df.iterrows():
         artist = instance["artist_name"]
         track = instance["track_name"]
         try:
-            if instance.isnull().sum() == 1:  # Must be in is_explict_content
-                sleep(random.randint(10, 30))  # Sleep for randomized time for scraping not getting blocked
-                df_copy.loc[idx, "is_explict_content"] = \
-                    is_explict_words_in_track(artist_name=artist,
-                                              track_name=track,
-                                              scraping_method=selenium_scraping if idx % 2 == 0
-                                              else beautiful_soup_scraping)
+            sleep(random.randint(5, 20))  # Sleep for randomized time for scraping not getting blocked
+            df_copy.loc[idx, "is_explict_content"] = \
+                is_explict_words_in_track(artist_name=artist,
+                                          track_name=track,
+                                          scraping_method=selenium_scraping if idx % 2 == 0
+                                          else beautiful_soup_scraping)
+        except Status404CounterException:
+            df_copy.to_csv(Path.cwd().parent / "data" / "tracks_with_explict_content_from_api_and_crawler.csv")
+            exit(1)
         except Exception:
-            pass
+            pass  # pass this song...
 
     print(df_copy["is_explict_content"].isnull().sum())
 
