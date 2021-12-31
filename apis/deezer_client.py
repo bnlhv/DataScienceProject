@@ -32,10 +32,6 @@ def get_explict_feature_from_deezer(tracks: List[str], artists: List[str]) -> Li
         except Exception:
             is_explict.append(np.NaN)
 
-    print(len(is_explict))
-    print(is_explict)
-
-
     return is_explict
 
 

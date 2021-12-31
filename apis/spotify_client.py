@@ -205,7 +205,7 @@ def main() -> None:
     """ Main function of APIs module. Get the data from the API """
     load_dotenv()
     sp_client = spotify_client()
-    URIs = url_to_uri(get_playlists()[:10])
+    URIs = url_to_uri(get_playlists())
     tracks = extract_data_from_playlists(sp_client, URIs)
     save_tracks_in_csv(tracks)
 
