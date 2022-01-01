@@ -35,11 +35,8 @@ def get_explict_feature_from_deezer(tracks: List[str], artists: List[str]) -> Li
     return is_explict
 
 
-def main() -> None:
+if __name__ == '__main__':
     """ Main function os deezer's module. """
     df = pd.read_csv(Path.cwd().parent / "data" / "tracks.csv")
     df["is_explict_content"] = get_explict_feature_from_deezer(df["track_name"], df["artist_name"])
     df.to_csv(Path.cwd().parent / "data" / "tracks_with_explict_content.csv")
-
-
-main()
