@@ -20,4 +20,5 @@ if __name__ == '__main__':
     df = pd.read_csv(Path.cwd().parent / "data" / "tracks_with_explict_content_from_api_and_crawler.csv")
     df = remove_nan_values(df.copy())
     df = remove_noise_cols(df)
+    df.reset_index(drop=True, inplace=True)
     df.to_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing.csv")
