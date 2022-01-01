@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Callable
 
 import requests
 from bs4 import BeautifulSoup
@@ -11,7 +11,7 @@ class Status404CounterException(BaseException):
     pass
 
 
-def beautiful_soup_scraping(url: str, *args: Any, **kwargs: Any) -> str:
+def beautiful_soup_scraping(method: Callable, url: str, *args: Any, **kwargs: Any) -> str:
     """
     Scrape with Beautiful Soup generic.
 
@@ -23,4 +23,4 @@ def beautiful_soup_scraping(url: str, *args: Any, **kwargs: Any) -> str:
         raise Status404CounterException()
 
     soup = BeautifulSoup(response.text, "lxml")
-    return soup.find(*args, **kwargs).text
+    return soup.find(*args, **kwargs) if method == BeautifulSoup.find else soup.find_all(*args, **kwargs)

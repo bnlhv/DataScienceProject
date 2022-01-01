@@ -5,6 +5,7 @@ from typing import Callable
 
 import numpy as np
 import pandas as pd
+from bs4 import BeautifulSoup
 
 from crawler.chrome_driver import driver
 from crawler.utils import AZLYRICS_URL, Status404CounterException, beautiful_soup_scraping
@@ -37,17 +38,16 @@ def selenium_scraping(url: str) -> str:
     return driver.find_element_by_xpath("//div[@class='col-xs-12 col-lg-8 text-center']")
 
 
-def get_track_html(artist_name: str, track_name: str, scraping_method: Callable) -> str:
+def get_track_html(artist_name: str, track_name: str) -> str:
     """
     Scrape the html page of the track and find the lyrics.
 
-    :param scraping_method: Call different scraping method each time
     :param artist_name: The artist's name.
     :param track_name: The song's name.
     :return: the lyrics
     """
     url = get_track_azlyrics_url(artist_name, track_name)
-    html = scraping_method(url)
+    html = beautiful_soup_scraping(BeautifulSoup.find, AZLYRICS_URL, "div", {"class": "col-xs-12 col-lg-8 text-center"}).text
     # Hard-coding in this site to fetch the lyrics because the dix doesn't have specefic class
     lyrics = html.strip()
     lyrics = lyrics[lyrics.find("\n\n\n\n") + 5: lyrics.find("Submit Corrections")].splitlines()
@@ -59,7 +59,7 @@ def get_track_html(artist_name: str, track_name: str, scraping_method: Callable)
     return lyrics
 
 
-def is_explict_words_in_track(artist_name: str, track_name: str, scraping_method: Callable) -> int:
+def is_explict_words_in_track(artist_name: str, track_name: str) -> int:
     """
     Check if there are any explict words in the song.
 
@@ -72,7 +72,7 @@ def is_explict_words_in_track(artist_name: str, track_name: str, scraping_method
     """
     bad_words_df = pd.read_csv(Path.cwd().parent / "data" / "bad_words.csv")
     bad_words = bad_words_df.iloc[:, 0].to_list()
-    lyrics = get_track_html(artist_name, track_name, scraping_method)
+    lyrics = get_track_html(artist_name, track_name)
 
     if any(word in bad_words for word in lyrics):
         return 1
@@ -92,13 +92,7 @@ if __name__ == '__main__':
         try:
             sleep(random.randint(5, 20))  # Sleep for randomized time for scraping not getting blocked
             df_copy.loc[idx, "is_explict_content"] = \
-                is_explict_words_in_track(artist_name=artist,
-                                          track_name=track,
-                                          scraping_method=beautiful_soup_scraping(url=AZLYRICS_URL,
-                                                                                  args=["div"],
-                                                                                  kwargs=[{"class": "col-xs-12 col-lg-8"
-                                                                                                    " text-center"}])
-                                          )
+                is_explict_words_in_track(artist_name=artist, track_name=track)
         except Status404CounterException:
             rows_to_delete.append(idx)
         except Exception:
