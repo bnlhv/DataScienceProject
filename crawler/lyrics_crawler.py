@@ -5,17 +5,9 @@ from typing import Callable
 
 import numpy as np
 import pandas as pd
-import requests
-from bs4 import BeautifulSoup
 
 from crawler.chrome_driver import driver
-
-base_url = "https://www.azlyrics.com/lyrics"
-status_404_counter = 0
-
-
-class Status404CounterException(BaseException):
-    pass
+from crawler.utils import AZLYRICS_URL, Status404CounterException, beautiful_soup_scraping
 
 
 def get_track_azlyrics_url(artist_name: str, track_name: str) -> str:
@@ -31,24 +23,7 @@ def get_track_azlyrics_url(artist_name: str, track_name: str) -> str:
     artist = "".join([c for c in artist_name.lower().replace(" ", "").split("(")[0] if c.isalpha()])
     track = "".join([c for c in track_name.lower().replace(" ", "").split("(")[0] if c.isalpha()])
 
-    return f"{base_url}/{artist}/{track}.html"
-
-
-def beautiful_soup_scraping(url: str) -> str:
-    """
-    Scrape with Beautiful Soup.
-
-    :param url: the Url to fetch the data from
-    :return: text of div element
-    """
-    global status_404_counter
-
-    response = requests.get(url)
-    if response.status_code == 404:
-        raise Status404CounterException()
-
-    soup = BeautifulSoup(response.text, "lxml")
-    return soup.find("div", {"class": "col-xs-12 col-lg-8 text-center"}).text
+    return f"{AZLYRICS_URL}/{artist}/{track}.html"
 
 
 def selenium_scraping(url: str) -> str:
@@ -110,7 +85,7 @@ if __name__ == '__main__':
     df_copy = df.copy()
     sub_df = df.loc[np.logical_and(df["is_explict_content"] != 0,
                                    df["is_explict_content"] != 1), :]
-    rows_to_delete = [] # rows that we can't find word in api and in scraping (404)
+    rows_to_delete = []  # rows that we can't find word in api and in scraping (404)
     for idx, instance in sub_df.iterrows():
         artist = instance["artist_name"]
         track = instance["track_name"]
@@ -119,9 +94,11 @@ if __name__ == '__main__':
             df_copy.loc[idx, "is_explict_content"] = \
                 is_explict_words_in_track(artist_name=artist,
                                           track_name=track,
-                                          scraping_method=beautiful_soup_scraping)
-                                          # scraping_method=selenium_scraping if idx % 2 == 0
-                                          # else beautiful_soup_scraping)
+                                          scraping_method=beautiful_soup_scraping(url=AZLYRICS_URL,
+                                                                                  args=["div"],
+                                                                                  kwargs=[{"class": "col-xs-12 col-lg-8"
+                                                                                                    " text-center"}])
+                                          )
         except Status404CounterException:
             rows_to_delete.append(idx)
         except Exception:
