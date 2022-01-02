@@ -1,0 +1,6 @@
+python-dotenv
+spotipy
+pandas
+deezer-python
+bs4
+selenium

@@ -1,1 +1,1 @@
-This directory include notebooks for api's
+This directory include code for connecting to api's

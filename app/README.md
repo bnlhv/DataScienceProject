@@ -1,1 +1,1 @@
-This directory include notebooks for machine learning and data preparation
+This directory include code for machine learning and data preparation
