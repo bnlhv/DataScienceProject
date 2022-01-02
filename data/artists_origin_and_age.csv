@@ -1,0 +1,1856 @@
+,artist,age,origin
+1,Ed Sheeran,30,"Hebden Bridge, England"
+2,The Kid LAROI,18,Australia
+3,Elton John,74,"London, England"
+4,Adele,33,"London, England"
+5,Glass Animals,,"Oxford, England"
+6,Lil Nas X,22,"Lithia Springs, GA"
+7,CKay,26,Nigeria
+8,Doja Cat,26,"Tarzana, CA"
+9,Justin Bieber,27,"London, Canada"
+10,Coldplay,,"London, England"
+11,Imagine Dragons,,"Las Vegas, NV"
+12,Jaymes Young,30,Washington
+13,SZA,31,"St. Louis, MO"
+14,Post Malone,26,"Syracuse, NY"
+15,Bruno Mars,36,"Honolulu, HI"
+16,Farruko,30,"Bayamon, PR"
+17,Juice WRLD,21,"Chicago, IL"
+18,Emmy Meli,22,"Torrance, CA"
+19,Lost Frequencies,28,"Brussels, Belgium"
+20,Tiësto,52,"Breda, Netherlands"
+21,Kodak Black,24,"Pompano Beach, FL"
+22,FKA twigs,33,"Gloucestershire, England"
+23,Billie Eilish,20,"Los Angeles, CA"
+24,Oliver Tree,28,"Santa Cruz, CA"
+25,Jason Derulo,32,"Miramar, FL"
+26,Shawn Mendes,23,"Pickering, Canada"
+27,Olivia Rodrigo,18,"Temecula, CA"
+28,Måneskin,,"Rome, Italy"
+29,Roddy Ricch,23,California
+30,Amaarae,27,"New York City, NY"
+31,Taylor Swift,32,"Reading, PA"
+32,Benson Boone,19,Washington
+33,Tate McRae,18,"Calgary, Canada"
+34,Summer Walker,25,Georgia
+35,Ariana Grande,28,"Boca Raton, FL"
+36,AC/DC,,"Sydney, Australia"
+37,Guns N' Roses,,"Los Angeles, CA"
+38,The Clash,,"London, England"
+39,Joan Jett & The Blackhearts,,"Los Angeles, CA"
+40,Led Zeppelin,,"London, England"
+41,Aerosmith,,"Boston, MA"
+42,Bon Jovi,59,"Perth Amboy, NJ"
+43,Radiohead,,"Abingdon, England"
+44,Journey,,"San Francisco, CA"
+45,Fleetwood Mac,,"London, England"
+46,The White Stripes,,"Detroit, MI"
+47,Black Sabbath,,"Aston, England"
+48,ZZ Top,72,"Houston, TX"
+49,Red Hot Chili Peppers,,"Los Angeles, CA"
+50,Lynyrd Skynyrd,,"Jacksonville, FL"
+51,Creedence Clearwater Revival,,California
+52,Nirvana,,"Aberdeen, WA"
+53,The Police,,"London, England"
+54,Metallica,,"Los Angeles, CA"
+55,The Rolling Stones,,"London, England"
+56,The Beatles,,"Liverpool, England"
+57,TOTO,,"Los Angeles, CA"
+58,The Animals,,"Newcastle upon Tyne, England"
+59,Dire Straits,,"London, England"
+60,Oasis,,"Manchester, England"
+61,Stevie Nicks,73,"Phoenix, AZ"
+62,Green Day,,California
+63,U2,,"Dublin, Ireland"
+64,Mötley Crüe,,"Los Angeles, CA"
+65,Bruce Springsteen,72,"Long Branch, NJ"
+66,The Cranberries,,"Limerick, Ireland"
+67,Jimi Hendrix,27,"Seattle, WA"
+68,David Bowie,69,"London, England"
+69,Billy Idol,66,"Stanmore, England"
+70,The Killers,,"Las Vegas, NV"
+71,The Strokes,,"New York City, NY"
+72,Depeche Mode,59,England
+73,Pearl Jam,,"Seattle, WA"
+74,Scorpions,,"Hanover, Germany"
+75,Blur,,"London, England"
+76,Jimmy Eat World,,"Mesa, AZ"
+77,Foo Fighters,,"Seattle, WA"
+78,Janis Joplin,27,"Port Arthur, TX"
+79,The Black Crowes,,"Marietta, GA"
+80,Pink Floyd,,"London, England"
+81,Van Halen,,"Pasadena, CA"
+82,KISS,,"New York City, NY"
+83,Tom Petty,66,"Gainesville, FL"
+84,Run–D.M.C.,,"Queens, NY"
+85,Deep Purple,,"Hertford, England"
+86,Rage Against The Machine,,"Los Angeles, CA"
+87,Lou Reed,71,"Brooklyn, NY"
+88,Def Leppard,,"Sheffield, England"
+89,R.E.M.,,"Athens, GA"
+90,Alice Cooper,73,"Detroit, MI"
+91,Blue Öyster Cult,,"Long Island, NY"
+92,The Smashing Pumpkins,,"Chicago, IL"
+93,Weezer,,"Los Angeles, CA"
+94,Bob Dylan,80,"Duluth, MN"
+95,Ozzy Osbourne,73,"Aston, England"
+96,Soundgarden,,"Seattle, WA"
+97,Whitesnake,,"Middlesbrough, England"
+98,The Who,,"London, England"
+99,Cream,,"London, England"
+100,Sublime,,"Long Beach, CA"
+101,Ted Nugent,73,"Redford, MI"
+102,Eddie Money,70,"Brooklyn, NY"
+103,Bob Seger,76,"Lincoln Park, MI"
+104,Beastie Boys,,"New York City, NY"
+105,The Doors,,"Los Angeles, CA"
+106,Alice In Chains,,"Seattle, WA"
+107,Cheap Trick,,"Rockford, IL"
+108,Nine Inch Nails,,"Cleveland, OH"
+109,The Doobie Brothers,,"San Jose, CA"
+110,Don McLean,76,"New Rochelle, NY"
+111,Stone Temple Pilots,,"Long Beach, CA"
+112,Allman Brothers Band,,"Jacksonville, FL"
+113,Supertramp,32,Germany
+114,Don Henley,74,"Gilmer, TX"
+115,The Knack,,"Los Angeles, CA"
+116,Bad Company,,"London, England"
+117,A Boogie Wit da Hoodie,26,"The Bronx, NY"
+118,Rod Wave,22,Florida
+119,Polo G,22,"Chicago, IL"
+120,Gunna,28,"College Park, GA"
+121,Money Man,35,New York
+122,Key Glock,24,"Memphis, TN"
+123,Nardo Wick,20,"Jacksonville, FL"
+124,22Gz,24,"Brooklyn, NY"
+125,NLE Choppa,19,"Memphis, TN"
+126,Travis Scott,30,"Houston, TX"
+127,DaBaby,30,"Cleveland, OH"
+128,Young Thug,30,"Atlanta, GA"
+129,Meek Mill,34,"Philadelphia, PA"
+130,Nas,48,"New York City, NY"
+131,Baby Keem,21,"Las Vegas, NV"
+132,Lil Tjay,20,"The Bronx, NY"
+133,Lil Durk,29,"Chicago, IL"
+134,Moneybagg Yo,30,"Memphis, TN"
+135,Kanye West,44,"Atlanta, GA"
+136,2 Chainz,44,"College Park, GA"
+137,Playboi Carti,25,"Atlanta, GA"
+138,Lil Wayne,39,"New Orleans, LA"
+139,Joyner Lucas,33,"Worcester, MA"
+140,YoungBoy Never Broke Again,22,"Baton Rouge, LA"
+141,Don Toliver,27,"Houston, TX"
+142,Lil Yachty,24,"Mableton, GA"
+143,Coi Leray,24,"Boston, MA"
+144,Megan Thee Stallion,26,"San Antonio, TX"
+145,Latto,23,"Columbus, OH"
+146,Big Sean,33,"Santa Monica, CA"
+147,Cordae,24,"Raleigh, NC"
+148,Alicia Keys,40,"New York City, NY"
+149,6LACK,29,"Baltimore, MD"
+150,Snoh Aalegra,34,"Uppsala, Sweden"
+151,Normani,25,"Atlanta, GA"
+152,Lucky Daye,36,"New Orleans, LA"
+153,WizKid,31,"Surulere, Nigeria"
+154,Mary J. Blige,50,"New York City, NY"
+155,Brent Faiyaz,26,"Columbia, MD"
+156,Ari Lennox,30,"Washington, DC"
+157,Kehlani,26,"Oakland, CA"
+158,Tiwa Savage,41,"Ikeja, Nigeria"
+159,Pink Sweat$,29,"Philadelphia, PA"
+160,Giveon,26,"Long Beach, CA"
+161,H.E.R.,24,"Vallejo, CA"
+162,dvsn,,"Toronto, Canada"
+163,Alex Isley,34,New Jersey
+164,Jazmine Sullivan,34,"Philadelphia, PA"
+165,"Tyler, The Creator",30,"Ladera Heights, CA"
+166,Sonder,26,"Columbia, MD"
+167,Tone Stith,26,"Marlton, NJ"
+168,RealestK,17,"Beirut, Lebanon"
+169,ELHAE,31,"Minot, ND"
+170,Jacquees,27,"Decatur, GA"
+171,Sevyn Streeter,35,"Haines City, FL"
+172,Kali Uchis,27,"Alexandria, VA"
+173,Erroll Garner,53,"Pittsburgh, PA"
+174,Kenny G,65,"Seattle, WA"
+175,Kevin Hays,53,"New York City, NY"
+176,Orrin Evans,45,New Jersey
+177,Edward Simon,52,Venezuela
+178,Jerry Bergonzi,74,Massachusetts
+179,Al Foster,78,Virginia
+180,Scott Hamilton,63,"Toledo, OH"
+181,John Rae,79,Scotland
+182,Joey Alexander,18,"Denpasar, Indonesia"
+183,Enrico Pieranunzi,72,Italy
+184,Eric Reed,51,"Philadelphia, PA"
+185,Steve Davis,64,"London, England"
+186,John Coltrane,40,"Hamlet, NC"
+187,Marcus Miller,62,"Brooklyn, NY"
+188,Duke Ellington,75,"Washington, DC"
+189,McCoy Tyner,81,"Philadelphia, PA"
+190,Branford Marsalis,61,"Breaux Bridge, LA"
+191,Phil Woods,83,Massachusetts
+192,Jacky Terrasson,55,Germany
+193,Kendrick Scott Oracle,41,"Houston, TX"
+194,Chet Baker,58,"Yale, OK"
+195,David Hazeltine,63,Wisconsin
+196,Miles Davis,65,"Alton, IL"
+197,Lou Donaldson,95,North Carolina
+198,Teddy Wilson,73,"Austin, TX"
+199,Stan Getz,64,"Philadelphia, PA"
+200,Cyrus Chestnut,58,Maryland
+201,Tommy Flanagan,56,Scotland
+202,Joshua Redman,52,"Berkeley, CA"
+203,Bob Berg,51,New York
+204,Joe Lovano,68,"Cleveland, OH"
+205,Courtney Pine,57,England
+206,Charles Mingus,56,"Nogales, AZ"
+207,Wynton Marsalis,60,"New Orleans, LA"
+208,Mulgrew Miller,57,"Greenwood, MS"
+209,Bill Charlap,55,New York
+210,Lee Morgan,33,"Philadelphia, PA"
+211,Stanley Turrentine,66,Pennsylvania
+212,Aaron Goldberg,47,Massachusetts
+213,Charles Lloyd,83,"Memphis, TN"
+214,Bill Evans,51,New Jersey
+215,Roy Hargrove,49,Texas
+216,Marcus Roberts,58,"Jacksonville, FL"
+217,Hank Jones,91,"Vicksburg, MS"
+218,Art Pepper,56,"Gardena, CA"
+219,Johnny Hodges,62,"Cambridge, MA"
+220,Terence Blanchard,59,"New Orleans, LA"
+221,Kenny Garrett,61,"Detroit, MI"
+222,Ibrahim Maalouf,41,Lebanon
+223,Joachim Kühn,77,Germany
+224,Harold Danko,74,Ohio
+225,Grace Kelly,52,"Philadelphia, PA"
+226,Mike Ross,60,"Texarkana, AR"
+227,John Mayall,88,England
+228,Joe Bonamassa,44,"New Hartford, NY"
+229,Artur Menezes,24,Brazil
+230,Kenny Wayne Shepherd,44,"Shreveport, LA"
+231,Richie Kotzen,51,"Reading, PA"
+232,Ana Popovic,45,Serbia
+233,Mike Zito,51,Missouri
+234,Shannon Curfman,36,"Fargo, ND"
+235,Jared James Nichols,32,"Waukesha, WI"
+236,Oli Brown,32,"Norfolk, England"
+237,Jonny Lang,40,"Fargo, ND"
+238,Edwin McCain,51,"Greenville, SC"
+239,Miranda Lambert,38,"Longview, TX"
+240,Cody Johnson,34,"Huntsville, TX"
+241,Luke Bryan,45,"Leesburg, GA"
+242,Kane Brown,28,"Chattanooga, TN"
+243,Ingrid Andress,30,"Highlands Ranch, CO"
+244,Jordan Davis,29,Wales
+245,Danielle Bradbery,25,"League City, TX"
+246,Luke Combs,31,"Charlotte, NC"
+247,Dalton Dover,24,Georgia
+248,Dustin Lynch,36,"Tullahoma, TN"
+249,Morgan Wade,27,United States
+250,Dierks Bentley,46,"Phoenix, AZ"
+251,Tenille Arts,27,"Weyburn, Canada"
+252,Mitchell Tenpenny,32,"Nashville, TN"
+253,Michael Ray,33,"Eustis, FL"
+254,Alana Springsteen,21,United States
+255,Travis Denning,29,"Warner Robins, GA"
+256,Erin Kinsey,21,"Rockwall, TX"
+257,Dylan Scott,33,United States
+258,Ashland Craft,25,South Carolina
+259,Sam Hunt,37,"Cedartown, GA"
+260,Chase Matthew,19,Michigan
+261,Brothers Osborne,,"Deale, MD"
+262,Carly Pearce,31,Kentucky
+263,Parker McCollum,29,"Conroe, TX"
+264,Jake Owen,40,"Winter Haven, FL"
+265,Lauren Alaina,27,"Rossville, GA"
+266,Conner Smith,19,United States
+267,Cole Swindell,38,"Glennville, GA"
+268,Chris Young,36,"Murfreesboro, TN"
+269,Callista Clark,18,United States
+270,Thomas Rhett,31,"Valdosta, GA"
+271,Kacey Musgraves,33,"Mineola, TX"
+272,Tim McGraw,54,"Delhi, LA"
+273,Shy Carter,33,"Madison, WI"
+274,Morgan Evans,36,"Newcastle, Australia"
+275,Mickey Guyton,38,"Arlington, TX"
+276,Blake Shelton,45,"Ada, OK"
+277,Jimmie Allen,36,Delaware
+278,Ashley Cooke,24,"Nashville, TN"
+279,Riley Green,33,Alabama
+280,Eric Church,44,"Granite Falls, NC"
+281,Walker Hayes,42,"Mobile, AL"
+282,Keith Urban,54,"Whangarei, New Zealand"
+283,Dan + Shay,,"Nashville, TN"
+284,Jon Pardi,36,"Dixon, CA"
+285,Johann Sebastian Bach,65,"Eisenach, Germany"
+286,George Frideric Handel,74,"Halle, Germany"
+287,Ludwig van Beethoven,56,"Bonn, Germany"
+288,Erik Satie,59,England
+289,Claude Debussy,55,France
+290,Johann Pachelbel,52,"Nuremberg, Germany"
+291,Camille Saint-Saëns,86,"Paris, France"
+292,Gustav Mahler,50,Czech Republic
+293,Ralph Vaughan Williams,85,England
+294,Sergei Prokofiev,61,Russia
+295,Johann Strauss II,73,"Vienna, Austria"
+296,Sergei Rachmaninoff,69,Russia
+297,Joaquín Rodrigo,30,El Salvador
+298,Edward Elgar,76,England
+299,Edvard Grieg,64,"Bergen, Norway"
+300,Franz Liszt,74,Hungary
+301,Jean Sibelius,91,Finland
+302,Nikolai Rimsky-Korsakov,64,Russia
+303,Morten Lauridsen,78,Washington
+304,Max Richter,55,Germany
+305,Samuel Barber,70,"West Chester, PA"
+306,Aram Khachaturian,74,Russia
+307,Alexander Borodin,53,Russia
+308,Maurice Ravel,62,"Ciboure, France"
+309,César Franck,67,Belgium
+310,Pyotr Ilyich Tchaikovsky,53,"Votkinsk, Russia"
+311,Arvo Pärt,86,Estonia
+312,Franz Schubert,31,"Vienna, Austria"
+313,Paul Dukas,69,France
+314,Wolfgang Amadeus Mozart,35,"Salzburg, Austria"
+315,Johannes Brahms,63,"Hamburg, Germany"
+316,Gioachino Rossini,76,"Pesaro, Italy"
+317,Giacomo Puccini,65,"Lucca, Italy"
+318,Niccolò Paganini,57,"Genoa, Italy"
+319,Frédéric Chopin,39,"Zelazowa Wola, Poland"
+320,Igor Stravinsky,88,"Lomonosov, Russia"
+321,Dmitri Shostakovich,68,"Saint Petersburg, Russia"
+322,Antonio Vivaldi,63,"Venice, Italy"
+323,Benjamin Britten,63,England
+324,George Gershwin,38,"Brooklyn, NY"
+325,Francis Poulenc,64,France
+326,Antonín Dvořák,62,"Nelahozeves, Czech Republic"
+327,Alison Balsom,43,England
+328,André Previn,89,"Berlin, Germany"
+329,Johann Nepomuk Hummel,58,Slovakia
+330,Robert Schumann,46,"Zwickau, Germany"
+331,Felix Mendelssohn,38,"Hamburg, Germany"
+332,Yann Tiersen,51,"Brest, France"
+333,Aaron Copland,90,"Brooklyn, NY"
+334,Georges Bizet,36,"Paris, France"
+335,Jan Garbarek,74,Norway
+336,Nino Rota,67,Italy
+337,Gustav Holst,59,England
+338,Malena Ernman,51,Sweden
+339,Georg Philipp Telemann,86,Germany
+340,Hector Berlioz,65,France
+341,Philip Glass,84,"Baltimore, MD"
+342,Franz Joseph Haydn,77,"Rohrau, Austria"
+343,Nadia Boulanger,92,"Paris, France"
+344,Richard Wagner,69,"Leipzig, Germany"
+345,John Tavener,69,England
+346,Giuseppe Verdi,87,Italy
+347,Amy Beach,77,"Henniker, NH"
+348,Michael Nyman,77,England
+349,Tainy,32,"San Juan, PR"
+350,J Balvin,36,"Medellin, Colombia"
+351,KAROL G,30,"Medellin, Colombia"
+352,Blessd,21,Colombia
+353,TINI,24,"Buenos Aires, Argentina"
+354,Rauw Alejandro,28,"San Juan, PR"
+355,Maluma,27,"Medellin, Colombia"
+356,Sech,28,Panama
+357,Eladio Carrion,27,Maryland
+358,Sebastian Yatra,27,"Medellin, Colombia"
+359,Mau y Ricky,,"Miami, FL"
+360,Dímelo Flow,32,Panama
+361,Anuel AA,29,"Carolina, PR"
+362,Maria Becerra,21,"Buenos Aires, Argentina"
+363,Aventura,,"The Bronx, NY"
+364,DJ Snake,35,"Paris, France"
+365,Jhay Cortez,28,Puerto Rico
+366,Myke Towers,27,"Rio Piedras, PR"
+367,Bad Bunny,27,"San Juan, PR"
+368,Nicki Nicole,21,"Rosario, Argentina"
+369,Trueno,19,"Buenos Aires, Argentina"
+370,Duki,25,"Buenos Aires, Argentina"
+371,Don Omar,43,"Villa Palmeras, PR"
+372,Ingratax,21,"Chihuahua, Mexico"
+373,Tiago PZK,20,Argentina
+374,Manuel Turizo,21,Colombia
+375,Feid,29,"Medellin, Colombia"
+376,Grupo Firme,,"Tijuana, Mexico"
+377,Reik,,"Mexicali, Mexico"
+378,Camila Cabello,24,"Havana, Cuba"
+379,Justin Quiles,31,Connecticut
+380,C. Tangana,31,"Madrid, Spain"
+381,Eslabon Armado,,California
+382,Anitta,28,"Rio de Janeiro, Brazil"
+383,Clinton Kane,22,"Perth, Australia"
+384,Astrid S,25,"Rennebu, Norway"
+385,Jeremy Zucker,25,New Jersey
+386,Julia Michaels,28,Iowa
+387,Sam Fischer,30,Australia
+388,LANY,,"Los Angeles, CA"
+389,Sara Kays,22,United States
+390,Sam Smith,29,"London, England"
+391,Kelsea Ballerini,28,"Knoxville, TN"
+392,benny blanco,33,Virginia
+393,Forest Blakk,25,"Montreal, Canada"
+394,Harry Styles,27,"Redditch, England"
+395,Why Don't We,,"Los Angeles, CA"
+396,Alessia Cara,25,"Mississauga, Canada"
+397,Mimi Webb,21,"Canterbury, England"
+398,JP Saxe,28,"Toronto, Canada"
+399,Maroon 5,,"Los Angeles, CA"
+400,SHY Martin,28,Sweden
+401,Lukas Graham,,"Copenhagen, Denmark"
+402,Ber,39,Brazil
+403,Anson Seabra,27,United States
+404,John K,66,"Chicoutimi, Canada"
+405,Lauv,27,California
+406,Boy In Space,27,Sweden
+407,Sasha Alex Sloan,26,United States
+408,Rhys Lewis,28,England
+409,Miley Cyrus,29,"Franklin, TN"
+410,Jake Scott,75,"Greenwood, SC"
+411,Lewis Capaldi,25,"Glasgow, Scotland"
+412,AJ Mitchell,20,"Belleville, IL"
+413,Ellie Goulding,35,"Hereford, England"
+414,Alexander 23,26,United States
+415,Marshmello,29,"Philadelphia, PA"
+416,Charlie Puth,30,"Rumson, NJ"
+417,Ritt Momney,22,"Dallas, TX"
+418,Charlotte Lawrence,21,"Los Angeles, CA"
+419,Ali Gatie,24,"Aden, Yemen"
+420,Fly By Midnight,,"New York City, NY"
+421,Gabrielle Aplin,29,England
+422,Gracie Abrams,22,California
+423,Niall Horan,28,"Mullingar, Ireland"
+424,ZAYN,28,"Bradford, England"
+425,OneRepublic,,"Colorado Springs, CO"
+426,Maximillian,38,"Los Angeles, CA"
+427,Becky Hill,27,"Worcestershire, England"
+428,Trevor Daniel,27,"Los Angeles, CA"
+429,Tom Walker,30,"Glasgow, Scotland"
+430,Kygo,30,Singapore
+431,James Arthur,33,"Middlesbrough, England"
+432,blackbear,31,"Daytona Beach, FL"
+433,FINNEAS,24,"Los Angeles, CA"
+434,Alec Benjamin,27,Arizona
+435,JP Cooper,38,England
+436,Stephen Puth,27,New Jersey
+437,Issam Alnajjar,18,"Amman, Jordan"
+438,Dua Lipa,26,"London, England"
+439,TELYKast,,"Los Angeles, CA"
+440,Joel Corry,32,England
+441,Alesso,30,"Stockholm, Sweden"
+442,NOTD,,Sweden
+443,Masked Wolf,29,Australia
+444,DJ Khaled,46,"New Orleans, LA"
+445,Alan Walker,24,"Northampton, England"
+446,Icona Pop,,"Stockholm, Sweden"
+447,ILLENIUM,31,"San Francisco, CA"
+448,24kGoldn,21,"San Francisco, CA"
+449,HRVY,22,"Kent, England"
+450,Ty Dolla $ign,39,"Los Angeles, CA"
+451,R3HAB,35,Morocco
+452,Jauz,28,"Los Angeles, CA"
+453,KSHMR,33,California
+454,Don Diablo,41,"Coevorden, Netherlands"
+455,NGHTMRE,31,"Stamford, CT"
+456,GATTÜSO,43,Italy
+457,Jack Harlow,23,"Louisville, KY"
+458,David Guetta,54,"Paris, France"
+459,ATB,48,"Freiberg, Germany"
+460,Loud Luxury,,"Los Angeles, CA"
+461,Rita Ora,31,"Pristina, Kosovo"
+462,Oliver Heldens,26,"Rotterdam, Netherlands"
+463,Jonas Blue,32,"London, England"
+464,Swedish House Mafia,,"Stockholm, Sweden"
+465,VINAI,,"Brescia, Italy"
+466,Galantis,,"Stockholm, Sweden"
+467,Andrew Rayel,29,"Chisinau, Moldova"
+468,La Roux,33,"London, England"
+469,DVBBS,30,Canada
+470,Riton,43,"Newcastle upon Tyne, England"
+471,Martin Garrix,25,"Amstelveen, Netherlands"
+472,ARTY,32,Russia
+473,Timmy Trumpet,39,"Sydney, Australia"
+474,Bebe Rexha,32,"Brooklyn, NY"
+475,Route 94,28,England
+476,NERVO,,"Melbourne, Australia"
+477,Nicky Romero,32,"Amerongen, Netherlands"
+478,Jason Ross,32,"Minneapolis, MN"
+479,Dimitri Vegas & Like Mike,,Belgium
+480,Sonny Fodera,36,Australia
+481,Jax Jones,34,"London, England"
+482,Quintino,36,"Den Helder, Netherlands"
+483,Gabry Ponte,48,Italy
+484,TroyBoi,34,"London, England"
+485,Robin Schulz,34,"Osnabruck, Germany"
+486,Calvin Harris,37,"Dumfries, Scotland"
+487,Cheat Codes,,"Los Angeles, CA"
+488,Wuki,37,Pennsylvania
+489,Valentino Khan,34,United States
+490,WHIPPED CREAM,29,"Toronto, Canada"
+491,Sophie Francis,23,Netherlands
+492,KVSH,24,United States
+493,W&W,,"Breda, Netherlands"
+494,3LAU,30,"Long Island, NY"
+495,Tchami,36,"Paris, France"
+496,Cardi B,29,"The Bronx, NY"
+497,The Weeknd,31,"Toronto, Canada"
+498,Lil Tecca,19,"Queens, NY"
+499,Lane 8,31,California
+500,Dr. Fresch,31,California
+501,Faydee,34,"Sydney, Australia"
+502,Eminem,49,"Saint Joseph, MO"
+503,Lil Mosey,19,"Seattle, WA"
+504,Ookay,29,"San Diego, CA"
+505,Rezz,26,"Niagara Falls, Canada"
+506,Pop Smoke,20,"Brooklyn, NY"
+507,MATTN,29,"Antwerp, Belgium"
+508,AUDREY NUNA,22,New Jersey
+509,LŪN,26,United States
+510,Alison Wonderland,35,"Sydney, Australia"
+511,deadmau5,40,"Niagara Falls, Canada"
+512,Krewella,,"Northbrook, IL"
+513,Cookiee Kawaii,28,United States
+514,GRiZ,31,"Southfield, MI"
+515,Becky G,24,"Inglewood, CA"
+516,San Holo,31,"Zoetermeer, Netherlands"
+517,Anabel Englund,29,California
+518,Holy Molly,36,"Moscow, Russia"
+519,Afrojack,34,"Spijkenisse, Netherlands"
+520,Idris Elba,49,"London, England"
+521,Jim Jones,45,"The Bronx, NY"
+522,Juicy J,46,"Memphis, TN"
+523,Bobby Shmurda,27,"Miami, FL"
+524,Chief Keef,26,"Chicago, IL"
+525,DreamDoll,29,"The Bronx, NY"
+526,French Montana,37,"Rabat, Morocco"
+527,Tm88,34,"Miami, FL"
+528,Blueface,24,"Los Angeles, CA"
+529,Tyga,32,"Compton, CA"
+530,Hotboii,21,"Orlando, FL"
+531,BlocBoy JB,25,"Memphis, TN"
+532,Monaleo,25,United States
+533,BRS Kash,28,United States
+534,MadeinTYO,29,"Honolulu, HI"
+535,Quavo,30,"Athens, GA"
+536,YG,31,"Compton, CA"
+537,Flo Milli,21,"Mobile, AL"
+538,SahBabii,24,"Chicago, IL"
+539,Fetty Wap,30,"Paterson, NJ"
+540,Comethazine,23,"East St Louis, IL"
+541,Jucee Froot,27,United States
+542,Lakeyah,19,"Milwaukee, WI"
+543,Migos,,"Lawrenceville, GA"
+544,OHGEESY,28,"Los Angeles, CA"
+545,42 Dugg,27,"Detroit, MI"
+546,Capella Grey,25,"The Bronx, NY"
+547,Trippie Redd,22,"Canton, OH"
+548,Isaiah Rashad,30,"Chattanooga, TN"
+549,Pooh Shiesty,22,"Memphis, TN"
+550,BTS,,"Seoul, South Korea"
+551,Selena Gomez,29,"Grand Prairie, TX"
+552,Duncan Laurence,27,"Spijkenisse, Netherlands"
+553,Conan Gray,23,"Lemon Grove, CA"
+554,The Chainsmokers,,"New York City, NY"
+555,Halsey,27,"Clark, NJ"
+556,Lady Gaga,35,"New York City, NY"
+557,Katy Perry,37,"Santa Barbara, CA"
+558,5 Seconds of Summer,,"Sydney, Australia"
+559,Zedd,32,Russia
+560,Ava Max,27,"Milwaukee, WI"
+561,Clean Bandit,,"Cambridge, England"
+562,Jonas Brothers,,"Wyckoff, NJ"
+563,Daya,23,"Pittsburgh, PA"
+564,Jawsh 685,19,New Zealand
+565,Black Eyed Peas,,"Los Angeles, CA"
+566,TWICE,,"Seoul, South Korea"
+567,LP,40,New York
+568,Surf Mesa,21,"Seattle, WA"
+569,Tones And I,21,Australia
+570,Aaron Smith,45,Pennsylvania
+571,Regard,28,Kosovo
+572,Dynoro,22,Lithuania
+573,Papa Roach,,"Vacaville, CA"
+574,Avril Lavigne,37,"Belleville, Canada"
+575,Simple Plan,,"Montreal, Canada"
+576,Maggie Lindemann,23,"Dallas, TX"
+577,grandson,21,"Kampala, Uganda"
+578,Bring Me The Horizon,,"Sheffield, England"
+579,Cassyette,27,"Chelmsford, England"
+580,Nothing But Thieves,,"Southend-on-Sea, England"
+581,Sam Fender,27,"North Shields, England"
+582,Wolf Alice,,"London, England"
+583,Jack White,46,"Detroit, MI"
+584,The Pretty Reckless,28,"St. Louis, MO"
+585,Three Days Grace,,"Norwood, Canada"
+586,Royal Blood,,"Brighton, England"
+587,YUNGBLUD,24,"Doncaster, England"
+588,Asking Alexandria,,"York, England"
+589,Tom Morello,57,"New York City, NY"
+590,POORSTACY,22,United States
+591,Siiickbrain,26,United States
+592,Limp Bizkit,,"Jacksonville, FL"
+593,Foals,38,"Oxford, England"
+594,Palaye Royale,,"Las Vegas, NV"
+595,Nita Strauss,35,"Los Angeles, CA"
+596,Machine Gun Kelly,31,"Houston, TX"
+597,Coheed and Cambria,,"Nyack, NY"
+598,Pop Evil,,"Muskegon, MI"
+599,Bloc Party,,"London, England"
+600,Lilith Czar,35,"San Francisco, CA"
+601,Underoath,,"Tampa, FL"
+602,carolesdaughter,19,United States
+603,Surf Curse,,"Reno, NV"
+604,The Notorious B.I.G.,24,"Brooklyn, NY"
+605,Ice Cube,52,"Los Angeles, CA"
+606,Dr. Dre,56,"Compton, CA"
+607,2Pac,25,"New York City, NY"
+608,Big Pun,28,"The Bronx, NY"
+609,Outkast,,"Atlanta, GA"
+610,JAY-Z,52,"Brooklyn, NY"
+611,Warren G,51,"Long Beach, CA"
+612,Snoop Dogg,50,"Long Beach, CA"
+613,Mobb Deep,,"Queens, NY"
+614,DMX,50,"Mount Vernon, NY"
+615,Wu-Tang Clan,,"Staten Island, NY"
+616,Craig Mack,46,"Trenton, NJ"
+617,Lord Finesse,51,New York
+618,Makaveli,25,"New York City, NY"
+619,Diddy,52,"New York City, NY"
+620,A Tribe Called Quest,,"Queens, NY"
+621,Common,49,"South Side, IL"
+622,Too $hort,55,"Los Angeles, CA"
+623,ODB,35,"New York City, NY"
+624,Goodie Mob,,"Atlanta, GA"
+625,Mos Def,48,"Brooklyn, NY"
+626,The Roots,,"Philadelphia, PA"
+627,GZA,55,"Brooklyn, NY"
+628,Bone Thugs-N-Harmony,,"Cleveland, OH"
+629,Eazy-E,30,"Compton, CA"
+630,Skee-Lo,46,"Chicago, IL"
+631,Pete Rock,51,"The Bronx, NY"
+632,Slum Village,43,"Detroit, MI"
+633,Large Professor,48,"Harlem, NY"
+634,Q-Tip,51,"New York City, NY"
+635,LL Cool J,53,"Long Island, NY"
+636,Xzibit,47,"Detroit, MI"
+637,Fugees,,"South Orange, NJ"
+638,SpotemGottem,20,"Jacksonville, FL"
+639,Bankrol Hayden,20,"Modesto, CA"
+640,Kay Flock,29,United States
+641,Stunna Gambino,20,"New York City, NY"
+642,DUSTY LOCANE,22,"Brooklyn, NY"
+643,LPB Poody,22,"Orlando, FL"
+644,B-Lovee,21,United States
+645,Quando Rondo,22,"Savannah, GA"
+646,Doe Boy,27,"Atlanta, GA"
+647,Trapboy Freddy,29,"Dallas, TX"
+648,EST Gee,27,Missouri
+649,2KBABY,21,"Louisville, KY"
+650,Dro Kenji,19,United States
+651,Mak Sauce,20,"Atlanta, GA"
+652,Cochise,23,Jamaica
+653,Fredo Bang,25,"Baton Rouge, LA"
+654,Toosii,21,"Syracuse, NY"
+655,Shordie Shordie,25,"Baltimore, MD"
+656,LUCKI,25,"Chicago, IL"
+657,No Savage,22,"Washington, DC"
+658,J.I the Prince of N.Y,20,"Brooklyn, NY"
+659,Bino Rideaux,29,United States
+660,Flipp Dinero,26,"Brooklyn, NY"
+661,Autumn!,23,Louisiana
+662,Big Yavo,21,Alabama
+663,Lil Gnar,25,"Oakland, CA"
+664,Bizzy Crook,30,"Miami, FL"
+665,$NOT,24,New York
+666,Morray,28,"Fayetteville, NC"
+667,Lil Migo,24,"Memphis, TN"
+668,BigKayBeezy,20,"Chicago, IL"
+669,Thouxanbanfauni,28,"Chattanooga, TN"
+670,UnoTheActivist,25,"Atlanta, GA"
+671,Pressa,25,"Toronto, Canada"
+672,Sheff G,23,"Brooklyn, NY"
+673,Soldier Kidd,21,"West Palm Beach, FL"
+674,Zack Fox,31,United States
+675,SSGKobe,18,Louisiana
+676,Lil Poppa,21,United States
+677,Lil Zay Osama,24,United States
+678,Babyface Ray,30,United States
+679,Foxy Brown,43,"Brooklyn, NY"
+680,Jadakiss,46,"Yonkers, NY"
+681,Busta Rhymes,49,"New York City, NY"
+682,Lil' Kim,47,"New York City, NY"
+683,Method Man,50,"Long Island, NY"
+684,The LOX,,New York
+685,Scarface,51,Texas
+686,JT Money,49,"Tampa, FL"
+687,Master P,51,"New Orleans, LA"
+688,Trick Daddy,48,"Miami, FL"
+689,Da Brat,47,"Joliet, IL"
+690,AZ,49,"Brooklyn, NY"
+691,Tamia,46,"Windsor, Canada"
+692,Fantasia,37,"High Point, NC"
+693,Mariah Carey,52,"Long Island, NY"
+694,Marques Houston,40,"Los Angeles, CA"
+695,Keyshia Cole,40,"Oakland, CA"
+696,Chris Brown,32,"Tappahannock, VA"
+697,Beyoncé,40,"Houston, TX"
+698,Destiny's Child,,"Houston, TX"
+699,T-Pain,37,"Tallahassee, FL"
+700,Ginuwine,51,"Washington, DC"
+701,Toni Braxton,54,"Severn, MD"
+702,Jagged Edge,46,"Hartford, CT"
+703,Jennifer Hudson,40,"Chicago, IL"
+704,Nivea,39,"Savannah, GA"
+705,Bobby V.,41,Mississippi
+706,Ne-Yo,42,"Camden, AR"
+707,Kelly Rowland,40,"Atlanta, GA"
+708,Trey Songz,37,"Petersburg, VA"
+709,Dillon Francis,34,"Los Angeles, CA"
+710,Armin van Buuren,45,"Leiden, Netherlands"
+711,Mike Candys,40,Switzerland
+712,Sam Feldt,28,Netherlands
+713,Tungevaag,28,Norway
+714,Years & Years,,"London, England"
+715,Lilly Ahlberg,25,Italy
+716,Charli XCX,29,"Cambridge, England"
+717,Aluna,33,Wales
+718,Jonasu,31,"Mannheim, Germany"
+719,Roger Sanchez,63,"Guanabacoa, Cuba"
+720,Faithless,64,"London, England"
+721,Diplo,43,"Tupelo, MS"
+722,Shane Codd,24,"Dublin, Ireland"
+723,Sofi Tukker,,"New York City, NY"
+724,Sjaak,25,Netherlands
+725,James Hype,32,"Liverpool, England"
+726,Chris Lorenzo,33,"Birmingham, England"
+727,D-Block Europe,,"London, England"
+728,KA$HDAMI,17,"Las Vegas, NV"
+729,Rico Nasty,24,"Largo, MD"
+730,iann dior,22,Puerto Rico
+731,Lil Baby,27,"Atlanta, GA"
+732,Ski Mask The Slump God,25,Florida
+733,Koffee,21,Jamaica
+734,Vybz Kartel,45,"Kingston, Jamaica"
+735,Konshens,36,"Kingston, Jamaica"
+736,Spice,39,Jamaica
+737,Charly Black,41,"Rio Bueno, Jamaica"
+738,Popcaan,33,"Saint Thomas Parish, Jamaica"
+739,Busy Signal,39,Jamaica
+740,Shenseea,25,Jamaica
+741,Alkaline,28,"Kingston, Jamaica"
+742,Stylo G,36,"Spanish Town, Jamaica"
+743,Sean Paul,48,"Kingston, Jamaica"
+744,Beenie Man,48,"Kingston, Jamaica"
+745,Mr Eazi,30,"Port Harcourt, Nigeria"
+746,Vershon,31,"Kingston, Jamaica"
+747,Brett Eldredge,35,"Paris, IL"
+748,Andrew Garfield,38,"Los Angeles, CA"
+749,Wrabel,32,New York
+750,Ryan Hurd,37,United States
+751,Chris Stapleton,43,"Lexington, KY"
+752,Andy Grammer,38,"Los Angeles, CA"
+753,WALK THE MOON,,"Cincinnati, OH"
+754,Brandi Carlile,40,"Ravansdale, WA"
+755,P!nk,42,"Doylestown, PA"
+756,Jon Batiste,35,"Kenner, LA"
+757,Aly & AJ,,"Torrance, CA"
+758,Noah Kahan,25,"Strafford, VT"
+759,Gabby Barrett,21,"Pittsburgh, PA"
+760,Macklemore,38,"Seattle, WA"
+761,Lorde,25,"Auckland, New Zealand"
+762,Dermot Kennedy,30,"Dublin, Ireland"
+763,John Mayer,44,"Bridgeport, CT"
+764,Dean Lewis,34,"Sydney, Australia"
+765,Charlotte Cardin,27,Canada
+766,Leon Bridges,32,"Atlanta, GA"
+767,The Lumineers,,"Denver, CO"
+768,Celina Sharma,19,Australia
+769,Surfaces,,Texas
+770,Panic! At The Disco,,"Las Vegas, NV"
+771,Sunstroke Project,34,"Chisinau, Moldova"
+772,NF,30,"Gladwin, MI"
+773,Fall Out Boy,,"Wilmette, IL"
+774,Bastille,,"London, England"
+775,Train,,"San Francisco, CA"
+776,John Legend,43,"Springfield, OH"
+777,MAGIC!,,"Toronto, Canada"
+778,Logic,31,"Gaithersburg, MD"
+779,Fenix Flexin,26,United States
+780,Haiti Babii,24,"Oakland, CA"
+781,Cozz,28,"Los Angeles, CA"
+782,Berner,40,United States
+783,Larry June,30,"San Francisco, CA"
+784,Kenndog,22,California
+785,Guapdad 4000,29,"Oakland, CA"
+786,Saweetie,28,"Santa Clara, CA"
+787,Dom Kennedy,37,"Hanford, CA"
+788,Earl Sweatshirt,27,"Chicago, IL"
+789,Rob $tone,26,"San Diego, CA"
+790,Suigeneris,18,"San Jose, CA"
+791,YS,38,Japan
+792,Stunna Girl,23,"Sacramento, CA"
+793,Hit-Boy,34,"Fontana, CA"
+794,P-Lo,30,California
+795,Mozzy,34,"Sacramento, CA"
+796,Mase,46,"Jacksonville, FL"
+797,Black Rob,51,"Buffalo, NY"
+798,Faith Evans,48,"Lakeland, FL"
+799,Shyne,43,Belize
+800,Gorilla Zoe,38,Georgia
+801,8Ball & MJG,49,"Memphis, TN"
+802,Cheri Dennis,42,Ohio
+803,Carl Thomas,49,"Aurora, IL"
+804,New Edition,,"Boston, MA"
+805,Yung Joc,38,"Atlanta, GA"
+806,Janelle Monáe,36,"Kansas City, KS"
+807,DAY26,,"New York City, NY"
+808,Danity Kane,,"New York City, NY"
+809,Elephant Man,46,Jamaica
+810,Central Cee,23,"London, England"
+811,Fireboy DML,25,"Ogun, Nigeria"
+812,Abra Cadabra,23,"London, England"
+813,SwitchOTR,19,"London, England"
+814,ArrDee,19,"Brighton, England"
+815,Burna Boy,30,"Port Harcourt, Nigeria"
+816,Tion Wayne,28,England
+817,NSG,,"London, England"
+818,FelixThe1st,20,England
+819,JAY1,24,England
+820,Shaybo,25,Nigeria
+821,Preme,35,Canada
+822,Ms Banks,27,"London, England"
+823,Stefflon Don,30,"Birmingham, England"
+824,Potter Payper,29,"London, England"
+825,Miraa May,25,Algeria
+826,Rowdy Rebel,30,"Brooklyn, NY"
+827,Two Door Cinema Club,,"Bangor, Northern Ireland"
+828,Arctic Monkeys,,"Sheffield, England"
+829,Foster The People,,"Los Angeles, CA"
+830,M83,,France
+831,The Temper Trap,,"Melbourne, Australia"
+832,Franz Ferdinand,50,"Graz, Austria"
+833,MGMT,,"Middletown, CT"
+834,The 1975,,"Manchester, England"
+835,The Kooks,,"Brighton, England"
+836,Catfish and the Bottlemen,,Wales
+837,Neon Trees,38,California
+838,Saint Raymond,26,England
+839,The Neighbourhood,,"Thousand Oaks, CA"
+840,Jamie T,35,England
+841,Kings of Leon,,"Nashville, TN"
+842,Chiddy Bang,31,Nigeria
+843,Coasts,33,England
+844,Kodaline,,"Dublin, Ireland"
+845,The Hunna,,England
+846,Stereophonics,47,Wales
+847,Young the Giant,,"Irvine, CA"
+848,Kaiser Chiefs,,"Leeds, England"
+849,Courteeners,36,England
+850,Sundara Karma,,"Reading, England"
+851,Cage The Elephant,,"Bowling Green, KY"
+852,Twin Atlantic,,"Glasgow, Scotland"
+853,Gorillaz,,"Essex, England"
+854,M.I.A.,46,"London, England"
+855,Milky Chance,,"Kassel, Germany"
+856,Palace,25,Germany
+857,Declan McKenna,23,England
+858,Frank Ocean,34,"Long Beach, CA"
+859,RAT BOY,25,England
+860,Tame Impala,35,"Sydney, Australia"
+861,Tom Grennan,26,"Bedford, England"
+862,Viola Beach,,"Warrington, England"
+863,Pale Waves,,"Manchester, England"
+864,Vampire Weekend,,"New York City, NY"
+865,Peace,,"Worcestershire, England"
+866,Fickle Friends,30,"Yorkshire, England"
+867,easy life,,"Leicester, England"
+868,Alfie Templeman,18,"Bedford, England"
+869,The Backseat Lovers,,Utah
+870,Biffy Clyro,,"Kilmarnock, Scotland"
+871,All Time Low,,"Baltimore, MD"
+872,My Chemical Romance,,"Newark, NJ"
+873,Paramore,,"Franklin, TN"
+874,We The Kings,,"Bradenton, FL"
+875,The All-American Rejects,,"Stillwater, OK"
+876,Yellowcard,,"Jacksonville, FL"
+877,The Red Jumpsuit Apparatus,,Florida
+878,Bowling For Soup,,"Wichita Falls, TX"
+879,Mayday Parade,35,"Tallahassee, FL"
+880,Good Charlotte,,"Waldorf, MD"
+881,Lit,48,"Palm Springs, CA"
+882,blink-182,,"Poway, CA"
+883,Relient K,,"Canton, CA"
+884,The Offspring,,"Huntington Beach, CA"
+885,New Found Glory,,"Coral Springs, FL"
+886,Rise Against,,"Chicago, IL"
+887,Sum 41,,"Ajax, Canada"
+888,AFI,,"Ukiah, CA"
+889,Lenny Kravitz,57,"New York City, NY"
+890,Alien Ant Farm,,"Riverside, CA"
+891,Queens of the Stone Age,,"Palm Desert, CA"
+892,Twisted Sister,,"Long Island, NY"
+893,3 Doors Down,,"Escatawpa, MS"
+894,The Hives,,"Fagersta, Sweden"
+895,Wolfmother,,Australia
+896,Linkin Park,,"Agoura Hills, CA"
+897,Ramones,,"Queens, NY"
+898,Korn,50,"Bakersfield, CA"
+899,The Black Keys,,"Akron, OH"
+900,Motörhead,,"London, England"
+901,The Fratellis,,"Glasgow, Scotland"
+902,The Cure,,"Sussex, England"
+903,Tierra Whack,26,United States
+904,Freddie Gibbs,39,"Gary, IN"
+905,KAYTRANADA,29,Haiti
+906,Rick Ross,45,"Clarksdale, MS"
+907,Remi Wolf,25,"Palo Alto, CA"
+908,PinkPantheress,20,"Bath, England"
+909,James Blake,33,England
+910,Tyla Yaweh,26,"Orlando, FL"
+911,Kelis,42,"New York City, NY"
+912,Jean Dawson,26,"Tijuana, Mexico"
+913,070 Shake,24,New Jersey
+914,khai dreams,21,California
+915,Steve Lacy,23,"Compton, CA"
+916,Carter Ace,23,United States
+917,Joey Purp,28,"Chicago, IL"
+918,brakence,20,United States
+919,Verzache,24,Singapore
+920,midwxst,18,United States
+921,Ric Wilson,58,United States
+922,Joji,28,Japan
+923,Peach Tree Rascals,,California
+924,Carlie Hanson,21,Wisconsin
+925,LLusion,23,United States
+926,No Rome,26,"Manila, Philippines"
+927,Serena Isioma,21,United States
+928,ZillaKami,22,New York
+929,Lolo Zouaï,26,"Paris, France"
+930,Christian Rich,,"Lagos, Nigeria"
+931,Ramzoid,23,Canada
+932,Dua Saleh,27,"Kassala, Sudan"
+933,binki,39,"Los Angeles, CA"
+934,Smino,30,"St. Louis, MO"
+935,Deema,43,Syria
+936,bbno$,26,Canada
+937,ericdoa,19,Connecticut
+938,Felly,26,"Trumbull, CT"
+939,Jared Evan,32,New York
+940,gabriel black,18,United States
+941,Teezo Touchdown,30,United States
+942,EARTHGANG,31,"Atlanta, GA"
+943,Cousin Stizz,29,Massachusetts
+944,Tom The Mail Man,23,United States
+945,Mitski,31,Japan
+946,Fana Hues,26,United States
+947,JPEGMAFIA,32,"Brooklyn, NY"
+948,Mac Miller,26,"Pittsburgh, PA"
+949,Mick Jenkins,30,"Huntsville, AL"
+950,serpentwithfeet,33,Maryland
+951,Little Simz,27,England
+952,BENEE,21,"Auckland, New Zealand"
+953,Vince Staples,28,"Long Beach, CA"
+954,Maxo Kream,30,"Houston, TX"
+955,Fousheé,31,"Fremont, CA"
+956,Topaz Jones,28,New Jersey
+957,Japanese Breakfast,32,"Seoul, South Korea"
+958,Kidd G,18,Georgia
+959,DEKKO,23,Mexico
+960,Lil Dicky,33,"Cheltenham Township, PA"
+961,Tay Money,28,"Tyler, TX"
+962,Lights,34,"Timmins, Canada"
+963,Baauer,32,"Philadelphia, PA"
+964,Jacob Collier,27,"London, England"
+965,Kid Ink,35,"Los Angeles, CA"
+966,aespa,,"Seoul, South Korea"
+967,Wifisfuneral,24,"The Bronx, NY"
+968,Rayven Justice,30,"Oakland, CA"
+969,Big Boogie,32,"Compton, CA"
+970,Kaskade,50,"Chicago, IL"
+971,Andrew Barth Feldman,19,"Manhasset, NY"
+972,Chris Webby,33,"Norwalk, CT"
+973,Sy Ari Da Kid,35,"New York City, NY"
+974,Ashley Park,30,California
+975,Kina Grannis,36,"Mission Viejo, CA"
+976,NEFFEX,,"Los Angeles, CA"
+977,Rak-Su,,"Watford, England"
+978,Azizi Gibson,31,"Frankfurt, Germany"
+979,Joss Stone,34,"Dover, England"
+980,Passenger,37,"Brighton, England"
+981,Eva Shaw,31,Canada
+982,Sav'o,20,England
+983,Billy Marchiafava,25,United States
+984,a4,25,Belarus
+985,Wiz Khalifa,34,"Minot, ND"
+986,DJ Premier,55,"Houston, TX"
+987,Kota the Friend,29,"Brooklyn, NY"
+988,OHNO,,California
+989,Pouya,27,Florida
+990,J. Cole,36,"Frankfurt, Germany"
+991,D Smoke,36,United States
+992,Domani,20,Georgia
+993,Trip Lee,34,"Dallas, TX"
+994,Zombie Juice,31,"Brooklyn, NY"
+995,Patrick Paige II,31,"Los Angeles, CA"
+996,Kenny Mason,26,United States
+997,JID,31,"Atlanta, GA"
+998,Smoke DZA,37,"New York City, NY"
+999,Young Roddy,35,"New Orleans, LA"
+1000,Derek Minor,37,"Pontiac, MI"
+1001,RETRO,18,United States
+1002,Phora,27,"Anaheim, CA"
+1003,Erick the Architect,33,"Brooklyn, NY"
+1004,ShaqIsDope,29,"Toronto, Canada"
+1005,VIC MENSA,28,"Chicago, IL"
+1006,Caleborate,28,"Berkeley, CA"
+1007,Westside Gunn,39,"Buffalo, NY"
+1008,Wallows,,"Los Angeles, CA"
+1009,Current Joys,29,"Henderson, NV"
+1010,Dayglow,22,"Aledo, TX"
+1011,Clairo,23,"Atlanta, GA"
+1012,Will Paquin,22,United States
+1013,Baby Storme,21,"Manhattan, NY"
+1014,Ricky Montgomery,28,California
+1015,Claire Rosinkranz,18,California
+1016,Cavetown,23,England
+1017,beabadoobee,21,"Iloilo, Philippines"
+1018,Zeph,23,United States
+1019,EASHA,19,"Atlanta, GA"
+1020,marinelli,32,Greece
+1021,Eyedress,31,"Makati, Philippines"
+1022,Gus Dapperton,24,United States
+1023,Bestfriend,21,"Fort Worth, TX"
+1024,Dameer,11,Indonesia
+1025,chloe moriondo,19,United States
+1026,Jack Stauber,25,Pennsylvania
+1027,Thomas Headon,21,"London, England"
+1028,Lunchmoney,33,"Miami, FL"
+1029,Wolfy,29,England
+1030,Haley Smalls,30,Canada
+1031,DESTIN CONRAD,21,Florida
+1032,Paige Kennedy,45,"Detroit, MI"
+1033,Canon,32,"Chicago, IL"
+1034,Miki Ratsula,23,California
+1035,Leah Marie Mason,22,"Raleigh, NC"
+1036,JAXN,54,"Washington, DC"
+1037,Jex Nwalor,19,"Toronto, Canada"
+1038,Taylor Belle,23,"Long Island, NY"
+1039,lilo,44,"Lagos, Nigeria"
+1040,Lord Huron,,Michigan
+1041,Daughter,32,"Stevenage, England"
+1042,Sufjan Stevens,46,"Detroit, MI"
+1043,Phoebe Bridgers,27,"Los Angeles, CA"
+1044,The xx,,"London, England"
+1045,Bon Iver,40,"Eau Claire, WI"
+1046,Cigarettes After Sex,,"El Paso, TX"
+1047,Elliott Smith,34,"Omaha, NE"
+1048,Arlo Parks,21,"London, England"
+1049,Damien Rice,48,"Celbridge, Ireland"
+1050,The National,,Ohio
+1051,Agnes Obel,41,"Copenhagen, Denmark"
+1052,Lana Del Rey,36,"New York City, NY"
+1053,London Grammar,32,"London, England"
+1054,Lianne La Havas,32,"London, England"
+1055,Bright Eyes,28,Virginia
+1056,Jacob Banks,30,"Birmingham, England"
+1057,The Head And The Heart,,"Seattle, WA"
+1058,Clams Casino,34,"Nutley, NJ"
+1059,First Aid Kit,,"Stockholm, Sweden"
+1060,The Shins,,"Albuquerque, NM"
+1061,Prateek Kuhad,31,"Jaipur, India"
+1062,Christine and the Queens,33,"Nantes, France"
+1063,Perfume Genius,40,"Seattle, WA"
+1064,Soccer Mommy,73,"London, England"
+1065,Ben Howard,34,"London, England"
+1066,The Japanese House,25,"London, England"
+1067,Fleet Foxes,,"Seattle, WA"
+1068,Nick Leng,28,South Africa
+1069,Keaton Henson,33,England
+1070,Angus & Julia Stone,,"Sydney, Australia"
+1071,Weyes Blood,33,California
+1072,Angel Olsen,34,"St. Louis, MO"
+1073,James Vincent McMorrow,38,Ireland
+1074,Billie Marten,22,"Yorkshire, England"
+1075,Blossoms,,"Stockport, England"
+1076,Terrace Martin,43,"Los Angeles, CA"
+1077,Hiatus Kaiyote,32,Australia
+1078,Jordan Rakei,29,New Zealand
+1079,Noname,30,"Chicago, IL"
+1080,Ruti,22,England
+1081,Angela Muñoz,34,Brazil
+1082,Flying Lotus,38,"Winnetka, CA"
+1083,Michael Kiwanuka,34,"London, England"
+1084,Brittany Howard,33,Alabama
+1085,Mac Ayres,23,United States
+1086,Jerome Thomas,38,"London, England"
+1087,Maverick Sabre,31,"London, England"
+1088,Ricky Reed,39,United States
+1089,Oddisee,40,"Washington, DC"
+1090,Junior Bvndo,22,Ivory Coast
+1091,Fumez The Engineer,28,"London, England"
+1092,SRK,56,"New Delhi, India"
+1093,PICO,25,"Whittier, CA"
+1094,C.O.R,23,"Neuquén, Argentina"
+1095,Stavo,42,"Kwekwe, Zimbabwe"
+1096,KD,33,"Washington, DC"
+1097,50 Cent,46,"New York City, NY"
+1098,G-Unit,,"Queens, NY"
+1099,Lloyd Banks,39,"New Carrollton, MD"
+1100,The Game,42,"Los Angeles, CA"
+1101,Ludacris,44,"Champaign, IL"
+1102,2Face,46,"Jos, Nigeria"
+1103,Akon,48,"St. Louis, MO"
+1104,Fort Minor,44,"Agoura Hills, CA"
+1105,A$AP Rocky,33,"New York City, NY"
+1106,N.W.A.,,"Compton, CA"
+1107,Kendrick Lamar,34,"Compton, CA"
+1108,Coolio,58,"Compton, CA"
+1109,Kris Kross,,"Atlanta, GA"
+1110,T.I.,41,"Atlanta, GA"
+1111,Avicii,28,"Stockholm, Sweden"
+1112,One Direction,,"London, England"
+1113,Demi Lovato,29,"Albuquerque, NM"
+1114,MKTO,,"Los Angeles, CA"
+1115,Little Mix,,"London, England"
+1116,Gym Class Heroes,,"Geneva, NY"
+1117,R. City,39,"Saint Thomas, VI"
+1118,Justin Timberlake,40,"Memphis, TN"
+1119,Jessie J,33,"London, England"
+1120,Rachel Platten,40,"Newton Centre, MA"
+1121,Meghan Trainor,28,"Nantucket, MA"
+1122,Troye Sivan,26,"Johannesburg, South Africa"
+1123,Zara Larsson,24,"Stockholm, Sweden"
+1124,Carly Rae Jepsen,36,"Mission, Canada"
+1125,Kelly Clarkson,39,"Fort Worth, TX"
+1126,The Wanted,,"London, England"
+1127,Owl City,,"Owatonna, MN"
+1128,Hailee Steinfeld,25,"Los Angeles, CA"
+1129,Joel Adams,25,Australia
+1130,The Script,,"Dublin, Ireland"
+1131,Major Lazer,,United States
+1132,Taio Cruz,36,"London, England"
+1133,Rihanna,33,"St. Michael, Barbados"
+1134,Amy Winehouse,27,"London, England"
+1135,Gwen Stefani,52,"Fullerton, CA"
+1136,James Blunt,47,"Tidworth, England"
+1137,Nelly Furtado,43,"Victoria, Canada"
+1138,Natasha Bedingfield,40,"Haywards Heath, England"
+1139,Britney Spears,40,"McComb, MS"
+1140,Jay Sean,40,"London, England"
+1141,Mike Posner,33,"Detroit, MI"
+1142,Kesha,34,"Los Angeles, CA"
+1143,Iyaz,34,Virgin Islands
+1144,Cascada,,"Bonn, Germany"
+1145,Flo Rida,42,"Miami Gardens, FL"
+1146,Sugababes,,"London, England"
+1147,*NSYNC,,"Orlando, FL"
+1148,Atomic Kitten,,"Liverpool, England"
+1149,The Pussycat Dolls,,"Los Angeles, CA"
+1150,Leona Lewis,36,"London, England"
+1151,Fergie,46,"Hacienda Heights, CA"
+1152,Sara Bareilles,42,"Eureka, CA"
+1153,Soulja Boy,31,"Chicago, IL"
+1154,Sean Kingston,31,"Miami, FL"
+1155,Timbaland,49,"Norfolk, VA"
+1156,Jamelia,40,England
+1157,Jennifer Lopez,52,"The Bronx, NY"
+1158,Jordin Sparks,32,"Phoenix, AZ"
+1159,Madonna,63,"Bay City, MI"
+1160,Christina Aguilera,41,"Staten Island, NY"
+1161,Florence + The Machine,,"London, England"
+1162,Vanessa Carlton,41,"Milford, PA"
+1163,Westlife,,"Sligo, Ireland"
+1164,Michael Bublé,46,"Burnaby, Canada"
+1165,t.A.T.u.,,"Moscow, Russia"
+1166,Corinne Bailey Rae,42,"Leeds, England"
+1167,David Archuleta,31,"Miami, FL"
+1168,Colbie Caillat,36,"Malibu, CA"
+1169,Pitbull,40,"Miami, FL"
+1170,Jason Mraz,44,"Mechanicsville, VA"
+1171,Shontelle,36,Barbados
+1172,Keri Hilson,39,"Decatur, GA"
+1173,CeeLo Green,46,"Atlanta, GA"
+1174,Mary Mary,47,"Inglewood, CA"
+1175,Adam Lambert,39,"Indianapolis, IN"
+1176,Kylie Minogue,53,"Melbourne, Australia"
+1177,Plain White T's,,"Lombard, IL"
+1178,ABBA,,"Stockholm, Sweden"
+1179,Helen Reddy,78,"Melbourne, Australia"
+1180,Barry Manilow,78,"Brooklyn, NY"
+1181,The Beach Boys,,"Hawthorne, CA"
+1182,Rickie Lee Jones,67,"Chicago, IL"
+1183,Noel Paul Stookey,84,"Baltimore, MD"
+1184,Andy Gibb,30,"Manchester, England"
+1185,Linda Ronstadt,75,"Tucson, AZ"
+1186,Olivia Newton-John,73,"Cambridge, England"
+1187,Gilbert O'Sullivan,75,Ireland
+1188,Carole Bayer Sager,74,"New York City, NY"
+1189,Maureen McGovern,72,"Youngstown, OH"
+1190,Elvis Presley,42,"Tupelo, MS"
+1191,George Harrison,58,"Liverpool, England"
+1192,Diana Ross,77,"Detroit, MI"
+1193,Andy Williams,84,"Wall Lake, IA"
+1194,Rex Smith,66,"Jacksonville, FL"
+1195,Billy Joel,72,"New York City, NY"
+1196,Carly Simon,76,"New York City, NY"
+1197,Demis Roussos,68,"Alexandria, Egypt"
+1198,Barbra Streisand,79,"New York City, NY"
+1199,Billy Ocean,71,"Fyzabad, Trinidad And Tobago"
+1200,James Taylor,73,"Boston, MA"
+1201,Stevie Wonder,71,"Saginaw, MI"
+1202,The Jackson 5,,"Gary, IN"
+1203,Sonny & Cher,,"Los Angeles, CA"
+1204,Michael Jackson,50,"Gary, IN"
+1205,Eric Clapton,76,"Ripley, England"
+1206,The Velvet Underground,,"New York City, NY"
+1207,Paul McCartney,79,"Liverpool, England"
+1208,Rod Stewart,76,"London, England"
+1209,Genesis,,"Surrey, England"
+1210,Neil Young,76,"Toronto, Canada"
+1211,Bread,,"Los Angeles, CA"
+1212,John Lennon,40,"Liverpool, England"
+1213,Neil Diamond,80,"Brooklyn, NY"
+1214,Van Morrison,76,"Belfast, Northern Ireland"
+1215,Jim Croce,30,"Philadelphia, PA"
+1216,Gary Moore,58,Northern Ireland
+1217,Harry Chapin,38,"Brooklyn, NY"
+1218,Electric Light Orchestra,,"Birmingham, England"
+1219,Carole King,79,"New York City, NY"
+1220,Janis Ian,70,"The Bronx, NY"
+1221,Harry Nilsson,52,"Brooklyn, NY"
+1222,Eric Carmen,72,"Cleveland, OH"
+1223,Terry Jacks,77,"Winnipeg, Canada"
+1224,Bill Withers,81,"Slab Fork, WV"
+1225,Kenny Rogers,81,"Houston, TX"
+1226,Bonnie Tyler,70,"Skewen, Wales"
+1227,Frankie Valli,87,"Newark, NJ"
+1228,Joni Mitchell,78,"Fort Macleod, Canada"
+1229,Roberta Flack,84,"Black Mountain, NC"
+1230,Freda Payne,79,"Detroit, MI"
+1231,Aretha Franklin,76,"Memphis, TN"
+1232,Andrew Gold,59,"Burbank, CA"
+1233,Al Green,75,"Forrest City, AR"
+1234,Donny Hathaway,33,"Chicago, IL"
+1235,Dolly Parton,75,"Locust Ridge, TN"
+1236,Timmy Thomas,27,United States
+1237,Ann Peebles,74,"St. Louis, MO"
+1238,John Denver,53,"Roswell, NM"
+1239,Simon & Garfunkel,,"Queens, NY"
+1240,Neil Sedaka,82,"Brooklyn, NY"
+1241,Anne Murray,76,Canada
+1242,Randy VanWarmer,48,Colorado
+1243,Crystal Gayle,70,"Paintsville, KY"
+1244,Bee Gees,,Australia
+1245,Rita Coolidge,76,Tennessee
+1246,Dionne Warwick,81,"East Orange, NJ"
+1247,Gordon Lightfoot,83,"Orillia, Canada"
+1248,Johnny Nash,80,"Houston, TX"
+1249,Marvin Hamlisch,68,"New York City, NY"
+1250,Bette Midler,76,"Honolulu, HI"
+1251,Stephen Bishop,50,"Chicago, IL"
+1252,Charlie Rich,62,"Colt, AR"
+1253,Charles Aznavour,94,"Paris, France"
+1254,"Earth, Wind & Fire",,"Chicago, IL"
+1255,Perry Como,88,"Canonsburg, PA"
+1256,Albert Hammond,41,California
+1257,Art Garfunkel,80,"New York City, NY"
+1258,Shirley Bassey,84,"Tiger Bay, Wales"
+1259,Glen Campbell,81,"Billstown, AR"
+1260,David Soul,78,"Chicago, IL"
+1261,Billy Paul,81,"Philadelphia, PA"
+1262,Dobie Gray,71,"Simonton, TX"
+1263,Paul Anka,80,"Ottawa, Canada"
+1264,Peter Frampton,71,"Bromley, England"
+1265,Brook Benton,66,"Lugoff, SC"
+1266,Ralph McTell,77,England
+1267,Gino Vannelli,69,"Montreal, Canada"
+1268,Donny Osmond,64,"Ogden, UT"
+1269,Bonnie Raitt,72,"Burbank, CA"
+1270,Tom Bailey,67,England
+1271,Noah Cyrus,21,"Nashville, TN"
+1272,Iron & Wine,47,"Chapin, SC"
+1273,Olivia Dean,22,"London, England"
+1274,Aaron Taylor,31,"High Wycombe, England"
+1275,Jennifer Chung,32,South Korea
+1276,José James,43,Minnesota
+1277,Anderson East,33,Alabama
+1278,Adam Melchor,25,New Jersey
+1279,Nate Smith,13,United States
+1280,Anthem Lights,,"Nashville, TN"
+1281,Catie Turner,21,Pennsylvania
+1282,Allen Stone,34,Washington
+1283,Cleo Sol,31,England
+1284,Niia,33,United States
+1285,Liam Bailey,38,"Nottingham, England"
+1286,Kevin Garrett,30,Pennsylvania
+1287,Jay Warren,21,Texas
+1288,Dylan Dunlap,25,California
+1289,Jamie Drake,27,Portugal
+1290,Black Pumas,,"Austin, TX"
+1291,Paul Simon,80,"Newark, NJ"
+1292,Richie Havens,72,"Brooklyn, NY"
+1293,The Monkees,,"Los Angeles, CA"
+1294,Nick Drake,26,England
+1295,John Prine,73,"Maywood, IL"
+1296,Leonard Cohen,82,"Westmount, Canada"
+1297,Joan Baez,80,"Staten Island, NY"
+1298,Faces,,"London, England"
+1299,Nina Simone,70,"Tyron, NC"
+1300,John Martyn,60,England
+1301,Marianne Faithfull,75,England
+1302,Nanci Griffith,68,"Seguin, TX"
+1303,Emmylou Harris,74,Alabama
+1304,Chris Isaak,65,"Stockton, CA"
+1305,Richard Thompson,72,England
+1306,Rodney Crowell,71,"Crosby, TX"
+1307,Eddie Vedder,57,"Evanston, IL"
+1308,Mary Gauthier,59,Louisiana
+1309,Billy Bragg,64,England
+1310,Iris DeMent,60,"Paragould, AR"
+1311,Norah Jones,42,"New York City, NY"
+1312,Gillian Welch,54,"New York City, NY"
+1313,Phil Ochs,35,"El Paso, TX"
+1314,Kid Cudi,37,"Cleveland, OH"
+1315,Skylar Grey,35,"Mazomanie, WI"
+1316,Paul Rosenberg,50,United States
+1317,KRS-One,56,"The Bronx, NY"
+1318,Kenny Lattimore,51,"Washington, DC"
+1319,Fatboy Slim,58,"Bromley, England"
+1320,Special Ed,49,"Brooklyn, NY"
+1321,José González,43,Sweden
+1322,John Murphy,30,"Bradenton, FL"
+1323,Pusha T,44,"The Bronx, NY"
+1324,Kool Moe Dee,59,"New York City, NY"
+1325,Big Daddy Kane,53,"New York City, NY"
+1326,Jeru The Damaja,49,New York
+1327,Lupe Fiasco,39,"Chicago, IL"
+1328,Chance the Rapper,28,"Chicago, IL"
+1329,Janet Jackson,55,"Gary, IN"
+1330,Jermaine Dupri,49,"Asheville, NC"
+1331,Rammstein,,"Berlin, Germany"
+1332,Slipknot,,"Des Moines, IA"
+1333,System Of A Down,,"Glendale, CA"
+1334,TOOL,,"Los Angeles, CA"
+1335,Disturbed,,"Chicago, IL"
+1336,Marilyn Manson,52,"Canton, OH"
+1337,Rob Zombie,56,"Haverhill, MA"
+1338,Mudvayne,,"Peoria, IL"
+1339,Avenged Sevenfold,40,"Huntington Beach, CA"
+1340,Bullet For My Valentine,,"Bridgend, Wales"
+1341,P.O.D.,51,"Cleveland, OH"
+1342,DragonForce,42,England
+1343,Iron Maiden,,"London, England"
+1344,Static-X,,"Los Angeles, CA"
+1345,Stone Sour,,"Des Moines, IA"
+1346,Lamb of God,,"Richmond, VA"
+1347,Gojira,45,France
+1348,Pantera,,"Arlington, TX"
+1349,Five Finger Death Punch,,"Las Vegas, NV"
+1350,Megadeth,,"Los Angeles, CA"
+1351,Bruce Dickinson,63,"Worksop, England"
+1352,Judas Priest,70,"Sutton Coldfield, England"
+1353,HammerFall,,"Gothenburg, Sweden"
+1354,Velvet Revolver,,California
+1355,Alter Bridge,,"Orlando, FL"
+1356,Savatage,,"Tarpon Springs, FL"
+1357,Nightwish,44,"Kitee, Finland"
+1358,Richie Sambora,62,"Perth Amboy, NJ"
+1359,Deftones,48,"Sacramento, CA"
+1360,Hoobastank,,"Agoura Hills, CA"
+1361,Shinedown,,"Jacksonville, FL"
+1362,Saliva,49,"Memphis, TN"
+1363,Kid Rock,50,"Romeo, MI"
+1364,36 Crazyfists,46,"Soldotna, AK"
+1365,Sevendust,,"Atlanta, GA"
+1366,Evanescence,,"Little Rock, AR"
+1367,Incubus,,"Calabasas, CA"
+1368,Mushroomhead,21,United States
+1369,Dio,,"Cortland, NY"
+1370,Slayer,,"Los Angeles, CA"
+1371,Sammy Hagar,74,"Salinas, CA"
+1372,Girlschool,57,"Bradford, England"
+1373,Tesla,86,"Smiljan, Croatia"
+1374,Memphis May Fire,,"Dallas, TX"
+1375,The Amity Affliction,,Australia
+1376,ODC,,United States
+1377,Lordi,25,"Auckland, New Zealand"
+1378,Bad Omens,,"Los Angeles, CA"
+1379,IC3PEAK,26,"Riga, Latvia"
+1380,In Hearts Wake,,"Byron Bay, Australia"
+1381,Heavenly,51,Florida
+1382,Eskimo Callboy,,"Castrop-Rauxel, Germany"
+1383,Within Temptation,46,Netherlands
+1384,Manafest,42,"Pickering, Canada"
+1385,Bryson Tiller,29,"Louisville, KY"
+1386,Jeremih,34,"Chicago, IL"
+1387,Tory Lanez,29,"Brampton, Canada"
+1388,Ella Mai,27,"London, England"
+1389,Jhené Aiko,33,"Los Angeles, CA"
+1390,Daniel Caesar,26,"Oshawa, Canada"
+1391,August Alsina,29,"New Orleans, LA"
+1392,PARTYNEXTDOOR,28,"Mississauga, Canada"
+1393,Omarion,37,"Inglewood, CA"
+1394,Teyana Taylor,31,"Harlem, NY"
+1395,K. Michelle,35,"Memphis, TN"
+1396,Jackie Wilson,49,"Detroit, MI"
+1397,Natalie Cole,65,"Los Angeles, CA"
+1398,Kool & The Gang,,"Jersey City, NJ"
+1399,Dinah Washington,39,"Tuscaloosa, AL"
+1400,The Supremes,,"Detroit, MI"
+1401,Marvin Gaye,44,"Washington, DC"
+1402,Sam Cooke,33,"Clarksdale, MS"
+1403,The Ronettes,,"New York City, NY"
+1404,Joel Culpepper,37,"London, England"
+1405,Ray Charles,73,"Albany, GA"
+1406,Otis Redding,26,"Dawson, GA"
+1407,Ella Fitzgerald,79,"Newport News, VA"
+1408,Sly Stone,78,"Denton, TX"
+1409,Raphael Saadiq,55,"Oakland, CA"
+1410,The Temptations,,"Detroit, MI"
+1411,Etta James,73,"Los Angeles, CA"
+1412,Mary Wells,49,"Detroit, MI"
+1413,Solomon Burke,70,"Philadelphia, PA"
+1414,Wilson Pickett,64,"Prattville, AL"
+1415,Jean Knight,78,Louisiana
+1416,Little Richard,87,"Macon, GA"
+1417,Chaka Khan,68,"Naval Station, IL"
+1418,Dusty Springfield,59,"London, England"
+1419,Ben E. King,76,"Henderson, NC"
+1420,The Drifters,,"New York City, NY"
+1421,Twenty One Pilots,34,"Seoul, South Korea"
+1422,Two Feet,28,"New York City, NY"
+1423,alt-J,,"Leeds, England"
+1424,The Faim,,"Perth, Australia"
+1425,The Regrettes,,"Los Angeles, CA"
+1426,Grabbitz,28,"Buffalo, NY"
+1427,Royal & the Serpent,27,New Jersey
+1428,The Band CAMINO,,"Memphis, TN"
+1429,MisterWives,,"New York City, NY"
+1430,half•alive,,"Long Beach, CA"
+1431,Beach Bunny,,"Chicago, IL"
+1432,Bad Suns,,"Los Angeles, CA"
+1433,K.Flay,36,Illinois
+1434,Jagwar Twin,33,"Los Angeles, CA"
+1435,Sub Urban,22,United States
+1436,Bryce Vine,33,"New York City, NY"
+1437,Charlotte Sands,25,United States
+1438,Robert DeLong,35,Washington
+1439,PVRIS,,"Lowell, MA"
+1440,Joywave,,"Rochester, NY"
+1441,lozeak,18,England
+1442,Mother Mother,,Canada
+1443,Tyler Posey,30,"Santa Monica, CA"
+1444,Dashboard Confessional,,"Boca Raton, FL"
+1445,Aidan Bissett,19,"Portland, OR"
+1446,Saint Motel,,"Los Angeles, CA"
+1447,Cobra Starship,,"New York City, NY"
+1448,Justus Bennetts,21,North Carolina
+1449,Alice Merton,28,"Frankfurt, Germany"
+1450,LJ Benet,25,"Los Angeles, CA"
+1451,The Knocks,,"New York City, NY"
+1452,Goody Grace,24,Canada
+1453,Spoon,32,Utah
+1454,Cat Power,49,"Atlanta, GA"
+1455,Big Red Machine,,"Eau Claire, WI"
+1456,Courtney Barnett,34,Australia
+1457,Nick Murphy,38,Pennsylvania
+1458,Pete Yorn,47,"Montville, NJ"
+1459,Yebba,26,Arkansas
+1460,Snail Mail,22,United States
+1461,Brett Dennen,42,"Oakdale, CA"
+1462,Amos Lee,44,"Philadelphia, PA"
+1463,Beach House,,"Baltimore, MD"
+1464,Suki Waterhouse,29,"London, England"
+1465,Reignwolf,38,"Saskatoon, Canada"
+1466,Modest Mouse,,"Issaquah, WA"
+1467,Our Lady Peace,,"Toronto, Canada"
+1468,DON BROCO,,"Bedford, England"
+1469,Angels & Airwaves,,"San Diego, CA"
+1470,LUNA AURA,29,"San Diego, CA"
+1471,Briston Maroney,23,"Knoxville, TN"
+1472,FIDLAR,34,Hawaii
+1473,Marmozets,29,England
+1474,Starcrawler,,"Los Angeles, CA"
+1475,Meg Myers,35,"Nashville, TN"
+1476,Highly Suspect,,"Cape Cod, MA"
+1477,You Me At Six,31,"Weybridge, England"
+1478,Thrice,,"Irvine, CA"
+1479,Placebo,,"London, England"
+1480,The Struts,,"Derby, England"
+1481,Silversun Pickups,,"Los Angeles, CA"
+1482,Third Eye Blind,,"San Francisco, CA"
+1483,Grouplove,,"Los Angeles, CA"
+1484,Interpol,,"New York City, NY"
+1485,Yeah Yeah Yeahs,,"birthplace.new york, NY"
+1486,Death Cab for Cutie,,"Bellingham, WA"
+1487,Mumford & Sons,,"London, England"
+1488,Cold War Kids,46,United States
+1489,The Used,,"Orem, UT"
+1490,Joy Division,,"Salford, England"
+1491,Veruca Salt,,"Chicago, IL"
+1492,Alanis Morissette,47,"Ottawa, Canada"
+1493,Passion Pit,,"Cambridge, MA"
+1494,Arcade Fire,,"Montreal, Canada"
+1495,Audioslave,,"Glendale, CA"
+1496,The Libertines,40,"Westminster, England"
+1497,A Perfect Circle,,"Los Angeles, CA"
+1498,Kasabian,,"Leicester, England"
+1499,Phantom Planet,,"Los Angeles, CA"
+1500,Thirty Seconds To Mars,,"Los Angeles, CA"
+1501,Fiona Apple,44,"New York City, NY"
+1502,Feist,45,Canada
+1503,Miike Snow,,"Stockholm, Sweden"
+1504,Santigold,45,"Philadelphia, PA"
+1505,The Ting Tings,,"Salford, England"
+1506,Snow Patrol,45,Northern Ireland
+1507,AWOLNATION,37,Florida
+1508,Gotye,41,"Bruges, Belgium"
+1509,Fitz and The Tantrums,,"Los Angeles, CA"
+1510,Alvvays,,"Toronto, Canada"
+1511,HAIM,,"Los Angeles, CA"
+1512,Sylvan Esso,33,United States
+1513,Father John Misty,40,Maryland
+1514,Flyte,30,"Arlington, TX"
+1515,Mac DeMarco,31,"Duncan, Canada"
+1516,Local Natives,36,United States
+1517,Thundercat,37,"Los Angeles, CA"
+1518,Kurt Vile,41,"Landsdowne, PA"
+1519,Car Seat Headrest,29,United States
+1520,Sharon Van Etten,40,New Jersey
+1521,Hamilton Leithauser,44,"Boston, MA"
+1522,The Coral,,"Hoylake, England"
+1523,Scissor Sisters,,"New York City, NY"
+1524,The Cribs,,"Wakefield, England"
+1525,Ladyhawke,42,United States
+1526,Shuggie Otis,68,"Los Angeles, CA"
+1527,George Benson,27,"Basingstoke, England"
+1528,Curtis Mayfield,57,"Chicago, IL"
+1529,Bobby Womack,70,"Cleveland, OH"
+1530,Gil Scott-Heron,62,"Chicago, IL"
+1531,Barrett Strong,80,"West Point, MS"
+1532,Labi Siffre,76,England
+1533,Lionel Richie,72,"Tuskegee, AL"
+1534,Them,46,"Los Angeles, CA"
+1535,James Brown,73,"Barnwell, SC"
+1536,Stan Walker,31,"Melbourne, Australia"
+1537,Anderson .Paak,35,"Oxnard, CA"
+1538,Gregory Porter,50,"Sacramento, CA"
+1539,Emma Donovan,41,Australia
+1540,Mayer Hawthorne,42,"Ann Arbor, MI"
+1541,Keb' Mo',70,"Los Angeles, CA"
+1542,Lou Rawls,72,"Chicago, IL"
+1543,Barry White,58,"Galveston, TX"
+1544,Isaac Hayes,65,"Covington, TN"
+1545,Aaron Neville,80,"New Orleans, LA"
+1546,Joe Simon,98,New York
+1547,Phyllis Hyman,45,"Pittsburgh, PA"
+1548,Teddy Pendergrass,59,"Philadelphia, PA"
+1549,Johnnie Taylor,66,"Crawfordsville, AR"
+1550,Rufus Thomas,84,Mississippi
+1551,Shirley Brown,74,"West Memphis, AR"
+1552,Jean Deaux,26,"Chicago, IL"
+1553,Andra Day,37,"Spokane, WA"
+1554,D-Nice,51,"New York City, NY"
+1555,Sinéad Harnett,32,England
+1556,Masego,28,"Kingston, Jamaica"
+1557,Salaam Remi,49,"Queens, NY"
+1558,Tiana Major9,26,"London, England"
+1559,lophiile,31,"Lakewood, WA"
+1560,Kyle Dion,27,United States
+1561,Luke James,37,"New Orleans, LA"
+1562,ODIE,50,Indonesia
+1563,Big Boi,46,"Savannah, GA"
+1564,LION BABE,,"New York City, NY"
+1565,Yuna,35,"Alor Setar, Malaysia"
+1566,Blood Orange,36,"Ilford, England"
+1567,Charles Bradley,68,United States
+1568,Bobby Hebb,72,"Nashville, TN"
+1569,Melba Moore,76,"New York City, NY"
+1570,Lee Brice,42,"Sumter, SC"
+1571,Maddie & Tae,,"Nashville, TN"
+1572,Lainey Wilson,29,"Baskin, LA"
+1573,Chase Rice,35,Florida
+1574,Maren Morris,31,"Arlington, TX"
+1575,Darius Rucker,55,"Charleston, SC"
+1576,Russell Dickerson,34,"Union City, TN"
+1577,Rascal Flatts,,"Columbus, OH"
+1578,Zac Brown Band,,"Dahlonega, GA"
+1579,Billy Currington,48,"Savannah, GA"
+1580,Florida Georgia Line,,"Orlando, FL"
+1581,Eli Young Band,,"Denton, TX"
+1582,Brett Young,40,"Anaheim, CA"
+1583,Thompson Square,45,"Miami, OK"
+1584,Jason Aldean,44,"Macon, GA"
+1585,Lady A,,"Nashville, TN"
+1586,Kameron Marlowe,24,"Kannapolis, NC"
+1587,Trace Adkins,59,"Sarepta, LA"
+1588,Kenny Chesney,53,"Knoxville, TN"
+1589,Tyler Rich,35,"Yuba City, CA"
+1590,Brad Paisley,49,"Glen Dale, WV"
+1591,Ashley McBryde,38,Arkansas
+1592,Little Big Town,,"Homewood, AL"
+1593,Jessie James Decker,33,"Vicenza, Italy"
+1594,Phil Vassar,57,"Lynchburg, VA"
+1595,Elle King,32,"Los Angeles, CA"
+1596,BRELAND,34,Louisiana
+1597,Rodney Atkins,52,"Knoxville, TN"
+1598,Randy Houser,46,"Lake, MS"
+1599,Love and Theft,37,"Palm Harbor, FL"
+1600,Carrie Underwood,38,"Muskogee, OK"
+1601,Kip Moore,41,"Tifton, GA"
+1602,Craig Morgan,57,"Kingston Springs, TN"
+1603,Brooks & Dunn,,"Nashville, TN"
+1604,Toby Keith,60,"Clinton, OK"
+1605,Buck Owens,76,"Sherman, TX"
+1606,Alan Jackson,63,"Newnan, GA"
+1607,John Michael Montgomery,56,Kentucky
+1608,Mark Wills,48,"Cleveland, TN"
+1609,Red Sovine,61,"Charleston, WV"
+1610,Waylon Jennings,64,"Littlefield, TX"
+1611,Lynn Anderson,67,"Grand Forks, ND"
+1612,Vince Gill,64,"Norman, OK"
+1613,Johnny Cash,71,"Kingsland, AR"
+1614,Hunter Hayes,30,"Breaux Bridge, LA"
+1615,Faron Young,64,"Shreveport, LA"
+1616,Conway Twitty,59,"Friars Point, MS"
+1617,James Otto,48,"Fort Lewis, WA"
+1618,Faith Hill,54,"Ridgeland, MS"
+1619,Collin Raye,61,"De Queen, AR"
+1620,Merle Haggard,79,"Oildale, CA"
+1621,Randy Travis,62,"Marshville, NC"
+1622,T.G. Sheppard,77,"Humboldt, TN"
+1623,Lonestar,,United States
+1624,Patsy Cline,30,"Winchester, VA"
+1625,Johnny Duncan,67,"Dublin, TX"
+1626,John Anderson,56,Wisconsin
+1627,Clint Black,59,"Long Branch, NJ"
+1628,Ronnie Milsap,78,"Robbinsville, NC"
+1629,Eddie Rabbitt,56,"Brooklyn, NY"
+1630,Billy Ray Cyrus,60,"Flatwoods, KY"
+1631,George Strait,69,"Poteet, TX"
+1632,Jim Reeves,40,"Galloway, TX"
+1633,Josh Turner,44,"Hannah, SC"
+1634,Joe Diffie,61,"Tulsa, OK"
+1635,Charley Pride,86,"Sledge, MS"
+1636,Keith Whitley,34,"Ashland, KY"
+1637,Carl Butler,41,"Logan, UT"
+1638,Connie Smith,80,"Elkhart, IN"
+1639,C.W. McCall,93,Iowa
+1640,"Hank Williams, Jr.",72,"Mount Olive, LA"
+1641,Ray Price,87,"Perryville, TX"
+1642,Trey Lewis,34,"Birmingham, AL"
+1643,MacKenzie Porter,31,Canada
+1644,Chase Bryant,29,"Orange Grove, TX"
+1645,Hannah Ellis,31,Kentucky
+1646,Clayton Anderson,62,"Omaha, NE"
+1647,Austin Burke,26,"Culpeper, VA"
+1648,Brantley Gilbert,36,"Jefferson, GA"
+1649,RaeLynn,27,"Baytown, TX"
+1650,Adam Doleac,33,"Hattiesburg, MS"
+1651,Josh Gracin,41,"Westland, MI"
+1652,Chris Janson,35,Missouri
+1653,Restless Road,,"Nashville, TN"
+1654,Avery Anna,17,United States
+1655,Lily Rose,22,"Paris, France"
+1656,Chayce Beckham,25,California
+1657,Tigirlily,25,North Dakota
+1658,Jaden Michaels,29,"Davenport, IA"
+1659,Jade Eagleson,27,Canada
+1660,Tucker Beathard,26,"Nashville, TN"
+1661,Hannah Dasher,35,Georgia
+1662,Laci Kaye Booth,26,Texas
+1663,Scotty McCreery,28,"Raleigh, NC"
+1664,Maggie Baugh,21,"Boca Raton, FL"
+1665,Dylan Schneider,22,"Terre Haute, IN"
+1666,Sean Stemaly,26,United States
+1667,James Barker Band,29,"Ajax, Canada"
+1668,Spencer Crandall,27,"Denver, CO"
+1669,Laine Hardy,21,Louisiana
+1670,Chris Lane,37,"Kernersville, NC"
+1671,Logan Mize,36,"Wichita, KS"
+1672,Sam Grow,34,Maryland
+1673,Drake White,38,"Gadsden, AL"
+1674,Steven Lee Olsen,36,Canada
+1675,Caroline Jones,84,Australia
+1676,Olivia Lane,27,"Dover, NH"
+1677,Trisha Yearwood,57,"Monitcello, GA"
+1678,Aubrie Sellers,30,Tennessee
+1679,LANCO,,"Nashville, TN"
+1680,Maggie Rose,33,Maryland
+1681,Rvshvd,24,Georgia
+1682,Koe Wetzel,29,Texas
+1683,Jackson Dean,18,United States
+1684,Canaan Smith,39,"Willamsburg, VA"
+1685,Aaron Lewis,49,"Rutland City, VT"
+1686,Corey Kent,27,"Bixby, OK"
+1687,Caleb Lee Hutchinson,22,Georgia
+1688,Daniel Lee,30,"Jackson, MS"
+1689,Eddie Montgomery,58,Kentucky
+1690,Brett James,53,"Columbia, MO"
+1691,Cody Jinks,41,"Fort Worth, TX"
+1692,Melissa Etheridge,60,"Leavenworth, KS"
+1693,Jamey Johnson,46,"Enterprise, AL"
+1694,Rob Mayes,37,"Pepper Pike, OH"
+1695,Hayley Kiyoko,30,"Los Angeles, CA"
+1696,Whitney Houston,48,"Newark, NJ"
+1697,Gloria Gaynor,78,"Newark, NJ"
+1698,Cheryl Lynn,64,California
+1699,Taylor Dayne,59,"Long Island, NY"
+1700,Donna Summer,63,"Boston, MA"
+1701,Laura Branigan,52,New York
+1702,George Michael,53,"London, England"
+1703,The B-52's,,"Athens, GA"
+1704,Anita Ward,64,"Memphis, TN"
+1705,Culture Club,,"London, England"
+1706,Erasure,57,England
+1707,Sister Sledge,,"Philadelphia, PA"
+1708,CeCe Peniston,52,"Dayton, OH"
+1709,Suzanne Vega,62,"Santa Monica, CA"
+1710,Spice Girls,,"London, England"
+1711,Annie Lennox,67,"Aberdeen, Scotland"
+1712,Ricky Martin,50,"San Juan, PR"
+1713,Village People,,"New York City, NY"
+1714,Tracy Chapman,57,"Cleveland, OH"
+1715,Dan Hartman,43,"Harrisburg, PA"
+1716,Freddie Mercury,45,"Zanzibar City, Tanzania"
+1717,Kelly Marie,64,Scotland
+1718,RuPaul,61,"San Diego, CA"
+1719,Freddie Lewis,78,West Virginia
+1720,Laura Jane Grace,41,"Fort Benning, GA"
+1721,Ezra Furman,35,Illinois
+1722,Shea Couleé,32,"Chicago, IL"
+1723,Miss Benny,22,"Dallas, TX"
+1724,Arca,32,"Caracas, Venezuela"
+1725,Mal Blum,33,New York
+1726,Shamir,27,"Las Vegas, NV"
+1727,Teddy Geiger,33,"Buffalo, NY"
+1728,Alex Newell,29,"Lynn, MA"
+1729,Jazmin Bean,18,England
+1730,Kim Petras,29,"Cologne, Germany"
+1731,ANOHNI,50,"Chichester, England"
+1732,Angel Haze,29,"Detroit, MI"
+1733,Skylar Kergil,30,New York
+1734,Maya Jane Coles,33,"London, England"
+1735,Jodie Harsh,36,"Canterbury, England"
+1736,Róisín Murphy,48,Ireland
+1737,Lotic,32,Germany
+1738,girl in red,22,"Horten, Norway"
+1739,Ashnikko,25,North Carolina
+1740,Emily Vu,20,United States
+1741,mxmtoon,21,"Oakland, CA"
+1742,G Flip,27,"Melbourne, Australia"
+1743,MUNA,34,"Port Harcourt, Nigeria"
+1744,Marika Hackman,29,England
+1745,Orla Gartland,26,"Dublin, Ireland"
+1746,Julien Baker,26,"Memphis, TN"
+1747,Tash Sultana,26,"Melbourne, Australia"
+1748,The Aces,,"Provo, UT"
+1749,Shura,30,England
+1750,Rina Sawayama,31,Japan
+1751,Keiynan Lonsdale,30,"Sydney, Australia"
+1752,Lauren Sanderson,25,United States
+1753,dodie,26,"Essex, England"
+1754,Kaash Paige,20,United States
+1755,Jeremy Pope,29,Florida
+1756,King Princess,23,"Brooklyn, NY"
+1757,Joy Oladokun,29,"Casa Grande, AZ"
+1758,BROCKHAMPTON,,"San Marcos, TX"
+1759,St. Vincent,39,"Tulsa, OK"
+1760,Peaches,20,United States
+1761,Baby Queen,24,South Africa
+1762,Lucas & Steve,28,Netherlands
+1763,Vintage Culture,28,Brazil
+1764,Sigala,29,"Norfolk, England"
+1765,Skrillex,33,"Los Angeles, CA"
+1766,Tujamo,33,"Detmold, Germany"
+1767,Gorgon City,35,"High Wycombe, England"
+1768,Syn Cole,33,"Parnu, Estonia"
+1769,Felix Cartal,34,Canada
+1770,Cash Cash,,"Roseland, NJ"
+1771,Codeko,24,"London, England"
+1772,Laidback Luke,45,"Manila, Philippines"
+1773,Virginia To Vegas,31,Virginia
+1774,Steve James,23,United States
+1775,Vicetone,29,Netherlands
+1776,Ella Henderson,25,"Tetney, England"
+1777,Silk City,,United States
+1778,Justin Caruso,8,United States
+1779,Paul Oakenfold,58,England
+1780,Tensnake,46,"Hamburg, Germany"
+1781,Steve Aoki,44,"Miami, FL"
+1782,GoldFish,40,"Kuala Lumpur, Malaysia"
+1783,Martin Jensen,30,"Silkeborg, Denmark"
+1784,Jeffrey Sutorius,42,"The Hague, Netherlands"
+1785,Louis The Child,,"Chicago, IL"
+1786,Felix Jaehn,27,"Hamburg, Germany"
+1787,Morgan Page,40,"Burlington, VT"
+1788,Yung Bae,27,"Portland, OR"
+1789,MAKJ,31,"San Luis Obispo, CA"
+1790,Cedric Gervais,42,France
+1791,Siedah Garrett,63,"Los Angeles, CA"
+1792,Groove Delight,29,"Sao Paulo, Brazil"
+1793,Nathan Dawe,27,England
+1794,Breathe Carolina,33,"Denver, CO"
+1795,Above & Beyond,,"London, England"
+1796,Mark Knight,48,"London, England"
+1797,Bakermat,30,Netherlands
+1798,Alexandra Stan,32,"Constanta, Romania"
+1799,Julian Calor,28,"Wageningen, Netherlands"
+1800,ItaloBrothers,32,Germany
+1801,Mr. Probz,37,"Zoetermeer, Netherlands"
+1802,Duke Dumont,39,"London, England"
+1803,Rudimental,,"London, England"
+1804,Mike Perry,30,"Flint, MI"
+1805,Ina Wroldsen,37,Norway
+1806,Matt Simons,34,"Palo Alto, CA"
+1807,Alle Farben,36,"Berlin, Germany"
+1808,A R I Z O N A,49,"Brooklyn, NY"
+1809,Petit Biscuit,22,"Rouen, France"
+1810,Nick Jonas,29,"Dallas, TX"
+1811,Seinabo Sey,31,Sweden
+1812,Bruno Martini,59,"Challuy, France"
+1813,Whethan,22,United States
+1814,Flume,30,"Sydney, Australia"
+1815,ODESZA,,"Seattle, WA"
+1816,Møme,41,"Bangkok, Thailand"
+1817,Kyla La Grange,35,England
+1818,Burak Yeter,39,"Trabzon, Turkey"
+1819,Elohim,33,United States
+1820,Disclosure,,"Surrey, England"
+1821,Porter Robinson,29,"Chapel Hill, NC"
+1822,Ben Pearce,32,England
+1823,Ben Platt,28,"Los Angeles, CA"
+1824,Christina Perri,35,"Philadelphia, PA"
+1825,Zoe Wees,19,Germany
+1826,Calum Scott,33,"Kingston upon Hull, England"
+1827,Labrinth,32,"London, England"
+1828,Lauren Daigle,30,"Lafayette, LA"
+1829,Natalie Taylor,35,Alabama
+1830,Rag'n'Bone Man,36,England
+1831,Backstreet Boys,,"Orlando, FL"
+1832,Uncle Kracker,47,"Mount Clemens, MS"
+1833,Capital Cities,40,"San Francisco, CA"
+1834,Natalie Imbruglia,46,"Sydney, Australia"
+1835,Kevin Lyttle,45,United States
+1836,Lizzo,33,"Detroit, MI"
+1837,Echosmith,,"Chino, CA"
+1838,Boyz II Men,,"Philadelphia, PA"
+1839,Eric Prydz,45,"Taby, Sweden"
+1840,Salt-N-Pepa,,"Queens, NY"
+1841,Savage Garden,,"Brisbane, Australia"
+1842,No Doubt,,"Anaheim, CA"
+1843,Nickelback,,"Hanna, Canada"
+1844,Daft Punk,,"Paris, France"
+1845,Sonique,53,"London, England"
+1846,Shaggy,53,"Kingston, Jamaica"
+1847,Michelle Branch,38,"Sedona, AZ"
+1848,Marc Cohn,62,"Cleveland, OH"
+1849,Daniel Merriweather,39,"Melbourne, Australia"
+1850,TLC,,"Atlanta, GA"
+1851,Dominic Fike,26,Florida
+1852,George Ezra,28,"Hertford, England"
+1853,Mark Morrison,49,Germany
+1854,X Ambassadors,,"Ithaca, NY"
+1855,Sixpence None The Richer,49,United States
