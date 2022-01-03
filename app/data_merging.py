@@ -7,10 +7,12 @@ if __name__ == '__main__':
     df_data = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing.csv")
     df_origins = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins.csv")
     df_origins2 = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins2.csv")
+    df_origins3 = pd.read_csv(Path.cwd().parent / "data" / "artists_origin_and_age.csv")
+    df_origins3 = df_origins3.rename(columns={'artist': 'artist_name'})
     findings = []
     for artist in df_data["artist_name"].unique().tolist():
         artist_origin = np.NaN
-        for df in [df_origins, df_origins2]:
+        for df in [df_origins3, df_origins2, df_origins]:
             try:
                 row = df.index[df["artist_name"] == artist].tolist()[0]
                 artist_origin = df.loc[row, "origin"]
