@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 AZLYRICS_URL = "https://www.azlyrics.com/lyrics"
 RANKER_URL = "https://www.ranker.com/fact-lists/recording-artists-and-groups/hometown"
-
+BRITANNICA_URL = "https://www.britannica.com/biography/"
 
 class Status404CounterException(BaseException):
     pass
