@@ -22,5 +22,5 @@ if __name__ == '__main__':
 
         df_data.loc[df_data["artist_name"] == artist, "artist_origin"] = artist_origin
 
-    df_data.to_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing_with_origins.csv")
+    df_data.to_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing_with_origins_from_all_crawlers.csv")
     print(df_data["artist_origin"].isnull().sum())
