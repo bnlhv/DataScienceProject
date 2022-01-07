@@ -53,7 +53,7 @@ def convert_origin_to_country_codes(df: pd.DataFrame) -> pd.DataFrame:
 
 
 if __name__ == '__main__':
-    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing_with_origins_from_all_crawlers.csv")
+    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_convert_origin_to_country_code.csv")
     df = remove_nan_values(df.copy())
     df = remove_noise_cols(df)
     df = convert_origin_to_country_codes(df)
