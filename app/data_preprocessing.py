@@ -15,8 +15,8 @@ states = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "C
 
 
 def remove_noise_cols(df: pd.DataFrame) -> pd.DataFrame:
-    valid_cols = ["track_uri", "track_name", "artist_name", "artist_popularity", "artist_followers",
-                  "artist_genres", "album", "track_popularity", "track_danceability", "track_energy",
+    valid_cols = ["track_uri", "artist_name", "artist_popularity", "artist_followers",
+                  "artist_genres", "track_popularity", "track_danceability", "track_energy",
                   "track_loudness", "track_tempo", "track_duration_ms", "is_explict_content", "artist_origin"]
     cols_to_remove = list(filter(lambda x: x not in valid_cols, df.columns))
 
