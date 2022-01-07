@@ -1,6 +1,7 @@
 from pathlib import Path
 import pycountry
 import pandas as pd
+from sklearn.preprocessing import LabelEncoder
 
 states = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
           "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
@@ -15,9 +16,9 @@ states = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "C
 
 
 def remove_noise_cols(df: pd.DataFrame) -> pd.DataFrame:
-    valid_cols = ["track_uri", "track_name", "artist_name", "artist_popularity", "artist_followers",
-                  "artist_genres", "album", "track_popularity", "track_danceability", "track_energy",
-                  "track_loudness", "track_tempo", "track_duration_ms", "is_explict_content", "artist_origin"]
+    valid_cols = ["track_uri", "artist", "artist_popularity", "artist_followers",
+                  "artist_genres", "track_popularity", "track_danceability", "track_energy",
+                  "track_loudness", "track_tempo", "track_duration_ms", "is_explict_content", "country_code"]
     cols_to_remove = list(filter(lambda x: x not in valid_cols, df.columns))
 
     return df.drop(columns=cols_to_remove)
@@ -53,9 +54,11 @@ def convert_origin_to_country_codes(df: pd.DataFrame) -> pd.DataFrame:
 
 
 if __name__ == '__main__':
+    labelEncoder = LabelEncoder()
     df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_convert_origin_to_country_code.csv")
     df = remove_nan_values(df.copy())
+    df["artist"] = labelEncoder.fit_transform(df["artist_name"])
     df = remove_noise_cols(df)
     df = convert_origin_to_country_codes(df)
     df.reset_index(drop=True, inplace=True)
-    df.to_csv(Path.cwd().parent / "data" / "tracks_after_convert_origin_to_country_code.csv")
+    df.to_csv(Path.cwd().parent / "data" / "tracks_after_convert_artist_name_to_nominal.csv")
