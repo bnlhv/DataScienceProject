@@ -1,7 +1,8 @@
 from pathlib import Path
-import pycountry
+
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
+import pycountry
+from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
 
 states = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
           "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
@@ -51,6 +52,77 @@ def convert_origin_to_country_codes(df: pd.DataFrame) -> pd.DataFrame:
     df["artist_origin"] = df["artist_origin"].apply(to_country_code)
     df = df.rename(columns={'artist_origin': 'country_code'})
     return df
+
+
+def parse_column(df: pd.DataFrame, col: str) -> pd.DataFrame:
+    """
+    Function that parses string saves Series column to Tuple.
+    This is for the `artist_genres` column.
+
+    :param df: the dataframe to change.
+    :param col: the column to parse.
+    :return updated Dataframe
+    """
+    df_copy = df.copy()
+    df_copy[col] = pd.Series([eval(instance[col]) for idx, instance in df_copy.iterrows()])
+
+    return df_copy
+
+
+def convert_artist_genres_to_dummies(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Function that operates on `artist_genres` in Dataframe and return df with dummies.
+
+    :param df: The given Dataframe to preform action on.
+    :return: new Dataframe
+    """
+    mlb = MultiLabelBinarizer()
+
+    # Numpy matrix of dummies
+    genres = mlb.fit_transform(df["artist_genres"])
+
+    df_genres = pd.DataFrame(data=genres, columns=mlb.classes_)
+
+    # return concatenated dataframe
+    return pd.concat([df, df_genres], axis=1)
+
+
+def drop_correlated_dummy_genre_features(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Function that drop high correlated features of the `artist_genres` dummy features.
+
+    :param df: the Dataframe to preform action on
+    :return: new Dataframe
+    """
+    # Get correlation matrix
+    corr = df.corr()
+
+    # Create a mask for values above 90%
+    # But also below 100% since it variables correlated with the same one
+    mask = (df.corr() > 0.9) & (df.corr() < 1.0)
+    high_corr = corr[mask]
+
+    # Create a new column mask using any() and ~
+    col_to_filter_out = ~high_corr[mask].any()
+
+    # Apply new mask
+    X_clean = df[high_corr.columns[col_to_filter_out]]
+
+    return X_clean
+
+
+def artist_genres_pipeline(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Function that handles all this pipeline.
+
+    :param df: the Dataframe to preform action on
+    :return: new Dataframe
+    """
+    df_copy = parse_column(df, "artist_genres")
+    df_copy = convert_artist_genres_to_dummies(df_copy)
+    df_copy = drop_correlated_dummy_genre_features(df_copy)
+
+    return df_copy
 
 
 if __name__ == '__main__':

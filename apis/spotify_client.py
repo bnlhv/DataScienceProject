@@ -14,12 +14,7 @@ def spotify_client() -> Spotify:
 
     :return: Spotify instance
     """
-    return Spotify(
-        auth_manager=SpotifyClientCredentials(
-            client_id=os.getenv('SPOTIPY_CLIENT_ID'),
-            client_secret=os.getenv('SPOTIPY_CLIENT_SECRET'),
-            requests_timeout=60
-        ))
+    return Spotify(auth_manager=SpotifyClientCredentials(client_id=os.getenv('SPOTIPY_CLIENT_ID'),client_secret=os.getenv('SPOTIPY_CLIENT_SECRET'),requests_timeout=60))
 
 
 def url_to_uri(playlists: List) -> List[str]:
