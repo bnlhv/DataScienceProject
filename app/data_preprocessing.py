@@ -1,8 +1,11 @@
 from pathlib import Path
 
+# import mlb as mlb
 import pandas as pd
 import pycountry
 from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
+import itertools
+from collections import Counter
 
 states = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas", "CA": "California", "CO": "Colorado",
           "CT": "Connecticut", "DE": "Delaware", "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
@@ -125,12 +128,44 @@ def artist_genres_pipeline(df: pd.DataFrame) -> pd.DataFrame:
     return df_copy
 
 
+def convert_artist_genres_to_dummies2(df: pd.DataFrame, col: str) -> pd.DataFrame:
+    df = parse_column(df, col)
+    list_of_genres = list(itertools.chain(*df[col]))
+    occurrences = Counter(list_of_genres)
+    popular_genres = ['pop', 'rock', 'rap', 'country', 'mellow gold', 'country', 'edm', 'house', 'metal',
+                      'soul',
+                      'r&b', 'permanent wave', 'urban contemporary', 'adult standards', 'electro', 'alt z', 'hip pop',
+                      'motown',
+                      'quiet storm', 'funk', 'singer-songwriter', 'folk', 'disco', 'neo mellow']
+
+    for genre in popular_genres:
+        df[genre] = 0
+
+    for i, genre_tuple in enumerate(df[col]):
+        for genre in genre_tuple:
+            for popular_genre in popular_genres:
+                if genre in popular_genre:
+                    df.loc[i, popular_genre] = 1
+
+    df["hip pop"] = 0
+    df["trap"] = 0
+    for i, genre_tuple in enumerate(df[col]):
+        for genre in genre_tuple:
+            if genre == "hip pop":
+                df.loc[i, "hip pop"] = 1
+            if genre == "trap":
+                df.loc[i, "trap"] = 1
+    return df
+
+
 if __name__ == '__main__':
-    labelEncoder = LabelEncoder()
-    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_convert_origin_to_country_code.csv")
-    df = remove_nan_values(df.copy())
-    df["artist"] = labelEncoder.fit_transform(df["artist_name"])
-    df = remove_noise_cols(df)
-    df = convert_origin_to_country_codes(df)
-    df.reset_index(drop=True, inplace=True)
-    df.to_csv(Path.cwd().parent / "data" / "tracks_after_convert_artist_name_to_nominal.csv")
+    # labelEncoder = LabelEncoder()
+    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_convert_artist_name_to_nominal.csv")
+    df = convert_artist_genres_to_dummies2(df, "artist_genres")
+    print("")
+    # df = remove_nan_values(df.copy())
+    # df["artist"] = labelEncoder.fit_transform(df["artist_name"])
+    # df = remove_noise_cols(df)
+    # df = convert_origin_to_country_codes(df)
+    # df.reset_index(drop=True, inplace=True)
+    df.to_csv(Path.cwd().parent / "data" / "final_dataset.csv")
