@@ -97,7 +97,8 @@ def save_tracks_in_csv(tracks: List) -> None:
     :param tracks: List of Track dicts
     """
     df = pd.DataFrame(data=tracks, columns=tracks[0].keys())
-    df.drop_duplicates(subset=["track_name", "artist_name"])  # Supposing that each song can appear in different playlists
+    df.drop_duplicates(
+        subset=["track_name", "artist_name"])  # Supposing that each song can appear in different playlists
     df.to_csv(
         path_or_buf=Path.cwd().parent / "data" / "tracks.csv",
         sep=",",
