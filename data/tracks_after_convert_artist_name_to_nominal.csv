@@ -343,7 +343,7 @@
 341,spotify:track:3HGnIIdHYIbkowzLk8UHbE,66,86076,"('contemporary country', 'country pop')",75,0.678,0.528,-7.317,79.018,194545,0,840,690
 342,spotify:track:69AIpwGNLxr4qS1X5ynx60,72,535523,"('contemporary country',)",81,0.586,0.559,-6.725,177.945,167480,0,826,811
 343,spotify:track:0ODaBMQ3tbTefbmbMWTwdT,62,243230,"('contemporary country', 'country', 'country pop')",71,0.463,0.76,-5.958,123.899,164347,0,840,410
-344,spotify:track:4GyD3o5hWoyCuYpdlzZlRL,83,5967424,"('contemporary country', 'country')",78,0.593,0.552,-5.838,115.0,254181,0,840,996
+344,spotify:track:4GyD3o5hWoyCuYpdlzZlRL,83,5967424,"('contemporary country', 'country')",78,0.593,0.552,-5.838,115,254181,0,840,996
 345,spotify:track:7DhvNzyMM8jJWcfykG3psB,71,1719301,"('contemporary country', 'country', 'country road', 'modern country rock')",78,0.403,0.711,-4.189,203.803,170560,0,840,479
 346,spotify:track:0XxNamjHxu0ercIQmWNkRT,62,29622,"('contemporary country',)",11,0.502,0.662,-4.041,110.917,251293,0,840,1113
 347,spotify:track:19ZzEzb4BVK1wVO4brrmZz,72,2682221,"('contemporary country', 'country', 'country road')",74,0.59,0.846,-4.251,146.028,174681,0,840,440
@@ -597,7 +597,7 @@
 595,spotify:track:0SyxZC4wlqAwf20cHE6Xon,65,595355,"('alternative dance', 'art pop', 'dance pop', 'electronica', 'electropop', 'neo-synthpop', 'new rave')",71,0.752,0.771,-5.95,126.02,162213,0,826,914
 596,spotify:track:4JlbNN3jRVy0agVxF2K5DA,69,952543,"('canadian electronic', 'dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'pop edm', 'slap house', 'tropical house')",66,0.631,0.926,-3.236,122.083,158916,0,124,400
 597,spotify:track:33gwZOGJWEZ7dRWPqPxBEZ,84,9118158,"('detroit hip hop', 'hip hop', 'pop', 'pop rap', 'rap', 'southern hip hop', 'trap')",79,0.724,0.675,-5.267,160.048,199758,0,840,186
-598,spotify:track:5seWZTjT0U8a7cy3Y5NJQ9,71,498071,"('dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'tropical house')",62,0.759,0.845,-6.794,124.0,176389,0,840,988
+598,spotify:track:5seWZTjT0U8a7cy3Y5NJQ9,71,498071,"('dance pop', 'edm', 'electro house', 'pop', 'pop dance', 'tropical house')",62,0.759,0.845,-6.794,124,176389,0,840,988
 599,spotify:track:4ga4WvRNhMsIL38pkBbnIN,81,15289855,"('dance pop', 'dutch edm', 'edm', 'pop', 'pop dance', 'progressive house', 'tropical house')",75,0.859,0.558,-8.991,114.978,144391,0,528,1047
 600,spotify:track:1viUV5EGlKGCiSveBfFeQg,87,4048274,"('hip hop', 'pop', 'pop rap', 'r&b', 'southern hip hop', 'trap', 'trap soul')",64,0.762,0.788,-4.087,140.993,175640,1,840,1699
 601,spotify:track:63iTZ9zpkQOTYYbzWDSFdp,63,167617,"('big room', 'edm', 'electro house', 'pop dance', 'pop edm', 'progressive electro house', 'progressive house', 'progressive trance', 'russian edm', 'trance', 'tropical house', 'uplifting trance')",40,0.637,0.896,-2.569,128.016,210000,0,643,22
@@ -639,7 +639,7 @@
 637,spotify:track:0c5nqQNIH07Lh16AOjqEPQ,68,770466,"('big room', 'dutch trance', 'edm', 'electro house', 'pop dance', 'progressive house', 'trance')",64,0.377,0.895,-2.467,75.108,166812,0,528,1729
 638,spotify:track:3E5Go2swucT0A6NmqOEChM,63,322283,"('edm', 'electro house', 'electronic trap', 'electropop', 'mashup', 'pop dance', 'pop edm', 'progressive electro house', 'progressive house', 'tropical house')",59,0.577,0.978,-4.002,124.997,204480,1,840,8
 639,spotify:track:6VfKN3j3Cqb7nMWZPIX3bJ,65,358948,"('bass house', 'deep groove house', 'edm', 'electro house', 'future house', 'house', 'pop dance', 'progressive house')",56,0.737,0.681,-10.063,124.023,210001,0,250,1540
-640,spotify:track:1XXimziG1uhM0eDNCZCrUl,86,18825016,"('dance pop', 'pop', 'pop rap', 'rap')",80,0.868,0.795,-6.044,166.0,156945,1,840,283
+640,spotify:track:1XXimziG1uhM0eDNCZCrUl,86,18825016,"('dance pop', 'pop', 'pop rap', 'rap')",80,0.868,0.795,-6.044,166,156945,1,840,283
 641,spotify:track:7ytR5pFWmSjzHJIeQkgog4,90,8764303,"('north carolina hip hop', 'rap')",85,0.746,0.69,-7.956,89.977,181733,0,840,402
 642,spotify:track:2hcqLu8Hhu2yJd5h4T4WDf,87,32801794,"('brostep', 'dance pop', 'edm', 'pop', 'progressive electro house')",55,0.819,0.814,-3.44,125.965,152415,1,840,1046
 643,spotify:track:5QO79kh1waicV47BqGRL3g,97,40028988,"('canadian contemporary r&b', 'canadian pop', 'pop')",89,0.68,0.826,-5.487,118.051,215627,0,124,1633
@@ -647,7 +647,7 @@
 645,spotify:track:5fwSHlTEWpluwOM0Sxnh5k,91,11719944,"('latin', 'reggaeton', 'trap latino')",95,0.762,0.766,-3.955,130.001,287120,1,630,545
 646,spotify:track:7tQcHPmcQ22XiCW9Qz0nfT,58,78696,"('bass house', 'edm', 'electro house', 'electronic trap')",60,0.811,0.888,-5.735,125.984,160000,0,840,467
 647,spotify:track:45L9CK9Zis1QM4LlkGpX9B,61,136201,"('desi pop',)",0,0.742,0.888,-5.058,101.994,182941,0,36,548
-648,spotify:track:3eMsgWDRq5dKl5SBTYGv2J,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",73,0.733,0.82,-4.758,148.0,222037,1,840,514
+648,spotify:track:3eMsgWDRq5dKl5SBTYGv2J,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",73,0.733,0.82,-4.758,148,222037,1,840,514
 649,spotify:track:6wJYhPfqk3KGhHRG76WzOh,78,4228496,"('melodic rap', 'rap', 'rap conscient', 'trap', 'vapor trap')",78,0.774,0.554,-7.909,99.034,162547,1,840,949
 650,spotify:track:4TIqzdAssasqx3DAe6cG9J,79,1826123,"('boston hip hop', 'hip hop', 'pop rap', 'rap')",79,0.597,0.571,-6.205,106.196,218448,1,840,821
 651,spotify:track:6btkdvumrTmcFzy3oFpZqS,57,229866,"('dubstep', 'edm', 'electro house', 'electronic trap', 'future bass', 'pop edm', 'vapor twitch')",63,0.55,0.858,-2.58,145.169,271749,0,840,1198
@@ -702,7 +702,7 @@
 700,spotify:track:2sU586qrQQhByPLqEF7pLX,82,3937655,"('memphis hip hop',)",72,0.909,0.601,-5.848,140.28,93498,1,840,1136
 701,spotify:track:7imWwrAiyfIgLk9HVYrhLB,79,3070023,"('chicago bop', 'chicago drill', 'chicago rap', 'drill', 'hip hop', 'rap', 'southern hip hop', 'trap', 'underground hip hop')",66,0.328,0.863,-2.261,101.312,214737,0,840,328
 702,spotify:track:0lihymBRdQmqdUFDTMyLRU,79,1826123,"('boston hip hop', 'hip hop', 'pop rap', 'rap')",73,0.798,0.482,-9.045,95.263,211654,1,840,821
-703,spotify:track:4VEi6uIfVoOOFl1ZBrbKuk,56,313246,"('hip pop', 'pop r&b', 'trap queen')",55,0.901,0.792,-5.895,97.0,93096,1,840,470
+703,spotify:track:4VEi6uIfVoOOFl1ZBrbKuk,56,313246,"('hip pop', 'pop r&b', 'trap queen')",55,0.901,0.792,-5.895,97,93096,1,840,470
 704,spotify:track:28nUmOSSJQNIj7KJ9ux2QV,81,4257534,"('hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap')",65,0.888,0.546,-7.167,134.024,161156,1,504,592
 705,spotify:track:2TXPpyvAghVDKSBeyEuUEH,75,4668578,"('cali rap', 'trap')",71,0.839,0.502,-6.215,103.048,144464,0,840,215
 706,spotify:track:7bH9S0IHoM5kznWf1432zZ,85,6424909,"('dance pop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap')",71,0.913,0.534,-6.048,107.054,168224,0,840,1700
@@ -941,7 +941,7 @@
 939,spotify:track:17larILaMHwsprsMFnYI77,81,7083105,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",65,0.778,0.578,-7.22,84.487,252747,1,840,1607
 940,spotify:track:2lUirvUhqfBqJzUvk4tLoK,77,5060115,"('conscious hip hop', 'g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",0,0.792,0.82,-3.58,82.363,259947,1,840,681
 941,spotify:track:4YtoipFgf4k0AfD17ZfD5X,82,6332139,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",77,0.801,0.699,-8.18,94.605,238467,1,840,466
-942,spotify:track:4AE7Lj39VnSZNOmGH2iZaq,82,11788045,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",74,0.874,0.63,-3.585,95.0,281600,1,840,5
+942,spotify:track:4AE7Lj39VnSZNOmGH2iZaq,82,11788045,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",74,0.874,0.63,-3.585,95,281600,1,840,5
 943,spotify:track:3GKL13lkM5nRc4zC1lIOrR,64,973294,"('bronx hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'hip pop', 'rap', 'southern hip hop')",70,0.9,0.619,-6.518,94.121,236800,0,840,184
 944,spotify:track:2vfvGlqCB7oertO5VLE0sz,78,1834564,"('atl hip hop', 'dirty south rap', 'hip hop', 'old school atlanta hip hop', 'rap', 'southern hip hop')",68,0.918,0.734,-2.832,97.044,230693,1,840,1203
 945,spotify:track:7m97yKVzPpXV9Z4ezEziOD,87,6849402,"('east coast hip hop', 'hip hop', 'rap')",70,0.88,0.814,-6.307,138.083,283067,1,840,703
@@ -961,7 +961,7 @@
 959,spotify:track:7fXhkARAtS66kxexMIAx8O,81,7083105,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",65,0.725,0.68,-6.037,90.964,268707,1,840,1607
 960,spotify:track:119c93MHjrDLJTApCVGpvx,71,2243660,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",75,0.479,0.549,-10.551,180.985,252187,1,840,1760
 961,spotify:track:5PbFD3AIyunz5HxocduA9e,53,183523,"('gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",59,0.52,0.847,-5.3,177.371,302013,1,840,378
-962,spotify:track:30eW6IlBK3wCwcB8TsPXua,50,86857,"('alternative hip hop', 'bronx hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'jazz boom bap', 'turntablism')",48,0.769,0.752,-6.0,90.225,243107,1,840,978
+962,spotify:track:30eW6IlBK3wCwcB8TsPXua,50,86857,"('alternative hip hop', 'bronx hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'jazz boom bap', 'turntablism')",48,0.769,0.752,-6,90.225,243107,1,840,978
 963,spotify:track:1z1btB03Hw1gYwSLPlt67z,76,1229076,"('dance pop', 'east coast hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap')",62,0.753,0.525,-8.32,169.984,325733,1,840,439
 964,spotify:track:3ssX20QT5c3nA9wk78V1LQ,82,11788045,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",3,0.801,0.908,-6.554,87.279,278387,0,840,5
 965,spotify:track:2MAaiV0bbeq4FpSwPe2rR8,70,1589286,"('alternative hip hop', 'conscious hip hop', 'east coast hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'jazz rap', 'queens hip hop', 'rap')",63,0.773,0.581,-8.466,94.093,203067,0,840,15
@@ -982,7 +982,7 @@
 980,spotify:track:5K5dQsYdSdo2LKdepxbYAd,69,1123862,"('cali rap', 'gangster rap', 'golden age hip hop', 'hip hop', 'hyphy', 'oakland hip hop', 'pop rap', 'rap', 'southern hip hop', 'west coast rap')",65,0.902,0.41,-5.31,84.07,341427,0,840,1669
 981,spotify:track:4HfxDJ0uLHTLe0fZrx0MbQ,70,1589286,"('alternative hip hop', 'conscious hip hop', 'east coast hip hop', 'gangster rap', 'golden age hip hop', 'hardcore hip hop', 'hip hop', 'jazz rap', 'queens hip hop', 'rap')",65,0.881,0.361,-14.728,96.43,216693,0,840,15
 982,spotify:track:0Zh5U48tZNeAzzLTV1CVBE,82,6332139,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",0,0.925,0.737,-1.292,133.946,222240,1,840,466
-983,spotify:track:3gY6tiCNsuVi6s8kPV6aQg,78,2643369,"('conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap')",67,0.634,0.845,-5.058,94.0,237027,1,840,1142
+983,spotify:track:3gY6tiCNsuVi6s8kPV6aQg,78,2643369,"('conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap')",67,0.634,0.845,-5.058,94,237027,1,840,1142
 984,spotify:track:3MX96tMiJxVu7lQWKbgo2c,51,207274,"('alternative hip hop', 'atl hip hop', 'conscious hip hop', 'dirty south rap', 'gangster rap', 'hardcore hip hop', 'hip hop', 'old school atlanta hip hop', 'southern hip hop')",0,0.849,0.476,-10.479,83.21,277133,0,840,628
 985,spotify:track:1eduDdsjMO7Or4EXnMf2iS,82,11788045,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",0,0.763,0.84,-3.704,92.477,287547,0,840,5
 986,spotify:track:4QpmwtoYEvENZJPQ6a2kbw,87,6849402,"('east coast hip hop', 'hip hop', 'rap')",55,0.495,0.715,-8.855,189.862,275640,0,840,703
@@ -1024,7 +1024,7 @@
 1022,spotify:track:3lGBvPUgO7MJltUnBlOpe9,65,732230,"('alternative hip hop', 'conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",62,0.808,0.726,-8.435,96.12,221027,1,840,605
 1023,spotify:track:6tDxrq4FxEL2q15y37tXT9,82,11788045,"('g funk', 'gangster rap', 'hip hop', 'rap', 'west coast rap')",72,0.773,0.54,-7.123,84.115,280000,1,840,5
 1024,spotify:track:6aFn4ITLUanXywMFPWK6XH,67,234380,"('florida rap', 'viral rap')",54,0.702,0.551,-10.062,140.042,150885,0,840,1468
-1025,spotify:track:1YmyHCxLKjLBBNQU51yQOh,72,423565,"('melodic rap',)",68,0.94,0.661,-6.009,108.0,196734,1,840,154
+1025,spotify:track:1YmyHCxLKjLBBNQU51yQOh,72,423565,"('melodic rap',)",68,0.94,0.661,-6.009,108,196734,1,840,154
 1026,spotify:track:0KUwCOylcgcDfSyuYNEe3a,71,77179,"('new york drill',)",65,0.893,0.799,-9.438,143.839,124514,1,840,857
 1027,spotify:track:0fiHDOKTOFnAPekgXYGErK,71,77179,"('new york drill',)",66,0.715,0.756,-6.164,139.991,153964,0,840,857
 1028,spotify:track:5phjnA00QqNdF7oo8a6yu0,71,243854,"('new york drill',)",75,0.858,0.625,-4.666,130.05,121837,1,840,399
@@ -1105,7 +1105,7 @@
 1103,spotify:track:4ezafcOuI5em8LoE2xxnpv,69,1378427,"('detroit hip hop', 'g funk', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap', 'west coast rap')",55,0.724,0.806,-6.843,93.863,308907,0,840,1764
 1104,spotify:track:1zzxoZVylsna2BQB65Ppcb,75,3011222,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'pop rap', 'rap')",73,0.761,0.899,-3.09,95.027,217587,0,840,397
 1105,spotify:track:3MbBa8FMMgp9D39s7Cozl9,58,406585,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap')",59,0.706,0.747,-3.901,95.547,270493,1,840,1600
-1106,spotify:track:3gY6tiCNsuVi6s8kPV6aQg,78,2643369,"('conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap')",67,0.634,0.845,-5.058,94.0,237027,1,840,1142
+1106,spotify:track:3gY6tiCNsuVi6s8kPV6aQg,78,2643369,"('conscious hip hop', 'east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'queens hip hop', 'rap')",67,0.634,0.845,-5.058,94,237027,1,840,1142
 1107,spotify:track:68WCiBa9dfDU5PBhTl6MYe,87,6849402,"('east coast hip hop', 'hip hop', 'rap')",56,0.495,0.715,-8.855,189.876,275640,0,840,703
 1108,spotify:track:1Z7C8ClE8UEaH70jCCeJH2,81,7083105,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",64,0.612,0.85,-4.703,173.497,204027,1,840,1607
 1109,spotify:track:1rJM37Dd4OcSJvzI84yCcP,69,1035840,"('east coast hip hop', 'gangster rap', 'hip hop', 'new jersey rap', 'rap')",67,0.681,0.505,-11.709,89.953,260067,1,840,594
@@ -1443,7 +1443,7 @@
 1441,spotify:track:3rjwafyisDpLdoJ4RecHp6,87,7295017,"('melodic rap', 'rap', 'trap')",75,0.717,0.444,-11.126,124.685,222225,1,840,1343
 1442,spotify:track:2aMi7wkUtVZ7QTm6paGgox,62,49761,"('cali rap', 'pop rap', 'west coast trap')",61,0.74,0.617,-7.728,98.066,158882,1,840,198
 1443,spotify:track:4SeNQ0YufFis838NXImgq3,67,138056,"('cali rap',)",53,0.799,0.688,-5.807,90.021,213364,0,840,926
-1444,spotify:track:1YmyHCxLKjLBBNQU51yQOh,72,423565,"('melodic rap',)",68,0.94,0.661,-6.009,108.0,196734,1,840,154
+1444,spotify:track:1YmyHCxLKjLBBNQU51yQOh,72,423565,"('melodic rap',)",68,0.94,0.661,-6.009,108,196734,1,840,154
 1445,spotify:track:77bHKMRDnzubz8e9U3tsXl,63,25375,(),43,0.928,0.685,-9.84,112.005,147912,0,840,868
 1446,spotify:track:5MkPZ9VprDSFTljruLxDEd,82,1441465,"('cali rap', 'dance pop', 'pop', 'pop rap', 'r&b', 'trap queen')",65,0.882,0.751,-4.823,150.059,110791,0,840,1387
 1447,spotify:track:40UUA98SbhyPmhJJm3KgYs,78,4228496,"('melodic rap', 'rap', 'rap conscient', 'trap', 'vapor trap')",65,0.656,0.561,-7.245,93.061,164101,0,840,949
@@ -1632,7 +1632,7 @@
 1630,spotify:track:19he9KQfNiAyPn7UTJ592c,46,94244,"('english indie rock',)",38,0.644,0.902,-4.21,121.992,203493,0,826,1282
 1631,spotify:track:1q6qol2S6DVzblAZuXT02K,67,921823,"('modern alternative rock', 'modern rock', 'rock', 'stomp pop', 'welsh rock')",54,0.317,0.699,-5.552,136.253,279067,0,826,298
 1632,spotify:track:0p2C31AP0y4LuytifY2P2m,60,277235,"('britpop', 'manchester indie', 'modern rock', 'rock')",0,0.401,0.902,-5.707,160.018,255000,0,826,374
-1633,spotify:track:2jZgzSxNSg1hTCq0ewWHGJ,71,2202469,"('brighton indie', 'modern rock', 'rock')",66,0.604,0.894,-5.0,145.017,187253,0,826,1599
+1633,spotify:track:2jZgzSxNSg1hTCq0ewWHGJ,71,2202469,"('brighton indie', 'modern rock', 'rock')",66,0.604,0.894,-5,145.017,187253,0,826,1599
 1634,spotify:track:2HXWTuHE8NZgK7ZmCVBTHX,75,298846,"('modern rock', 'uk pop')",52,0.646,0.617,-4.937,142.357,185613,0,826,1659
 1635,spotify:track:75QhoHSQuCoYlPxrNGk25i,64,235788,"('leicester indie', 'modern indie pop')",49,0.71,0.649,-10.436,114.089,162240,0,826,1802
 1636,spotify:track:2hCOLHDVQhnu0qpLFV4ynj,64,235788,"('leicester indie', 'modern indie pop')",4,0.663,0.656,-5.803,88.973,207004,1,826,1802
@@ -1679,7 +1679,7 @@
 1677,spotify:track:3u7EIgAlwNQtxkM4bOA7uI,73,3276254,"('alternative metal', 'canadian pop punk', 'canadian punk', 'nu metal', 'pop punk', 'punk', 'rock')",55,0.509,0.812,-5.936,116.078,206999,0,124,1503
 1678,spotify:track:1iZTuY3wspO4DxFXBD58WX,80,6792273,"('pop punk', 'punk', 'rock', 'socal pop punk')",0,0.384,0.981,-4.209,109.052,166267,1,840,1796
 1679,spotify:track:47No93LxERvV6MtOAmQzHS,80,6585393,"('candy pop', 'pixie', 'pop emo', 'pop punk')",68,0.522,0.964,-2.645,170.944,218627,0,840,1219
-1680,spotify:track:6vFD3c1WI1zuKoyk22dMw3,69,2149430,"('alternative metal', 'pop punk', 'rock')",63,0.686,0.84,-5.142,105.0,203027,0,840,627
+1680,spotify:track:6vFD3c1WI1zuKoyk22dMw3,69,2149430,"('alternative metal', 'pop punk', 'rock')",63,0.686,0.84,-5.142,105,203027,0,840,627
 1681,spotify:track:1aYWQrIT8XPdtV4hhUjczN,64,719505,"('emo', 'pop punk')",0,0.402,0.859,-4.41,95.31,211547,0,44,1530
 1682,spotify:track:7wOmQJeVX6qjNXqqsKOkPx,82,11092745,"('modern rock',)",58,0.66,0.799,-4.644,125.966,200227,1,840,1216
 1683,spotify:track:0Ti2dlF2xLjXblvdU5fCxM,64,748683,"('emo', 'pop punk', 'punk', 'screamo', 'skate punk')",72,0.308,0.873,-4.542,143.519,206587,0,840,19
@@ -2330,7 +2330,7 @@
 2328,spotify:track:0HPD5WQqrq7wPWR7P7Dw1i,80,6862257,"('dance pop', 'electropop', 'pop', 'post-teen pop')",82,0.755,0.837,-2.718,120.028,199693,0,840,876
 2329,spotify:track:1F6oGPF75u9RuHH4BGx9Bf,100,47245593,"('pop',)",0,0.624,0.685,-5.902,86.059,193147,0,840,1539
 2330,spotify:track:1AWQoqb9bSvzTjaLralEkT,82,11523636,"('dance pop', 'pop')",78,0.892,0.714,-6.055,100.972,267267,0,840,833
-2331,spotify:track:4fixebDZAVToLbUCuEloa2,85,10195437,"('dance pop', 'pop', 'post-teen pop')",78,0.724,0.695,-5.226,139.0,224400,0,840,246
+2331,spotify:track:4fixebDZAVToLbUCuEloa2,85,10195437,"('dance pop', 'pop', 'post-teen pop')",78,0.724,0.695,-5.226,139,224400,0,840,246
 2332,spotify:track:05qq6mwIbG1ZsQhlMKyDwN,84,12364889,"('dance pop', 'pop')",56,0.7,0.708,-4.952,122.029,203267,1,840,1206
 2333,spotify:track:4lLtanYk6tkMvooU0tWzG8,93,36658831,"('dance pop', 'pop')",80,0.704,0.558,-7.273,110.444,222091,0,840,255
 2334,spotify:track:2igwFfvr1OAGX9SKDCPBwO,87,6849402,"('east coast hip hop', 'hip hop', 'rap')",82,0.491,0.956,-1.538,173.585,276920,1,840,703
@@ -2350,7 +2350,7 @@
 2348,spotify:track:2yiZyjMEByt9sJBZWnWaDR,76,1666419,"('boy band', 'dance pop', 'post-teen pop')",55,0.571,0.87,-3.877,172.716,199640,0,840,0
 2349,spotify:track:5zF2zGPkL6Ipsn9AfAK6RP,89,34479606,"('pop', 'pop rock')",0,0.714,0.868,-4.596,95.05,206200,0,840,1044
 2350,spotify:track:2lnzGkdtDj5mtlcOW2yRtG,85,22853596,"('colombian pop', 'dance pop', 'latin', 'latin pop', 'pop')",74,0.794,0.832,-4.862,107.657,196160,0,170,1405
-2351,spotify:track:0O45fw2L5vsWpdsOdXwNAR,82,11523636,"('dance pop', 'pop')",79,0.967,0.583,-5.562,117.0,242733,0,840,833
+2351,spotify:track:0O45fw2L5vsWpdsOdXwNAR,82,11523636,"('dance pop', 'pop')",79,0.967,0.583,-5.562,117,242733,0,840,833
 2352,spotify:track:2OuNgtXKeCSORKqdl0MxKk,96,32524106,"('british soul', 'pop', 'pop soul', 'uk pop')",2,0.614,0.47,-6.09,80.045,210507,0,826,36
 2353,spotify:track:5WuVWOngcRkMOx9RRLCvui,62,341289,"('bubblegum dance', 'candy pop', 'dance pop', 'europop', 'girl group')",63,0.776,0.693,-2.528,102.996,205360,0,826,126
 2354,spotify:track:34xZFT7artr3SGqgSoR88L,80,8175113,"('canadian pop', 'candy pop', 'dance pop', 'pop', 'post-teen pop')",0,0.582,0.758,-5.951,77.982,244507,0,124,136
@@ -2372,13 +2372,13 @@
 2370,spotify:track:0KpfYajJVVGgQ32Dby7e9i,78,3895252,"('dance pop', 'neo mellow', 'pop', 'pop rock')",2,0.675,0.885,-4.432,97.03,216667,0,840,1675
 2371,spotify:track:60jzFy6Nn4M0iD1d94oteF,91,46398709,"('barbadian pop', 'dance pop', 'pop', 'pop rap', 'urban contemporary')",76,0.563,0.75,-4.496,173.906,222920,0,52,1327
 2372,spotify:track:1peT7rhuRsVvJVSSd0iXXp,74,2423269,"('dance pop', 'miami hip hop', 'pop', 'post-teen pop', 'urban contemporary')",56,0.543,0.642,-6.533,117.923,241667,0,840,1393
-2373,spotify:track:3F9ByoUqu31xU0I3G5xfVg,83,6318113,"('dance pop', 'pop', 'pop rap')",74,0.798,0.629,-6.857,130.0,284373,0,840,199
+2373,spotify:track:3F9ByoUqu31xU0I3G5xfVg,83,6318113,"('dance pop', 'pop', 'pop rap')",74,0.798,0.629,-6.857,130,284373,0,840,199
 2374,spotify:track:4bCIt1XfHHGWo1UHKM11y9,77,7033993,"('celtic rock', 'dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop')",0,0.63,0.698,-4.51,94.023,261427,0,372,1618
 2375,spotify:track:2bLqfJjuC5syrsgDsZfGmn,79,2133354,"('dance pop', 'hip hop', 'hip pop', 'pop', 'pop rap', 'urban contemporary')",78,0.731,0.807,-6.492,114.759,179120,0,840,1651
 2376,spotify:track:0k2GOhqsrxDTAbFFSdNJjT,84,3701357,"('dance pop', 'dancehall', 'pop rap')",80,0.951,0.6,-4.675,125.04,218573,0,388,1394
 2377,spotify:track:1oQZk2bKBLgP1cbuFKvjkq,87,29872974,"('dance pop', 'pop', 'r&b')",70,0.63,0.504,-6.152,89.946,249867,0,840,179
 2378,spotify:track:3oobWqIgYrSRg18uqRuPIF,57,115099,"('bubblegum dance', 'europop')",71,0.801,0.645,-6.93,110.01,215480,0,826,723
-2379,spotify:track:7LqjznQwfrax7MjQXmxqdQ,80,11139221,"('dance pop', 'pop', 'pop rap', 'urban contemporary')",71,0.845,0.768,-5.448,100.0,187840,0,840,760
+2379,spotify:track:7LqjznQwfrax7MjQXmxqdQ,80,11139221,"('dance pop', 'pop', 'pop rap', 'urban contemporary')",71,0.845,0.768,-5.448,100,187840,0,840,760
 2380,spotify:track:1jUA4rb6ZCv4gby4YU53xq,67,1966074,"('dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'r&b', 'urban contemporary')",72,0.466,0.759,-4.978,160.033,264373,0,840,813
 2381,spotify:track:0uqPG793dkDDN7sCUJJIVC,83,6318113,"('dance pop', 'pop', 'pop rap')",0,0.835,0.687,-3.18,94.059,272533,0,840,199
 2382,spotify:track:6Q44rxzH39y2tjic98Spo5,73,4776901,"('dance pop', 'pop', 'post-teen pop', 'urban contemporary')",65,0.906,0.584,-7.72,129.055,292373,1,840,558
@@ -2954,7 +2954,7 @@
 2952,spotify:track:55Am8neGJkdj2ADaM3aw5H,84,9104722,"('pop', 'talent show', 'uk pop')",83,0.311,0.485,-5.726,77.355,208827,0,826,724
 2953,spotify:track:0y675KDleCZEudjoeL1sQQ,82,4724796,"('dance pop', 'electropop', 'pop')",3,0.694,0.466,-6.758,103.018,189613,0,840,933
 2954,spotify:track:2K0r5GD5zYlEMx2M7ZMcqG,85,12908344,"('dance pop', 'piano rock', 'pop', 'pop rock')",68,0.626,0.726,-5.015,89.132,144530,0,840,1197
-2955,spotify:track:3eMsgWDRq5dKl5SBTYGv2J,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",73,0.733,0.82,-4.758,148.0,222037,1,840,514
+2955,spotify:track:3eMsgWDRq5dKl5SBTYGv2J,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",73,0.733,0.82,-4.758,148,222037,1,840,514
 2956,spotify:track:6cS9PmLky2NhLOhpIsUlow,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",71,0.835,0.869,-4.582,140.945,224656,1,840,514
 2957,spotify:track:3WpHqtFUwzIQBsV9YC5iNc,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",67,0.782,0.874,-4.611,119.959,196181,0,840,514
 2958,spotify:track:7ccTcabbJlCJiIqtrSSwBk,94,50705376,"('detroit hip hop', 'hip hop', 'rap')",64,0.847,0.637,-5.193,165.979,173893,1,840,514
@@ -3089,7 +3089,7 @@
 3087,spotify:track:4ygQUye7obtqhSltSxp18H,81,5504272,"('chicago rap', 'conscious hip hop', 'hip hop', 'pop rap', 'rap')",53,0.768,0.569,-8.791,124.104,139406,1,840,305
 3088,spotify:track:2bQxqezLVNiJVeLO0RWPON,73,1614966,"('dmv rap', 'hip hop', 'pop rap', 'rap', 'trap', 'underground hip hop', 'vapor trap')",57,0.821,0.795,-5.523,117.99,160744,1,840,371
 3089,spotify:track:4nTYxxF8iWBq54LO3dBUie,70,2847004,"('contemporary r&b', 'dance pop', 'hip pop', 'r&b', 'urban contemporary')",53,0.633,0.931,-7.752,109.116,330933,0,840,738
-3090,spotify:track:12LjNmRrdzhTn1vMcxN81m,63,333007,"('atl hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'hip pop', 'pop rap', 'rap', 'southern hip hop')",59,0.854,0.738,-7.284,100.0,254253,1,840,763
+3090,spotify:track:12LjNmRrdzhTn1vMcxN81m,63,333007,"('atl hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'hip pop', 'pop rap', 'rap', 'southern hip hop')",59,0.854,0.738,-7.284,100,254253,1,840,763
 3091,spotify:track:31GUM30kjMPY93SrVh1InN,71,2243660,"('east coast hip hop', 'gangster rap', 'hardcore hip hop', 'hip hop', 'rap')",48,0.817,0.794,-9.434,93.067,256893,0,840,1760
 3092,spotify:track:2B9aYvlGefTIgKLhM6ia8t,76,1229076,"('dance pop', 'east coast hip hop', 'hip hop', 'hip pop', 'pop rap', 'rap')",62,0.609,0.731,-6.846,91.778,296267,1,840,439
 3093,spotify:track:3gVhsZtseYtY1fMuyYq06F,80,6667193,"('alternative metal', 'german metal', 'industrial', 'industrial metal', 'industrial rock', 'neue deutsche harte', 'nu metal')",72,0.51,0.917,-4.806,75.098,272440,0,276,1292
@@ -3192,7 +3192,7 @@
 3190,spotify:track:6uQ15UwuRKIgUJQakgkYtZ,51,179527,"('album rock', 'hard rock', 'metal', 'neo classical metal', 'power metal', 'progressive metal', 'us power metal')",42,0.358,0.471,-11.565,127.916,346333,0,840,1386
 3191,spotify:track:4JAJV4D2902ZQL4A63Q2fe,81,10224400,"('glam metal', 'rock')",0,0.428,0.662,-5.433,71.515,353027,0,840,225
 3192,spotify:track:2wwTREXy3Uq8FWksOWYf03,75,6647779,"('album rock', 'classic rock', 'glam rock', 'hard rock', 'metal', 'rock')",23,0.521,0.323,-11.025,143.905,279067,0,840,841
-3193,spotify:track:4A05kx59z5t6wcX4QXEcCx,51,301236,"('hard rock', 'metal', 'neo classical metal', 'old school thrash', 'power metal', 'power thrash', 'speed metal', 'us power metal')",0,0.494,0.825,-7.801,113.261,227840,0,Tampa,682
+3193,spotify:track:4A05kx59z5t6wcX4QXEcCx,51,301236,"('hard rock', 'metal', 'neo classical metal', 'old school thrash', 'power metal', 'power thrash', 'speed metal', 'us power metal')",0,0.494,0.825,-7.801,113.261,227840,0,840,682
 3194,spotify:track:2N5PoFlObCe4nTTtdLHe0k,60,709929,"('album rock', 'glam metal', 'hard rock', 'metal', 'rock')",0,0.428,0.817,-7.883,95.248,221467,0,840,1730
 3195,spotify:track:1EJZQ6uhrvl4JtoKn7RKFd,76,5174856,"('album rock', 'german hard rock', 'german metal', 'german rock', 'hard rock', 'metal', 'rock')",51,0.353,0.656,-5.712,153.747,245627,0,276,1391
 3196,spotify:track:5awljpWNO5TpXCyjpvCBbs,57,777818,"('alternative metal', 'death metal', 'groove metal', 'hard rock', 'metal', 'old school thrash', 'rock', 'thrash metal')",53,0.294,0.613,-10.527,112.385,390800,0,840,1552
@@ -3215,7 +3215,7 @@
 3213,spotify:track:1WYCGlOv6XhCqDyZBYnu9E,65,2141348,"('album rock', 'glam metal', 'hard rock', 'metal', 'rock')",49,0.248,0.805,-7.847,126.144,324307,0,372,1435
 3214,spotify:track:20H39ooCTJGA2Un2HqeE0T,53,226480,"('german metal', 'german power metal', 'melodic metal', 'metal', 'neo classical metal', 'power metal', 'progressive metal', 'symphonic metal')",0,0.474,0.558,-8.996,80.034,393040,0,276,496
 3215,spotify:track:2VLwPKY2gaBxGxwgmwRDUf,69,2955656,"('album rock', 'birmingham metal', 'hard rock', 'metal', 'power metal', 'rock')",47,0.353,0.664,-7.436,123.236,430827,0,826,824
-3216,spotify:track:1Fekh45eTzyteap9YgmOr1,76,1990371,"('alternative metal', 'danish metal', 'danish rock')",40,0.442,0.793,-5.465,149.958,290547,0,Copenhagen,1727
+3216,spotify:track:1Fekh45eTzyteap9YgmOr1,76,1990371,"('alternative metal', 'danish metal', 'danish rock')",40,0.442,0.793,-5.465,149.958,290547,0,208,1727
 3217,spotify:track:6xaeNLTVajvNTpjkkNNR6L,43,150616,"('album rock', 'glam metal', 'hard rock')",0,0.275,0.631,-10.22,138.161,365467,0,840,1319
 3218,spotify:track:3G80CgLA7ziD8i40s6uKQN,58,516028,"('finnish power metal', 'lapland metal', 'melodic metal', 'metal', 'neo classical metal', 'power metal', 'progressive metal', 'symphonic metal')",55,0.508,0.613,-4.788,139.701,320467,0,246,1453
 3219,spotify:track:6jCA4rJ4caeRuyTxvf9UvA,51,179527,"('album rock', 'hard rock', 'metal', 'neo classical metal', 'power metal', 'progressive metal', 'us power metal')",41,0.272,0.508,-9.564,62.473,342427,0,840,1386
@@ -3230,7 +3230,7 @@
 3228,spotify:track:2CURikRfaKPervqY62sYxw,56,508653,"('album rock', 'glam metal', 'hard rock', 'metal', 'rock')",39,0.296,0.665,-6.952,156.208,262000,0,840,454
 3229,spotify:track:7KwExH7MEguB6YSZnosNbj,54,279730,"('gothic metal', 'progressive doom', 'progressive metal')",38,0.486,0.677,-8.702,136.033,293827,0,826,80
 3230,spotify:track:1I0oWAoXKhCp9VgLeuU9l0,53,226480,"('german metal', 'german power metal', 'melodic metal', 'metal', 'neo classical metal', 'power metal', 'progressive metal', 'symphonic metal')",45,0.439,0.454,-7.401,131.397,311600,0,276,496
-3231,spotify:track:07thLbY0eGli2xWWIPdrN2,51,301236,"('hard rock', 'metal', 'neo classical metal', 'old school thrash', 'power metal', 'power thrash', 'speed metal', 'us power metal')",50,0.508,0.852,-7.842,129.174,268907,0,Tampa,682
+3231,spotify:track:07thLbY0eGli2xWWIPdrN2,51,301236,"('hard rock', 'metal', 'neo classical metal', 'old school thrash', 'power metal', 'power thrash', 'speed metal', 'us power metal')",50,0.508,0.852,-7.842,129.174,268907,0,840,682
 3232,spotify:track:2YC6ET3q1F29B0V7UcPV70,77,4481583,"('alternative metal', 'funk metal', 'nu metal', 'rap metal')",62,0.427,0.908,-5.399,108.681,166653,1,840,959
 3233,spotify:track:3K4HG9evC7dg3N0R9cYqk4,86,20754501,"('alternative metal', 'nu metal', 'post-grunge', 'rap metal')",77,0.492,0.969,-4.419,95.136,157333,0,840,961
 3234,spotify:track:2DlHlPMa4M17kufBvI2lEN,80,7795853,"('alternative metal', 'nu metal', 'rap metal', 'rock')",81,0.417,0.934,-3.908,127.066,210240,0,840,1518
@@ -3241,7 +3241,7 @@
 3239,spotify:track:4ImIJRZNJhNQLLdUFSYJoS,77,5191177,"('alternative metal', 'nu metal', 'rap metal')",68,0.649,0.896,-2.704,90.009,278707,1,840,450
 3240,spotify:track:5eek2X5459T1HoYJk2CKXv,76,4196071,"('alternative metal', 'nu metal', 'rap metal', 'rap rock')",0,0.581,0.887,-3.659,90.578,199893,1,840,1218
 3241,spotify:track:3fjmSxt0PskST13CSdBUFx,86,20754501,"('alternative metal', 'nu metal', 'post-grunge', 'rap metal')",73,0.451,0.951,-3.754,162.065,213933,0,840,961
-3242,spotify:track:1cqWEQ6TRfYr3SBNh7Ni2w,65,1540217,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap metal', 'rap rock')",57,0.615,0.919,-4.318,130.919,202467,0,Dallas,472
+3242,spotify:track:1cqWEQ6TRfYr3SBNh7Ni2w,65,1540217,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap metal', 'rap rock')",57,0.615,0.919,-4.318,130.919,202467,0,840,472
 3243,spotify:track:5z6xHjCZr7a7AIcy8sPBKy,65,695274,"('alternative metal', 'alternative rock', 'funk metal', 'nu metal', 'post-grunge', 'rap rock', 'rock')",77,0.653,0.964,-4.261,126.928,209267,0,840,61
 3244,spotify:track:6W21LNLz9Sw7sUSNWMSHRu,77,5132725,"('alternative metal', 'funk metal', 'nu metal', 'rap metal', 'rock')",76,0.353,0.898,-5.877,103.293,255733,0,840,898
 3245,spotify:track:1Ym3JWJG8HFJU2NbXavZ6a,80,7795853,"('alternative metal', 'nu metal', 'rap metal', 'rock')",50,0.451,0.889,-2.693,131.073,153800,0,840,1518
@@ -3260,20 +3260,20 @@
 3258,spotify:track:1pr9TZGOXeJUggIal1Wq3R,77,5132725,"('alternative metal', 'funk metal', 'nu metal', 'rap metal', 'rock')",66,0.283,0.891,-8.165,92.049,258267,0,840,898
 3259,spotify:track:4qjvr0qMFUo26SxwC4VygS,57,518235,"('alternative metal', 'groove metal', 'industrial metal', 'industrial rock', 'metal', 'nu metal', 'rap metal', 'rap rock')",60,0.693,0.871,-3.389,111.989,204853,0,840,549
 3260,spotify:track:2DpBRXSlfNEWHf8PQkAVvQ,74,3248080,"('alternative metal', 'nu metal', 'post-grunge')",46,0.482,0.916,-4.557,96.101,235160,0,840,1414
-3261,spotify:track:6264zKFgXM13JuRBX4MMyD,68,1962022,"('alternative metal', 'nu metal', 'post-grunge', 'rap rock', 'rock')",65,0.328,0.826,-5.085,106.606,282093,1,Springfield,1470
+3261,spotify:track:6264zKFgXM13JuRBX4MMyD,68,1962022,"('alternative metal', 'nu metal', 'post-grunge', 'rap rock', 'rock')",65,0.328,0.826,-5.085,106.606,282093,1,840,1470
 3262,spotify:track:1AEYT6VxrxXPMoQUxsY0E4,62,927621,"('alternative metal', 'nu metal', 'post-grunge', 'rap rock')",75,0.492,0.896,-5.819,184.981,285570,1,840,1677
 3263,spotify:track:1TEZWG1FdjzDdercCguTwj,77,4481583,"('alternative metal', 'funk metal', 'nu metal', 'rap metal')",69,0.573,0.929,-5.996,97.57,289560,1,840,959
 3264,spotify:track:35ZmCVnfYRdK1iLGCxNhMa,62,1159474,"('alternative metal', 'groove metal', 'industrial metal', 'industrial rock', 'nu metal', 'rap metal', 'rap rock')",67,0.428,0.979,-2.929,104.84,171107,0,840,1475
 3265,spotify:track:0xgsyoVvRFSYvV5cdtYhX1,77,5132725,"('alternative metal', 'funk metal', 'nu metal', 'rap metal', 'rock')",64,0.334,0.898,-6.821,110.364,153600,0,840,898
 3266,spotify:track:5tJjQIhH6mH3PhG1DjW3gD,65,1589885,"('alternative metal', 'funk metal', 'nu metal', 'rap metal', 'rap rock')",57,0.319,0.852,-7.295,79.554,247253,0,840,1208
-3267,spotify:track:3tpFewlKhFoWp46WUVAuth,47,110175,"('alternative metal', 'industrial metal', 'nu metal', 'rap rock')",0,0.26,0.896,-6.393,192.392,176600,0,Louisville,566
+3267,spotify:track:3tpFewlKhFoWp46WUVAuth,47,110175,"('alternative metal', 'industrial metal', 'nu metal', 'rap rock')",0,0.26,0.896,-6.393,192.392,176600,0,840,566
 3268,spotify:track:55SUneDPq3ZOrJi8sVG78G,65,736713,"('alternative metal', 'nu metal', 'rap metal', 'rap rock')",0,0.609,0.937,-2.912,95.961,252933,0,840,1369
 3269,spotify:track:0f37VQs969vZUL4gVfHRV9,71,1822383,"('alternative metal', 'nu metal')",66,0.551,0.939,-5.371,90.592,265840,1,840,883
-3270,spotify:track:1UwwbPgKGOoSbqqHm9Xxzn,53,526746,"('alternative metal', 'groove metal', 'industrial metal', 'industrial rock', 'metal', 'nu metal', 'rap metal', 'rap rock')",58,0.598,0.954,-4.86,100.98,311987,1,Phoenix,1458
+3270,spotify:track:1UwwbPgKGOoSbqqHm9Xxzn,53,526746,"('alternative metal', 'groove metal', 'industrial metal', 'industrial rock', 'metal', 'nu metal', 'rap metal', 'rap rock')",58,0.598,0.954,-4.86,100.98,311987,1,840,1458
 3271,spotify:track:45R6DmpsaoqLujIn6qPTPH,47,100771,"('alternative metal', 'hard alternative', 'industrial metal', 'nu metal', 'rap rock')",59,0.502,0.934,-3.899,102.121,213000,0,840,488
-3272,spotify:track:5267gVdYWrLoz6ClOhlqmE,52,248778,"('alternative metal', 'electronic rock', 'industrial metal', 'industrial rock', 'nu metal', 'rap rock')",63,0.589,0.696,-8.109,129.833,267000,0,Bakersfield,1199
+3272,spotify:track:5267gVdYWrLoz6ClOhlqmE,52,248778,"('alternative metal', 'electronic rock', 'industrial metal', 'industrial rock', 'nu metal', 'rap rock')",63,0.589,0.696,-8.109,129.833,267000,0,840,1199
 3273,spotify:track:201NunZ5rsvabQoX2PxMlS,48,137307,"('alternative metal', 'groove metal', 'melodic metalcore', 'metalcore', 'nu metal', 'rap rock')",55,0.585,0.931,-4.843,160.079,198600,0,840,7
-3274,spotify:track:7mQwxVogsnpR3h6AJLQLlR,48,229491,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap rock')",59,0.364,0.912,-2.968,105.368,189200,0,Ann Arbor,1534
+3274,spotify:track:7mQwxVogsnpR3h6AJLQLlR,48,229491,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap rock')",59,0.364,0.912,-2.968,105.368,189200,0,840,1534
 3275,spotify:track:7vrLphPq4yjaX7jiDdd2Nc,64,1392172,"('alternative metal', 'groove metal', 'industrial metal', 'industrial rock', 'nu metal', 'rap metal', 'rap rock', 'rock')",65,0.623,0.983,-3.548,134.975,162293,0,840,1122
 3276,spotify:track:3R9B4XUKlqZ1Thh7OFD6ck,77,4481583,"('alternative metal', 'funk metal', 'nu metal', 'rap metal')",0,0.428,0.781,-6.821,93.244,146480,0,840,959
 3277,spotify:track:34SVUs66rBnOqsCJl45Ek8,51,425097,"('alternative metal', 'industrial metal', 'industrial rock', 'nu metal', 'rap metal', 'rap rock')",57,0.497,0.914,-6.532,133.738,254693,1,840,348
@@ -3285,12 +3285,12 @@
 3283,spotify:track:5xqi4X6J5PHwndSJc7YLYH,48,158291,"('alternative metal', 'groove metal', 'industrial metal', 'melodic metalcore', 'nu metal', 'rap metal', 'rap rock')",56,0.566,0.909,-4.184,121.966,194733,1,840,1466
 3284,spotify:track:60a0Rd6pjrkxjPbaKzXjfq,86,20754501,"('alternative metal', 'nu metal', 'post-grunge', 'rap metal')",85,0.556,0.864,-5.87,105.143,216880,0,840,961
 3285,spotify:track:5IvKtrcNWBkvyW2yXZ2Y40,77,5191177,"('alternative metal', 'nu metal', 'rap metal')",58,0.49,0.938,-3.916,196.143,274160,1,840,450
-3286,spotify:track:1OGFtaUgHAQjtSk7mhDwr9,48,229584,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap metal', 'rap rock')",53,0.383,0.962,-5.33,152.326,274733,1,Bakersfield,37
+3286,spotify:track:1OGFtaUgHAQjtSk7mhDwr9,48,229584,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap metal', 'rap rock')",53,0.383,0.962,-5.33,152.326,274733,1,840,37
 3287,spotify:track:56RVUS1Yo2YxkhU9bIi2i1,40,22327,"('industrial metal', 'industrial rock', 'nu metal')",52,0.523,0.933,-5.223,100.958,192933,0,840,423
-3288,spotify:track:4DenxoUslmyLJB5vzurCBD,46,91961,"('alternative metal', 'industrial metal', 'nu metal', 'rap rock')",53,0.484,0.924,-5.119,90.475,204293,1,San Antonio,1628
+3288,spotify:track:4DenxoUslmyLJB5vzurCBD,46,91961,"('alternative metal', 'industrial metal', 'nu metal', 'rap rock')",53,0.484,0.924,-5.119,90.475,204293,1,840,1628
 3289,spotify:track:2GQxHKJLYTDVQ5mtNhHD37,63,1032393,"('alternative metal', 'groove metal', 'hard rock', 'industrial metal', 'melodic groove metal', 'melodic metalcore', 'metal', 'metalcore', 'nu metal', 'progressive groove metal', 'rap rock', 'rock')",51,0.366,0.987,-6.613,111.089,236493,1,840,1015
 3290,spotify:track:54CnyPVTsxqlph6A8dWpTy,37,26737,"('alternative metal', 'industrial metal', 'industrial rock', 'nu metal', 'rap rock')",0,0.533,0.96,-3.918,135.797,246507,0,826,1255
-3291,spotify:track:20QoUUjUE4MW8eWCSeUGhX,54,356302,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap rock')",49,0.362,0.979,-4.192,171.22,241067,1,Jacksonville,357
+3291,spotify:track:20QoUUjUE4MW8eWCSeUGhX,54,356302,"('alternative metal', 'industrial metal', 'nu metal', 'post-grunge', 'rap rock')",49,0.362,0.979,-4.192,171.22,241067,1,840,357
 3292,spotify:track:1W1Fchq0voTFhKGWmn57uW,76,6980518,"('hard rock', 'metal', 'nwobhm', 'rock')",0,0.285,0.866,-6.762,162.307,250947,0,826,694
 3293,spotify:track:1jzDzZWeSDBg5fhNc3tczV,75,5836777,"('album rock', 'birmingham metal', 'classic rock', 'hard rock', 'metal', 'rock', 'stoner rock', 'uk doom metal')",79,0.429,0.631,-11.514,162.734,168440,0,826,204
 3294,spotify:track:5qrNtSNkPsWfjqaYNugzYT,76,5174856,"('album rock', 'german hard rock', 'german metal', 'german rock', 'hard rock', 'metal', 'rock')",0,0.402,0.873,-3.209,125.443,253667,0,276,1391
@@ -3354,7 +3354,7 @@
 3352,spotify:track:1hqrYSqvNc9x3BETX1cZhk,74,3655929,"('glam metal', 'hard rock', 'metal', 'rock', 'sleaze rock')",67,0.489,0.953,-4.615,94.443,195853,0,840,1129
 3353,spotify:track:6xoy7rjhumfn7cbq3mpnUk,60,709929,"('album rock', 'glam metal', 'hard rock', 'metal', 'rock')",10,0.357,0.897,-6.37,146.272,312573,0,840,1730
 3354,spotify:track:57bgtoPSgt236HzfBOd8kj,84,21774222,"('australian rock', 'hard rock', 'rock')",84,0.502,0.89,-5.175,133.52,292880,0,36,18
-3355,spotify:track:6DRvu6LgU0wRF6Yr7WHRji,60,1247546,"('album rock', 'alternative metal', 'hard rock', 'metal', 'nu metal', 'old school thrash', 'rap metal', 'rock', 'speed metal', 'thrash metal')",0,0.331,0.79,-11.612,163.479,259933,0,Kent,103
+3355,spotify:track:6DRvu6LgU0wRF6Yr7WHRji,60,1247546,"('album rock', 'alternative metal', 'hard rock', 'metal', 'nu metal', 'old school thrash', 'rap metal', 'rock', 'speed metal', 'thrash metal')",0,0.331,0.79,-11.612,163.479,259933,0,826,103
 3356,spotify:track:3KhF2YiNpJvGpfiCW45R6D,75,4421531,"('album rock', 'classic rock', 'hard rock', 'metal', 'rock')",70,0.472,0.9,-6.406,95.826,214960,0,840,1712
 3357,spotify:track:288cy2QRIj1CA7s1Ifu0ip,76,5174856,"('album rock', 'german hard rock', 'german metal', 'german rock', 'hard rock', 'metal', 'rock')",43,0.186,0.943,-2.154,179.557,230840,0,276,1391
 3358,spotify:track:4W2CRPuOl8wN3aR7QmOmQE,69,3044533,"('album rock', 'alternative metal', 'hard rock', 'metal', 'rock', 'speed metal')",0,0.379,0.953,-4.969,134.579,278307,0,826,1117
@@ -3366,7 +3366,7 @@
 3364,spotify:track:4N4guy1faBG6oseDnhjkWy,65,1137490,"('album rock', 'classic rock', 'glam metal', 'hard rock', 'metal', 'rock')",0,0.716,0.821,-4.204,120.737,197867,0,826,1289
 3365,spotify:track:1Krtfh550kyhfWPcRp6SnD,69,3044533,"('album rock', 'alternative metal', 'hard rock', 'metal', 'rock', 'speed metal')",0,0.27,0.886,-6.899,119.285,313520,0,826,1117
 3366,spotify:track:2zYzyRzz6pRmhPzyfMEC8s,84,21774222,"('australian rock', 'hard rock', 'rock')",85,0.574,0.913,-4.793,115.728,208400,0,36,18
-3367,spotify:track:1fcyfC1KLSWVCIvALR5AxS,60,1247546,"('album rock', 'alternative metal', 'hard rock', 'metal', 'nu metal', 'old school thrash', 'rap metal', 'rock', 'speed metal', 'thrash metal')",55,0.379,0.941,-10.443,105.155,341333,0,Kent,103
+3367,spotify:track:1fcyfC1KLSWVCIvALR5AxS,60,1247546,"('album rock', 'alternative metal', 'hard rock', 'metal', 'nu metal', 'old school thrash', 'rap metal', 'rock', 'speed metal', 'thrash metal')",55,0.379,0.941,-10.443,105.155,341333,0,826,103
 3368,spotify:track:28clONjZmul6FjfO6tZQDE,62,1325501,"('album rock', 'classic rock', 'glam metal', 'hard rock', 'metal', 'rock')",64,0.494,0.933,-5.977,121.201,316867,0,840,1278
 3369,spotify:track:6v3UX3KGvhYwphqipOO84l,57,490961,"('finnish power metal', 'melodic metal', 'metal', 'neo classical metal', 'power metal', 'progressive metal', 'symphonic metal')",50,0.391,0.991,-5.934,149.863,341000,0,246,1493
 3370,spotify:track:5ZIU2kT1wNjQNclQeVCz5O,57,712660,"('album rock', 'classic rock', 'glam metal', 'hard rock', 'rock', 'sacramento indie')",59,0.445,0.768,-8.836,112.796,318227,0,191,1551
@@ -3385,7 +3385,7 @@
 3383,spotify:track:2W7CvGjipq3EmHqNGN7lN9,56,508653,"('album rock', 'glam metal', 'hard rock', 'metal', 'rock')",57,0.526,0.9,-4.76,125.349,231693,0,840,454
 3384,spotify:track:1qBTLEa3lAZ6ieAxc9sEk3,72,3545389,"('album rock', 'hard rock', 'nwobhm', 'rock')",0,0.709,0.793,-7.66,105.864,247829,0,826,428
 3385,spotify:track:25qe3Wf24HVQBBiQeb9Cdf,47,130760,"('german metal', 'german power metal', 'hard rock', 'metal', 'neo classical metal', 'neo-trad metal', 'old school thrash', 'pirate', 'power metal', 'speed metal')",47,0.24,0.958,-10.151,161.887,282560,0,276,1354
-3386,spotify:track:0c6p9QomOhNU9uzujLjtsD,60,1247546,"('album rock', 'alternative metal', 'hard rock', 'metal', 'nu metal', 'old school thrash', 'rap metal', 'rock', 'speed metal', 'thrash metal')",55,0.339,0.991,-5.028,106.767,300093,0,Kent,103
+3386,spotify:track:0c6p9QomOhNU9uzujLjtsD,60,1247546,"('album rock', 'alternative metal', 'hard rock', 'metal', 'nu metal', 'old school thrash', 'rap metal', 'rock', 'speed metal', 'thrash metal')",55,0.339,0.991,-5.028,106.767,300093,0,826,103
 3387,spotify:track:2H4Uh7c159cJBmrbekZFFe,47,236886,"('album rock', 'danish metal', 'death metal', 'doom metal', 'hard rock', 'metal', 'rock', 'thrash metal')",28,0.297,0.798,-9.999,137.397,237107,0,208,1078
 3388,spotify:track:1j06ieEC2BOCM0fTmYhn2l,56,508653,"('album rock', 'glam metal', 'hard rock', 'metal', 'rock')",59,0.298,0.612,-9.002,156.727,262200,0,840,454
 3389,spotify:track:5ZOOjqoCaUydmo8bxSdosj,57,515230,"('alternative metal', 'death metal', 'groove metal', 'hard rock', 'metal', 'old school thrash', 'speed metal', 'thrash metal')",53,0.262,0.988,-4.922,91.319,290280,0,840,531
@@ -3784,7 +3784,7 @@
 3782,spotify:track:3Jc6X15OZCCyhGSHBF4hwB,81,6664822,"('alternative rock', 'art rock', 'melancholia', 'oxford indie', 'permanent wave', 'rock')",0,0.71,0.496,-9.638,111.662,328293,0,826,1284
 3783,spotify:track:2a3bppD0deLMyQLxphTfBk,67,1060608,"('alternative dance', 'alternative rock', 'dance-punk', 'garage rock', 'indie pop', 'indie rock', 'modern rock', 'new rave', 'rock')",0,0.456,0.955,-4.687,131.967,240640,0,840,1769
 3784,spotify:track:71D4LseR0RADPbyvMeTIHR,60,737121,"('alternative rock', 'britpop', 'garage rock', 'garage rock revival', 'indie rock', 'modern rock', 'rock')",0,0.368,0.935,-3.204,164.425,203733,1,826,1601
-3785,spotify:track:4z21jCYxdhnEfvgqGSKByQ,71,3135864,"('alternative metal', 'modern rock', 'post-grunge', 'rock')",52,0.293,0.817,-5.432,165.0,347667,0,840,1638
+3785,spotify:track:4z21jCYxdhnEfvgqGSKByQ,71,3135864,"('alternative metal', 'modern rock', 'post-grunge', 'rock')",52,0.293,0.817,-5.432,165,347667,0,840,1638
 3786,spotify:track:0obv9ng3ulbtAFFBiYrxJe,64,1139356,"('alternative rock', 'modern rock', 'rock')",0,0.504,0.949,-4.474,160.037,217707,0,826,847
 3787,spotify:track:3YuaBvuZqcwN3CEAyyoaei,71,3554601,"('alternative metal', 'alternative rock', 'nu metal', 'permanent wave', 'post-grunge', 'rock', 'supergroup')",77,0.614,0.568,-5.477,107.849,293960,0,840,127
 3788,spotify:track:7xqeIdLJSf3bgmZ7vUvHrE,81,6664822,"('alternative rock', 'art rock', 'melancholia', 'oxford indie', 'permanent wave', 'rock')",0,0.615,0.931,-7.8,137.544,309093,0,826,1284
@@ -4018,7 +4018,7 @@
 4016,spotify:track:7J8F8mHNV79WSV3N2lVwHH,64,885131,"('chicago soul', 'classic soul', 'funk', 'soul')",44,0.85,0.669,-9.562,126.624,300693,0,840,388
 4017,spotify:track:79krwDoFzJ6dbNRwceAwgH,61,496446,"('brill building pop', 'classic rock', 'classic soul', 'funk', 'memphis soul', 'motown', 'rock-and-roll', 'soul', 'southern soul')",51,0.573,0.707,-8.29,152.467,169707,0,840,1751
 4018,spotify:track:6k0GXtn49Ga6kfA8ZvLtVX,66,1383372,"('classic soul', 'disco', 'funk', 'motown', 'quiet storm', 'soul')",50,0.684,0.417,-9.591,102.756,337333,0,840,1592
-4019,spotify:track:4gAsVttMY36zJUCa7FYoJN,72,2261597,"('brill building pop', 'classic soul', 'funk', 'memphis soul', 'motown', 'soul')",48,0.789,0.392,-15.395,119.0,830400,0,840,1626
+4019,spotify:track:4gAsVttMY36zJUCa7FYoJN,72,2261597,"('brill building pop', 'classic soul', 'funk', 'memphis soul', 'motown', 'soul')",48,0.789,0.392,-15.395,119,830400,0,840,1626
 4020,spotify:track:7jmqTPoxOQsC2w9Cb6z78q,64,885131,"('chicago soul', 'classic soul', 'funk', 'soul')",0,0.532,0.79,-7.282,91.268,324399,0,840,388
 4021,spotify:track:20HCbY9qPpi1H2pP2MRUWy,63,568737,"('classic soul', 'disco', 'funk', 'motown', 'quiet storm', 'soul', 'southern soul')",50,0.506,0.59,-8.922,83.627,210453,0,840,223
 4022,spotify:track:5TUs6T93fNFvgQov6MlYkP,59,202604,"('classic soul', 'disco', 'funk', 'motown', 'philly soul', 'quiet storm', 'soul', 'southern soul')",64,0.497,0.73,-8.514,131.188,390987,0,840,196
@@ -4173,8 +4173,8 @@
 4171,spotify:track:27rSEMh30XdxOgQX7AKSaM,73,3018522,"('contemporary country', 'country', 'country road')",0,0.541,0.895,-4.884,102.078,242027,0,840,1298
 4172,spotify:track:143YESFOZqxVGrKEWisbid,68,928412,"('contemporary country', 'country', 'country road', 'modern country rock', 'modern southern rock')",68,0.591,0.741,-4.867,81.995,172107,0,840,252
 4173,spotify:track:2NNioXX1t4whQsBF8FfExl,66,839487,"('contemporary country', 'country', 'country pop')",65,0.523,0.896,-3.556,169.94,177951,0,840,1017
-4174,spotify:track:3RzcoFkZ0AOp2nH71jP504,83,5967424,"('contemporary country', 'country')",1,0.54,0.863,-4.483,77.0,186733,0,840,996
-4175,spotify:track:2KqJC0koTBUyDlsMt5ok1V,77,3989834,"('contemporary country', 'country', 'country road', 'modern country rock')",70,0.739,0.85,-3.966,113.0,168960,0,840,1640
+4174,spotify:track:3RzcoFkZ0AOp2nH71jP504,83,5967424,"('contemporary country', 'country')",1,0.54,0.863,-4.483,77,186733,0,840,996
+4175,spotify:track:2KqJC0koTBUyDlsMt5ok1V,77,3989834,"('contemporary country', 'country', 'country road', 'modern country rock')",70,0.739,0.85,-3.966,113,168960,0,840,1640
 4176,spotify:track:4EpLU30bi1KNWkBTfgZkoK,68,347985,"('contemporary country', 'country', 'country road', 'modern country rock')",0,0.638,0.854,-4.664,93.869,190640,0,840,1357
 4177,spotify:track:1yEwEiTpsaPhQi9lb5EVV4,75,2907187,"('contemporary country', 'country', 'country road', 'modern country rock')",1,0.715,0.584,-8.231,90.987,203173,0,840,1781
 4178,spotify:track:5avVDmK9FVJpd3MDO8I3Zl,69,2307128,"('contemporary country', 'country', 'country dawn', 'country road')",70,0.727,0.914,-5.85,106.021,196160,0,840,964
@@ -4291,7 +4291,7 @@
 4289,spotify:track:11qh54D0PKkBwelpDxxiEU,69,2307128,"('contemporary country', 'country', 'country dawn', 'country road')",70,0.5,0.225,-10.22,173.788,193320,0,840,964
 4290,spotify:track:0b9djfiuDIMw1zKH6gV74g,75,4475531,"('australian country', 'australian pop', 'contemporary country', 'country', 'country road')",68,0.624,0.84,-5.768,111.02,323040,0,554,861
 4291,spotify:track:3JWEMzwpcWCvu4Qw1BIbYi,57,239676,"('bakersfield sound', 'country', 'country rock', 'cowboy western')",59,0.552,0.474,-6.847,92.156,143693,0,840,259
-4292,spotify:track:0i5el041vd6nxrGEU8QRxy,80,4598217,"('contemporary country', 'country', 'country pop', 'country road', 'modern country rock')",72,0.457,0.948,-3.364,148.0,208960,0,840,573
+4292,spotify:track:0i5el041vd6nxrGEU8QRxy,80,4598217,"('contemporary country', 'country', 'country pop', 'country road', 'modern country rock')",72,0.457,0.948,-3.364,148,208960,0,840,573
 4293,spotify:track:4H2TRR9FjnnIwxGnIt9stO,60,736930,"('country', 'country road', 'country rock')",56,0.714,0.522,-9.773,121.312,168000,0,840,346
 4294,spotify:track:5Rl7ck3xLYBNDef6QgAIA4,58,302372,"('classic country pop', 'country', 'country rock', 'nashville sound')",46,0.713,0.43,-10.432,95.284,161787,0,840,1347
 4295,spotify:track:6xHI9KjUjYT0FPtGO8Mxa1,83,5967424,"('contemporary country', 'country')",76,0.464,0.813,-6.185,75.977,222533,0,840,996
@@ -4339,7 +4339,7 @@
 4337,spotify:track:7w3YZLWL8l11US6FMMLOGq,48,73420,"('classic country pop', 'honky tonk', 'traditional country')",46,0.604,0.441,-9.474,128.32,155973,0,840,544
 4338,spotify:track:6VVqPBFZIbcmv14zNfOc13,68,347985,"('contemporary country', 'country', 'country road', 'modern country rock')",63,0.79,0.325,-11.689,126.877,163311,0,840,1357
 4339,spotify:track:7xNYZeFtrB05pi9tc6lEeb,70,199413,"('contemporary country', 'country pop')",60,0.472,0.701,-4.563,79.805,169440,0,840,601
-4340,spotify:track:2Qgw0F6DpMy9rs5XxlYh7U,59,60609,"('country pop',)",56,0.525,0.84,-5.716,105.0,173218,0,840,1682
+4340,spotify:track:2Qgw0F6DpMy9rs5XxlYh7U,59,60609,"('country pop',)",56,0.525,0.84,-5.716,105,173218,0,840,1682
 4341,spotify:track:0iXqDv92jTifES3rxAYDNc,80,1337145,"('adult standards', 'contemporary country', 'country', 'country road', 'modern country rock')",59,0.425,0.362,-8.191,95.253,165253,0,840,241
 4342,spotify:track:2kEhQe0BVtY8IIaFE5ALA0,64,30593,"('alberta country', 'canadian contemporary country', 'canadian country', 'contemporary country', 'country pop')",57,0.614,0.837,-3.967,96.977,168448,0,124,1013
 4343,spotify:track:3Sm47s5VbZs7cHzEdqC4Tc,71,281900,"('contemporary country', 'heartland rock')",58,0.534,0.853,-3.379,147.96,194707,0,840,1104
@@ -4801,7 +4801,7 @@
 4799,spotify:track:0g5EKLgdKvNlln7TNqBByK,84,7639278,"('dance pop', 'edm', 'electronic trap', 'pop', 'pop rap')",77,0.583,0.695,-5.336,104.879,220573,0,250,396
 4800,spotify:track:7EVk9tRb6beJLTHrg6AkY9,64,135514,"('electro house',)",75,0.841,0.639,-6.052,99.002,241875,0,792,262
 4801,spotify:track:1Wvzo4EotLEh4W3OVcQoDO,59,154452,"('alt z', 'edm', 'electropop', 'indie electropop', 'indie poptimism', 'indietronica', 'la pop', 'pop', 'vapor soul', 'vapor twitch')",56,0.608,0.736,-6.7,97.038,202887,0,840,511
-4802,spotify:track:2rizacJSyD9S1IQUxUxnsK,84,18645337,"('dance pop', 'edm', 'electropop', 'pop', 'pop dance', 'tropical house')",71,0.662,0.586,-8.821,90.0,194080,0,840,1569
+4802,spotify:track:2rizacJSyD9S1IQUxUxnsK,84,18645337,"('dance pop', 'edm', 'electropop', 'pop', 'pop dance', 'tropical house')",71,0.662,0.586,-8.821,90,194080,0,840,1569
 4803,spotify:track:4SBqydJCEhcroni09XgT2c,84,7835625,"('edm', 'pop', 'pop dance', 'tropical house')",60,0.686,0.678,-8.063,105.005,289987,0,702,903
 4804,spotify:track:3whmx5Ptrqzx2c101FJFi3,77,1981312,"('house', 'pop', 'uk dance')",63,0.777,0.708,-5.707,109.037,244174,0,826,449
 4805,spotify:track:6m3ZWIXhjoV76syT1j2oE9,69,1075593,"('brostep', 'dance pop', 'edm', 'electro house', 'electronic trap', 'electropop', 'house', 'moombahton', 'pop', 'pop dance', 'slap house', 'tropical house')",59,0.631,0.661,-5.5,174.031,178333,0,840,441
@@ -4891,7 +4891,7 @@
 4889,spotify:track:37f4ITSlgPX81ad2EvmVQr,67,834553,"('dance pop', 'pop', 'pop rock', 'viral pop')",79,0.564,0.714,-4.987,175.924,204013,0,840,1283
 4890,spotify:track:1ip2IGDWMrUmlaepEbWlL8,82,10310665,"('dance pop', 'edm', 'electropop', 'indietronica', 'metropopolis', 'pop', 'uk pop')",63,0.258,0.659,-5.903,189.558,250267,0,826,509
 4891,spotify:track:1rpDLMm4FjGqMz6N1dZZo8,87,20454663,"('art pop', 'dance pop', 'pop')",58,0.666,0.423,-8.012,129.89,205280,0,840,918
-4892,spotify:track:4llK75pXNWZz6KAho2Gp16,89,34479606,"('pop', 'pop rock')",80,0.651,0.663,-5.569,102.0,259453,0,840,1044
+4892,spotify:track:4llK75pXNWZz6KAho2Gp16,89,34479606,"('pop', 'pop rock')",80,0.651,0.663,-5.569,102,259453,0,840,1044
 4893,spotify:track:05pKAafT85jeeNhZ6kq7HT,77,6417534,"('acoustic pop', 'neo mellow', 'pop', 'pop rock')",68,0.585,0.303,-10.058,136.703,240166,0,840,745
 4894,spotify:track:4rMNgxEwGWoPHIUcvB5BrB,93,36658831,"('dance pop', 'pop')",64,0.574,0.824,-6.885,149.981,257848,0,840,255
 4895,spotify:track:7wZUrN8oemZfsEd1CGkbXE,78,3074326,"('british soul', 'dance pop', 'europop', 'neo mellow', 'pop', 'post-teen pop', 'talent show', 'urban contemporary')",78,0.638,0.656,-5.886,104.036,262467,0,826,940
@@ -4954,7 +4954,7 @@
 4952,spotify:track:3AeicLnm55RqcXGBKYQolM,74,1783031,"('dance pop', 'edm', 'electropop', 'gauze pop', 'pop', 'pop dance', 'tropical house')",70,0.56,0.857,-4.145,119.975,215360,0,826,1770
 4953,spotify:track:3l3xTXsUXeWlkPqzMs7mPD,72,2328794,"('boy band', 'contemporary r&b', 'new jack swing', 'r&b', 'urban contemporary')",73,0.64,0.427,-9.29,149.703,351467,0,840,233
 4954,spotify:track:1xNcBAoUw8Hz6LqK2jt4Ff,66,480842,"('disco house', 'edm', 'electro house', 'house', 'pop dance', 'progressive house', 'vocal house')",74,0.597,0.837,-6.518,126.342,171360,0,752,522
-4955,spotify:track:2FY7b99s15jUprqC0M5NCT,92,37426979,"('modern rock', 'rock')",82,0.704,0.611,-6.112,100.0,189467,0,840,684
+4955,spotify:track:2FY7b99s15jUprqC0M5NCT,92,37426979,"('modern rock', 'rock')",82,0.704,0.611,-6.112,100,189467,0,840,684
 4956,spotify:track:44ADyYoY5liaRa3EOAl4uf,86,16935218,"('dance pop', 'pop', 'post-teen pop')",72,0.53,0.538,-6.672,148.051,233654,0,840,1097
 4957,spotify:track:1eUtyz3sWA42VYsiqbfQoZ,88,18391768,"('dance pop', 'pop', 'uk pop')",53,0.427,0.304,-9.661,116.977,253208,0,826,1377
 4958,spotify:track:6hTBP6QLwJdxbKyLlLXrGo,65,597776,"('dance pop', 'girl group', 'golden age hip hop', 'hip hop', 'hip pop', 'old school hip hop', 'queens hip hop', 'rap')",62,0.863,0.543,-13.497,106.929,213267,0,840,1370
@@ -4994,7 +4994,7 @@
 4992,spotify:track:3Z8FwOEN59mRMxDCtb8N0A,87,32801794,"('brostep', 'dance pop', 'edm', 'pop', 'progressive electro house')",80,0.63,0.633,-7.088,93.995,172762,0,840,1046
 4993,spotify:track:6NFyWDv5CjfwuzoCkw47Xf,100,47245593,"('pop',)",79,0.75,0.404,-10.178,95.045,232253,0,840,1539
 4994,spotify:track:3Vi5XqYrmQgOYBajMWSvCi,95,13805634,"('dance pop', 'pop')",92,0.664,0.609,-6.509,130.041,210560,1,840,453
-4995,spotify:track:7LqjznQwfrax7MjQXmxqdQ,80,11139221,"('dance pop', 'pop', 'pop rap', 'urban contemporary')",71,0.845,0.768,-5.448,100.0,187840,0,840,760
+4995,spotify:track:7LqjznQwfrax7MjQXmxqdQ,80,11139221,"('dance pop', 'pop', 'pop rap', 'urban contemporary')",71,0.845,0.768,-5.448,100,187840,0,840,760
 4996,spotify:track:0pqnGHJpmpxLKifKRmU6WP,92,37426979,"('modern rock', 'rock')",89,0.776,0.78,-4.374,124.949,204347,0,840,684
 4997,spotify:track:0bMbDctzMmTyK2j74j3nF3,85,31916266,"('electro house',)",79,0.67,0.668,-4.306,88.033,179053,0,826,46
 4998,spotify:track:2Foc5Q5nqNiosCNqttzHof,83,8490783,"('electro', 'filter house')",80,0.794,0.811,-8.966,116.047,248413,0,250,403
