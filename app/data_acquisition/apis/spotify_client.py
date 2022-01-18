@@ -82,9 +82,7 @@ def extract_data_from_playlists(client: Spotify, playlist_URIs: List) -> List:
                 tracks = results["items"]
                 i += len(tracks)
                 [t.append(construct_track_from_response(client, track)) for track in tracks]
-        except TypeError:  # different song name maybe
-            pass
-        except requests.exceptions.ReadTimeout:  # some can't read
+        except Exception:
             pass
 
     return t

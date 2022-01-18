@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from app.data_acquisition.crawlers.utils import AZLYRICS_URL, beautiful_soup_scraping
+from app.data_acquisition.crawlers.utils import AZLYRICS_URL, beautiful_soup_scraping, Status404CounterException
 
 
 def get_track_azlyrics_url(artist_name: str, track_name: str) -> str:
