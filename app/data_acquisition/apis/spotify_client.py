@@ -90,20 +90,24 @@ def extract_data_from_playlists(client: Spotify, playlist_URIs: List) -> List:
     return t
 
 
-def save_tracks_in_csv(tracks: List) -> None:
+def save_tracks_in_csv(tracks: List) -> pd.DataFrame:
     """
     Save the tracks that got from API to csv format.
 
     :param tracks: List of Track dicts
+    :return: newDataframe from spotify tracks
     """
     df = pd.DataFrame(data=tracks, columns=tracks[0].keys())
     df.drop_duplicates(
-        subset=["track_name", "artist_name"])  # Supposing that each song can appear in different playlists
+        subset=["track_name", "artist_name"],
+        inplace=True)  # Supposing that each song can appear in different playlists
     df.to_csv(
-        path_or_buf=Path.cwd().parent / "data" / "tracks.csv",
+        path_or_buf=Path.cwd().parent / "data" / "01_tracks_from_spotify.csv",
         sep=",",
         columns=df.columns
     )
+
+    return df
 
 
 def get_playlists() -> List[str]:
@@ -199,13 +203,41 @@ def get_playlists() -> List[str]:
         "https://open.spotify.com/playlist/37i9dQZF1DXccH49bh52dB?si=55bd0720b7e445a9",  # Chilled Dance Hits
         "https://open.spotify.com/playlist/37i9dQZF1DWTwnEm1IYyoj?si=3e0133c3fdd244f3",  # Soft Pop Hits
         "https://open.spotify.com/playlist/37i9dQZF1DWUZMtnnlvJ9p?si=77a05c8d08034aa1",  # The Ultimate Hit Mix
+        "https://open.spotify.com/playlist/37i9dQZF1DX7Mq3mO5SSDc?si=2eef7b0a46d8465d",  # Hip-Hop anthems: Def jam
+        "https://open.spotify.com/playlist/37i9dQZF1DX6PKX5dyBKeq?si=50e451bc75be4a81",  # Rap UK
+        "https://open.spotify.com/playlist/37i9dQZF1DWSq3HVpgrk0E?si=b8beb0128c364d3c",  # No Cap
+        "https://open.spotify.com/playlist/37i9dQZF1DX8Kgdykz6OKj?si=56b9325688404836",  # Jazz Rap
+        "https://open.spotify.com/playlist/37i9dQZF1DX6xZZEgC9Ubl?si=1c2d6c88a83f468e",  # Tear drop
+        "https://open.spotify.com/playlist/37i9dQZF1DX5hR0J49CmXC?si=d4cba6e3a8a043df",  # Mind Right
+        "https://open.spotify.com/playlist/3i9dQZF1DX5hR0J49CmXC?si=d4cba6e3a8a043df",  # Mind Right
+        "https://open.spotify.com/playlist/37i9dQZF1DX6OgmB2fwLGd?si=5d78e33de45c4e5b",  # Internet people
+        "https://open.spotify.com/playlist/37i9dQZF1DWWY64wDtewQt?si=bcfb1a41212a4a56",  # Phonk
+        "https://open.spotify.com/playlist/37i9dQZF1DWTggY0yqBxES?si=e37ab38b6ce54cc6",  # Alternative Hip Hop
+        "https://open.spotify.com/playlist/37i9dQZF1DWUFmyho2wkQU?si=e9763ef74bbc4cd4",  # Hip Hop Drive
+        "https://open.spotify.com/playlist/37i9dQZF1DXcA6dRp8rwj6?si=08be32182a4a4037",  # Beats and rhymes
+        "https://open.spotify.com/playlist/37i9dQZF1DXaxIqwkEGFEh?si=c659dd362a254b3d",  # Out The Mud
+        "https://open.spotify.com/playlist/37i9dQZF1DWX3387IZmjNa?si=c5eac41236a5469d",  # B.A.E
+        "https://open.spotify.com/playlist/37i9dQZF1DWYok9l1JL7GM?si=54c44fcdf6ac4f45",  # I love my down south classics
+        "https://open.spotify.com/playlist/37i9dQZF1DX9iGsUcr0Bpa?si=2540088b45854124",  # Door knockers
+        "https://open.spotify.com/playlist/37i9dQZF1DX4SrOBCjlfVi?si=c6c63511a76d4307",  # New Joints
+        "https://open.spotify.com/playlist/37i9dQZF1DWTplaZ1W7ARf?si=c3db18842c564fb3",  # Street soul
+        "https://open.spotify.com/playlist/37i9dQZF1DX6iFz8juuQdH?si=e29fe53cb3ec47a8",  # Homage
+        "https://open.spotify.com/playlist/37i9dQZF1DWTcqUzwhNmKv?si=bd60fcadfe8046c1",  # Kickass metal
+        "https://open.spotify.com/playlist/37i9dQZF1DX5J7FIl4q56G?si=0d82386f663248f6",  # All new metal
+        "https://open.spotify.com/playlist/37i9dQZF1DX5OUjSS1OMgV?si=6068751d634f494d",  # One more rep
+        "https://open.spotify.com/playlist/37i9dQZF1DWWOaP4H0w5b0?si=0ecda86e8adb4158",  # Metal essentials
+        "https://open.spotify.com/playlist/37i9dQZF1DX9qNs32fujYe?si=f9d0e92611bc4932",  # Heavy metal
+        "https://open.spotify.com/playlist/37i9dQZF1DX5wgKYQVRARv?si=ba278e9bdd9d490e",  # Progressive metal
+        "https://open.spotify.com/playlist/37i9dQZF1DWW4nzWPdpBAz?si=b88bbfec766c42d7",  # Black Metal essentials
     ]
 
 
-if __name__ == '__main__':
+def spotify_manager() -> pd.DataFrame:
     """ Main function of APIs module. Get the data from the API """
     load_dotenv()
     sp_client = spotify_client()
     URIs = url_to_uri(get_playlists())
     tracks = extract_data_from_playlists(sp_client, URIs)
-    save_tracks_in_csv(tracks)
+    df = save_tracks_in_csv(tracks)
+
+    return df

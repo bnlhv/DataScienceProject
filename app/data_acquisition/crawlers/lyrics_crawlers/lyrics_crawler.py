@@ -1,14 +1,12 @@
 import random
 from pathlib import Path
 from time import sleep
-from typing import Callable
 
 import numpy as np
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from crawler.chrome_driver import driver
-from crawler.utils import AZLYRICS_URL, Status404CounterException, beautiful_soup_scraping
+from app.data_acquisition.crawlers.utils import AZLYRICS_URL, beautiful_soup_scraping
 
 
 def get_track_azlyrics_url(artist_name: str, track_name: str) -> str:
@@ -27,17 +25,6 @@ def get_track_azlyrics_url(artist_name: str, track_name: str) -> str:
     return f"{AZLYRICS_URL}/{artist}/{track}.html"
 
 
-def selenium_scraping(url: str) -> str:
-    """
-    Scrape with selenium.
-
-    :param url: the Url to fetch the data from
-    :return: text of div element
-    """
-    driver.get(url)
-    return driver.find_element_by_xpath("//div[@class='col-xs-12 col-lg-8 text-center']")
-
-
 def get_track_html(artist_name: str, track_name: str) -> str:
     """
     Scrape the html page of the track and find the lyrics.
@@ -47,7 +34,8 @@ def get_track_html(artist_name: str, track_name: str) -> str:
     :return: the lyrics
     """
     url = get_track_azlyrics_url(artist_name, track_name)
-    html = beautiful_soup_scraping(BeautifulSoup.find, AZLYRICS_URL, "div", {"class": "col-xs-12 col-lg-8 text-center"}).text
+    html = beautiful_soup_scraping(BeautifulSoup.find, AZLYRICS_URL, "div",
+                                   {"class": "col-xs-12 col-lg-8 text-center"}).text
     # Hard-coding in this site to fetch the lyrics because the dix doesn't have specefic class
     lyrics = html.strip()
     lyrics = lyrics[lyrics.find("\n\n\n\n") + 5: lyrics.find("Submit Corrections")].splitlines()
@@ -65,7 +53,6 @@ def is_explict_words_in_track(artist_name: str, track_name: str) -> int:
 
     ----- Credits to data.world for bad_words.csv, dataset name "list of bad words" -------
 
-    :param scraping_method: Call different scraping method each time
     :param artist_name: The artist's name.
     :param track_name: The song's name.
     :return: 1 if there are such lyrics else 0
@@ -79,9 +66,8 @@ def is_explict_words_in_track(artist_name: str, track_name: str) -> int:
     return 0
 
 
-if __name__ == '__main__':
+def lyrics_crawler_manager(df: pd.DataFrame) -> pd.DataFrame:
     """ Function that fill blank is_explict in dataset. """
-    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_with_explict_content_from_api_and_crawler.csv")
     df_copy = df.copy()
     sub_df = df.loc[np.logical_and(df["is_explict_content"] != 0,
                                    df["is_explict_content"] != 1), :]
@@ -98,4 +84,6 @@ if __name__ == '__main__':
         except Exception:
             pass  # pass this song...
 
-    df_copy.to_csv(Path.cwd().parent / "data" / "tracks_with_explict_content_from_api_and_crawler.csv")
+    df_copy.to_csv(Path.cwd().parent / "data" / "03_explict_feature_update_from_crawler.csv")
+
+    return df_copy

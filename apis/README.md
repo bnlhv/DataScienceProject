@@ -1,1 +1,0 @@
-This directory include code for connecting to api's

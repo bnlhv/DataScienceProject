@@ -1,12 +1,11 @@
-from pathlib import Path
-from pathlib import Path
-from typing import List, Dict
+from time import sleep
+from typing import List
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from crawler.utils import beautiful_soup_scraping, Status404CounterException
+from app.data_acquisition.crawlers.utils import beautiful_soup_scraping, Status404CounterException
 
 
 def get_list_of_origins() -> List:
@@ -33,15 +32,15 @@ def get_list_of_origins() -> List:
     return response.json()["rankerLists"]
 
 
-def main_loop(origin_data: List) -> List[Dict]:
+def get_artists_origins() -> pd.DataFrame:
     """
     Function that run main loop crawler at the site and parse HTML with bs4
 
-    :param origin_data: the homepage data
     :return: final data of artist and their origin
     """
-    origins = [origin["name"].split("from ")[-1] for origin in origin_data]
-    links = ["https://" + link["url"][2:] for link in origin_data]
+    origins = [origin["name"].split("from ")[-1] for origin in get_list_of_origins()]
+    sleep(2)
+    links = ["https://" + link["url"][2:] for link in get_list_of_origins()]
     data = []
 
     for origin, link in zip(origins, links):
@@ -69,12 +68,4 @@ def main_loop(origin_data: List) -> List[Dict]:
             else:
                 i += 1
 
-    return data
-
-
-if __name__ == '__main__':
-    """ Function that get home town of artists data from ranker.com """
-    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing.csv").copy()
-    origin_data = get_list_of_origins()
-    data = main_loop(origin_data)
-    pd.DataFrame(data).to_csv(Path.cwd().parent / "data" / "artists_and_origins.csv")
+    return pd.DataFrame(data)
