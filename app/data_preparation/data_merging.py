@@ -5,9 +5,9 @@ import numpy as np
 
 if __name__ == '__main__':
     df_data = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing.csv")
-    df_origins = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins.csv")
-    df_origins2 = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins2.csv")
-    df_origins3 = pd.read_csv(Path.cwd().parent / "data" / "artists_origin_and_age.csv")
+    df_origins = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins_ranker.csv")
+    df_origins2 = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins_britannica.csv")
+    df_origins3 = pd.read_csv(Path.cwd().parent / "data" / "artists_and_origins_famousbirthdays.csv")
     df_origins3 = df_origins3.rename(columns={'artist': 'artist_name'})
     findings = []
     for artist in df_data["artist_name"].unique().tolist():
