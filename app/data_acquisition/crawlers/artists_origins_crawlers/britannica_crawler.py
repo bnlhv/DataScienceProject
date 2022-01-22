@@ -1,30 +1,20 @@
-from pathlib import Path
-from typing import List, Dict
-
+"""
+This module finds artists origins from britannica's site
+"""
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from crawler.utils import beautiful_soup_scraping, Status404CounterException, BRITANNICA_URL
+from app.data_acquisition.crawlers.utils import beautiful_soup_scraping, Status404CounterException, BRITANNICA_URL
 
 
-def get_empty_origin_artists(df: pd.DataFrame) -> List:
-    """
-    Extract  artists with no origin in the dataset
-
-    :param df: the Dataframe
-    :return: List of these artists
-    """
-    return df.copy().loc[df["artist_origin"].isnull(), "artist_name"].unique().tolist()
-
-
-def main_loop(df: pd.DataFrame) -> List[Dict]:
+def get_artists_origins(df: pd.DataFrame) -> pd.DataFrame:
     """
     Iterate on the artists names and fins their origin in britannica
 
     :param df: the dataframe with artists
-    :return: List of artists and their origin if found
+    :return: dataframe of artists and origins from this crawler
     """
-    artists = get_empty_origin_artists(df)
+    artists = df.copy().loc[df["artist_origin"].isnull(), "artist_name"].unique().tolist()
     results = []
 
     for artist in artists:
@@ -49,11 +39,4 @@ def main_loop(df: pd.DataFrame) -> List[Dict]:
         except AttributeError:
             pass
 
-    return results
-
-
-if __name__ == '__main__':
-    """ Function that get home town of artists data from ranker.com """
-    df = pd.read_csv(Path.cwd().parent / "data" / "tracks_after_preprocessing_with_origins.csv").copy()
-    results = main_loop(df)
-    pd.DataFrame(results).to_csv(Path.cwd().parent / "data" / "artists_and_origins2.csv")
+    return pd.DataFrame(results)

@@ -1,3 +1,6 @@
+"""
+This module brings the data if a song has explicit content or not
+"""
 from pathlib import Path
 from typing import List
 
@@ -17,9 +20,7 @@ def get_explict_feature_from_deezer(tracks: List[str], artists: List[str]) -> Li
     :return: List of 1,0 booleans for the Dataframe.
     """
     dz_client = deezer.Client()
-
     is_explict = []
-
     for idx, (track, artist) in enumerate(zip(tracks, artists)):
         try:
             deezer_options = dz_client.search(track=track)
@@ -35,8 +36,10 @@ def get_explict_feature_from_deezer(tracks: List[str], artists: List[str]) -> Li
     return is_explict
 
 
-if __name__ == '__main__':
+def deezer_manager(df: pd.DataFrame) -> pd.DataFrame:
     """ Main function os deezer's module. """
-    df = pd.read_csv(Path.cwd().parent / "data" / "tracks.csv")
-    df["is_explict_content"] = get_explict_feature_from_deezer(df["track_name"], df["artist_name"])
-    df.to_csv(Path.cwd().parent / "data" / "tracks_with_explict_content.csv")
+    df_copy = df.copy()
+    df_copy["is_explict_content"] = get_explict_feature_from_deezer(df_copy["track_name"], df_copy["artist_name"])
+    df_copy.to_csv(Path.cwd().parent / "data" / "02_deezer_update_explict_content_feature.csv")
+
+    return df

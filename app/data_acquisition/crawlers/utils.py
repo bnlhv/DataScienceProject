@@ -1,3 +1,6 @@
+"""
+This module is utils and consts module for the crawlers package
+"""
 from typing import Any, Callable
 
 import requests
@@ -6,6 +9,7 @@ from bs4 import BeautifulSoup
 AZLYRICS_URL = "https://www.azlyrics.com/lyrics"
 RANKER_URL = "https://www.ranker.com/fact-lists/recording-artists-and-groups/hometown"
 BRITANNICA_URL = "https://www.britannica.com/biography/"
+
 
 class Status404CounterException(BaseException):
     pass
@@ -20,6 +24,8 @@ def beautiful_soup_scraping(method: Callable, url: str, *args: Any, **kwargs: An
     """
     response = requests.get(url)
     if response.status_code == 404:
+        # todo: remove this
+        print("404")
         raise Status404CounterException()
 
     soup = BeautifulSoup(response.text, "lxml")
