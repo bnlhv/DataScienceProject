@@ -1,3 +1,6 @@
+"""
+This module brings the data if a song has explicit content or not
+"""
 from pathlib import Path
 from typing import List
 

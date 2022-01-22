@@ -1,3 +1,6 @@
+"""
+This module finds artists origins from britannica's site
+"""
 import pandas as pd
 from bs4 import BeautifulSoup
 

@@ -1,3 +1,6 @@
+"""
+This module is utils and consts module for the crawlers package
+"""
 from typing import Any, Callable
 
 import requests

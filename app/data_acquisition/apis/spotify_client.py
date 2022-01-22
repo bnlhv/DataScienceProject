@@ -1,3 +1,6 @@
+"""
+This module is the main dataframe module which brings most of the data from Spotify api
+"""
 import os
 from pathlib import Path
 from typing import List, Dict

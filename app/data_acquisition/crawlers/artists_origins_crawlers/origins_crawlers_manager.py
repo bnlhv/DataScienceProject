@@ -1,3 +1,6 @@
+"""
+This module manage all origin crawlers and [britannica, famousbirthdays & ranker]
+"""
 from pathlib import Path
 
 import numpy as np

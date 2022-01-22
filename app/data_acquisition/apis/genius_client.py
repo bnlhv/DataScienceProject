@@ -1,3 +1,6 @@
+"""
+This module adds to df the column word_amount for every song
+"""
 import os
 import re
 from pathlib import Path

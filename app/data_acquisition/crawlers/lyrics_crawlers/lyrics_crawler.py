@@ -1,3 +1,7 @@
+"""
+This module finds lyrics of sing from AZlyrics site for columns word_amount and is_explicit_content.
+This module is a backup for the songs that the apis could't find.
+"""
 import random
 from pathlib import Path
 from time import sleep

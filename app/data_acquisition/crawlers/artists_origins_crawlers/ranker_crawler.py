@@ -1,3 +1,6 @@
+"""
+This module finds artists origins from ranker's site
+"""
 from time import sleep
 from typing import List
 

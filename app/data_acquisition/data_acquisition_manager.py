@@ -1,15 +1,17 @@
+"""
+This module is the data acquisition manager, it creates a pipeline and go through
+all apis and crawlers for data fetching.
+"""
 from pathlib import Path
-
-import pandas as pd
 
 from apis.deezer_client import deezer_manager
 from apis.spotify_client import spotify_manager
 from app.data_acquisition.apis.genius_client import genius_manager
-from crawlers.artists_origins_crawlers.origins_crawlers_manager import artist_origin_manager
 from app.data_acquisition.crawlers.lyrics_crawlers.lyrics_crawler import lyrics_crawler_manager
+from crawlers.artists_origins_crawlers.origins_crawlers_manager import artist_origin_manager
 
 
-def manage() -> pd.DataFrame:
+def manage() -> None:
     """
     Manager of the Data acquisition module.
 
