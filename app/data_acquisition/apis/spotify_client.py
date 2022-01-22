@@ -3,7 +3,6 @@ from pathlib import Path
 from typing import List, Dict
 
 import pandas as pd
-import requests
 from dotenv import load_dotenv
 from spotipy import Spotify, SpotifyClientCredentials
 
@@ -56,7 +55,9 @@ def construct_track_from_response(client: Spotify, track: Spotify.track) -> Dict
         track_energy=audio_features["energy"],
         track_loudness=audio_features["loudness"],
         track_tempo=audio_features["tempo"],
-        track_duration_ms=audio_features["duration_ms"]
+        track_duration_ms=audio_features["duration_ms"],
+        # todo: remove this
+        is_explicit_content=track["track"]["explicit"]
     )
 
 
@@ -69,19 +70,17 @@ def extract_data_from_playlists(client: Spotify, playlist_URIs: List) -> List:
     :return: list of tracks
     """
     t = []
-    i = 0
     for uri in playlist_URIs:
         try:
             results = client.playlist_items(uri)
             tracks = results["items"]
-            i += len(tracks)
-            print(i)
             [t.append(construct_track_from_response(client, track)) for track in tracks]
             while results["next"]:
                 results = client.next(results)
                 tracks = results["items"]
-                i += len(tracks)
                 [t.append(construct_track_from_response(client, track)) for track in tracks]
+            # todo: remove this
+            print(len(t))
         except Exception:
             pass
 
@@ -100,7 +99,7 @@ def save_tracks_in_csv(tracks: List) -> pd.DataFrame:
         subset=["track_name", "artist_name"],
         inplace=True)  # Supposing that each song can appear in different playlists
     df.to_csv(
-        path_or_buf=Path.cwd().parent / "data" / "01_tracks_from_spotify.csv",
+        path_or_buf=Path.cwd().parent.parent / "data" / "01_tracks_from_spotify.csv",
         sep=",",
         columns=df.columns
     )

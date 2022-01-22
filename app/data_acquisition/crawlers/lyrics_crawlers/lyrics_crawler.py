@@ -1,6 +1,7 @@
 import random
 from pathlib import Path
 from time import sleep
+from typing import Tuple
 
 import numpy as np
 import pandas as pd
@@ -34,7 +35,7 @@ def get_track_html(artist_name: str, track_name: str) -> str:
     :return: the lyrics
     """
     url = get_track_azlyrics_url(artist_name, track_name)
-    html = beautiful_soup_scraping(BeautifulSoup.find, AZLYRICS_URL, "div",
+    html = beautiful_soup_scraping(BeautifulSoup.find, url, "div",
                                    {"class": "col-xs-12 col-lg-8 text-center"}).text
     # Hard-coding in this site to fetch the lyrics because the dix doesn't have specefic class
     lyrics = html.strip()
@@ -43,11 +44,11 @@ def get_track_html(artist_name: str, track_name: str) -> str:
     lyrics = list(filter(None, lyrics[2:]))
     lyrics = lyrics.pop()
     lyrics = "".join(lyrics)
-
+    print(lyrics)
     return lyrics
 
 
-def is_explict_words_in_track(artist_name: str, track_name: str) -> int:
+def is_explict_words_in_track(artist_name: str, track_name: str) -> Tuple[int, int]:
     """
     Check if there are any explict words in the song.
 
@@ -62,28 +63,29 @@ def is_explict_words_in_track(artist_name: str, track_name: str) -> int:
     lyrics = get_track_html(artist_name, track_name)
 
     if any(word in bad_words for word in lyrics):
-        return 1
-    return 0
+        return 1, len(lyrics)
+    return 0, len(lyrics)
 
 
 def lyrics_crawler_manager(df: pd.DataFrame) -> pd.DataFrame:
     """ Function that fill blank is_explict in dataset. """
+    print("in lyricis crawler")
     df_copy = df.copy()
-    sub_df = df.loc[np.logical_and(df["is_explict_content"] != 0,
-                                   df["is_explict_content"] != 1), :]
-    rows_to_delete = []  # rows that we can't find word in api and in scraping (404)
+    sub_df = df.loc[np.logical_and(df["is_explicit_content"] != 0,
+                                   df["is_explicit_content"] != 1), :]
     for idx, instance in sub_df.iterrows():
         artist = instance["artist_name"]
         track = instance["track_name"]
         try:
-            sleep(random.randint(5, 20))  # Sleep for randomized time for scraping not getting blocked
-            df_copy.loc[idx, "is_explict_content"] = \
+            sleep(random.randint(2, 10))  # Sleep for randomized time for scraping not getting blocked
+            df_copy.loc[idx, "is_explicit_content"], df_copy.loc[idx, "words_count"] = \
                 is_explict_words_in_track(artist_name=artist, track_name=track)
         except Status404CounterException:
-            rows_to_delete.append(idx)
+            df_copy.loc[idx, "words_count"] = np.NaN
+            df_copy.loc[idx, "is_explicit_content"] = np.NaN
         except Exception:
             pass  # pass this song...
 
-    df_copy.to_csv(Path.cwd().parent / "data" / "03_explict_feature_update_from_crawler.csv")
+    df_copy.to_csv(Path.cwd() / "03_explict_feature_update_from_crawler.csv")
 
     return df_copy

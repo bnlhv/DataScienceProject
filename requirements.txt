@@ -5,3 +5,4 @@ deezer-python
 bs4
 selenium
 pycountry
+lyricsgenius

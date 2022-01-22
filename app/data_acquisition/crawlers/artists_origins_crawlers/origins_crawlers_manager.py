@@ -14,6 +14,7 @@ def artist_origin_manager(df: pd.DataFrame) -> pd.DataFrame:
     :param df: Dataframe to take artists from
     :return: new Dataframe with origins
     """
+    print("in origin crawler")
     df["origin"] = np.NaN
     for artist in df["artist_name"].unique().tolist():
         for crawler in [famousbirthdays_crawler.get_artists_origins,
@@ -29,7 +30,7 @@ def artist_origin_manager(df: pd.DataFrame) -> pd.DataFrame:
                 pass
 
     df.to_csv(
-        path_or_buf=Path.cwd().parent / "data" / "04_origin_feature_update_from_crawler.csv",
+        path_or_buf=Path.cwd() / "04_origin_feature_update_from_crawler.csv",
         sep=",",
         columns=df.columns
     )

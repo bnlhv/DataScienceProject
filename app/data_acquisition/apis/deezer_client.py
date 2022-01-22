@@ -17,9 +17,7 @@ def get_explict_feature_from_deezer(tracks: List[str], artists: List[str]) -> Li
     :return: List of 1,0 booleans for the Dataframe.
     """
     dz_client = deezer.Client()
-
     is_explict = []
-
     for idx, (track, artist) in enumerate(zip(tracks, artists)):
         try:
             deezer_options = dz_client.search(track=track)
