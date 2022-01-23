@@ -25,19 +25,5 @@ def encode_column(df: pd.DataFrame, column: str) -> pd.DataFrame:
     :param column: the column to label
     :return: Dataframe with labeled column
     """
-    return LabelEncoder().fit_transform(df[column])
-
-
-def chain(start, *funcs) -> pd.DataFrame:
-    """
-    Chain of function in data preparation.
-    Credit: https://blog.finxter.com/how-to-chain-multiple-function-calls-in-python/
-
-    :param start: initilize value of chain
-    :param: *funcs: function to chain.
-    :return: new Dataframe after chaining
-    """
-    res = start
-    for func in funcs:
-        res = func(res)
-    return res
+    df[column] = LabelEncoder().fit_transform(df[column])
+    return df
