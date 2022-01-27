@@ -15,13 +15,26 @@ us_states = {"AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas",
              "WY": "Wyoming"}
 
 
-def clean_origin_name(origin):
+def clean_origin_name(origin) -> str:
+    """
+    Function that retuns only State if the value inside is like for example:
+    'Los Angeles, California' -> 'California'
+
+    :param origin: string value with or without ,
+    :return: string without ,
+    """
     if ", " in origin:
         origin = origin.split(", ")[1]
     return origin
 
 
-def to_country_code(origin):
+def to_country_code(origin) -> int:
+    """
+    Function that convert the string value to int with pycountry package.
+
+    :param origin: place name
+    :return: integer of country code
+    """
     try:
         country = pycountry.countries.search_fuzzy(origin)
         if len(country) == 1:
@@ -34,7 +47,13 @@ def to_country_code(origin):
 
 
 def origin_to_country_codes(df: pd.DataFrame) -> pd.DataFrame:
-    df["artist_origin"] = df["artist_origin"].apply(clean_origin_name)
-    df["artist_origin"] = df["artist_origin"].apply(to_country_code)
-    df = df.rename(columns={'artist_origin': 'country_code'})
+    """
+    Function that manages convert of the string value place to the country code protocol.
+
+    :param df: Dataframe to change
+    :return: Changed dataframe
+    """
+    df["origin"] = df["origin"].apply(clean_origin_name)
+    df["origin"] = df["origin"].apply(to_country_code)
+    df = df.rename(columns={'origin': 'country_code'})
     return df
